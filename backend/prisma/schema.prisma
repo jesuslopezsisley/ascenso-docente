@@ -52,6 +52,7 @@ model Pregunta {
   nivelEspecialidad   NivelEspecialidad @relation(fields: [nivelEspecialidadId], references: [id])
   nivelEspecialidadId String
   respuestas          Respuesta[]
+  diagnosticos        DiagnosticoPregunta[]
 
   @@index([competenciaId])
   @@index([nivelEspecialidadId])
@@ -88,9 +89,28 @@ model Diagnostico {
   nivelEspecialidadId String
   respuestas          Respuesta[]
   planEstudio         PlanEstudio?
+  preguntasAsignadas  DiagnosticoPregunta[]
 
   @@index([usuarioId])
   @@index([nivelEspecialidadId])
+}
+
+/// Registra qué 60 preguntas (muestreo estratificado por competencia, hecho
+/// al crear el Diagnostico) le tocaron a cada Diagnostico. Necesaria porque
+/// el banco de Pregunta acumula preguntas de todos los años sembrados para
+/// un NivelEspecialidad, así que ya no es "todas las preguntas == las
+/// preguntas de este diagnóstico": responder/finalizar/simular deben operar
+/// sobre este subconjunto fijo, no sobre el banco completo.
+model DiagnosticoPregunta {
+  id            String      @id @default(cuid())
+  diagnostico   Diagnostico @relation(fields: [diagnosticoId], references: [id])
+  diagnosticoId String
+  pregunta      Pregunta    @relation(fields: [preguntaId], references: [id])
+  preguntaId    String
+
+  @@unique([diagnosticoId, preguntaId])
+  @@index([diagnosticoId])
+  @@index([preguntaId])
 }
 
 /// Respuesta de un usuario a una Pregunta dentro de un Diagnostico.

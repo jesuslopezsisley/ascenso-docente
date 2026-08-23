@@ -12,8 +12,13 @@ import {
 } from '../constants/competencias';
 import { PatronCompetenciaDto } from '../dto/simular.dto';
 import { ResponderDto } from '../dto/responder.dto';
+import {
+  calcularCuposPorCompetencia,
+  elegirAlAzar,
+} from '../utils/muestreo-preguntas';
 
 const ALTERNATIVAS = ['A', 'B', 'C'] as const;
+const CANTIDAD_PREGUNTAS_DIAGNOSTICO = 60;
 
 @Injectable()
 export class DiagnosticoService {
@@ -22,12 +27,18 @@ export class DiagnosticoService {
     private readonly gemini: GeminiService,
   ) {}
 
+  /**
+   * Arma un diagnóstico de CANTIDAD_PREGUNTAS_DIAGNOSTICO preguntas mediante
+   * muestreo estratificado: el cupo de cada competencia es proporcional a
+   * cuánto representa en el banco acumulado de TODOS los años sembrados
+   * para este nivelEspecialidad (ver muestreo-preguntas.ts), y dentro de
+   * cada competencia las preguntas elegidas son al azar entre todos los
+   * años disponibles. La asignación se persiste en DiagnosticoPregunta
+   * porque el banco completo ya no equivale a "las preguntas de este
+   * diagnóstico" (puede tener preguntas de varios años).
+   */
   async crear(usuarioId: string, nivelEspecialidadId: string) {
-    const diagnostico = await this.prisma.diagnostico.create({
-      data: { usuarioId, nivelEspecialidadId },
-    });
-
-    const preguntas = await this.prisma.pregunta.findMany({
+    const bancoPreguntas = await this.prisma.pregunta.findMany({
       where: { nivelEspecialidadId },
       select: {
         id: true,
@@ -35,7 +46,40 @@ export class DiagnosticoService {
         alternativas: true,
         competenciaId: true,
       },
-      orderBy: { createdAt: 'asc' },
+    });
+
+    const bancoPorCompetencia = new Map<string, typeof bancoPreguntas>();
+    for (const p of bancoPreguntas) {
+      const lista = bancoPorCompetencia.get(p.competenciaId) ?? [];
+      lista.push(p);
+      bancoPorCompetencia.set(p.competenciaId, lista);
+    }
+
+    const conteos = [...bancoPorCompetencia.entries()].map(
+      ([competenciaId, lista]) => ({ competenciaId, total: lista.length }),
+    );
+    const cupos = calcularCuposPorCompetencia(
+      conteos,
+      CANTIDAD_PREGUNTAS_DIAGNOSTICO,
+    );
+
+    const seleccionadas = [...bancoPorCompetencia.entries()].flatMap(
+      ([competenciaId, lista]) =>
+        elegirAlAzar(lista, cupos.get(competenciaId) ?? 0),
+    );
+    const preguntas = elegirAlAzar(seleccionadas, seleccionadas.length);
+
+    const diagnostico = await this.prisma.$transaction(async (tx) => {
+      const creado = await tx.diagnostico.create({
+        data: { usuarioId, nivelEspecialidadId },
+      });
+      await tx.diagnosticoPregunta.createMany({
+        data: preguntas.map((p) => ({
+          diagnosticoId: creado.id,
+          preguntaId: p.id,
+        })),
+      });
+      return creado;
     });
 
     return { diagnostico, preguntas };
@@ -63,17 +107,18 @@ export class DiagnosticoService {
       throw new BadRequestException('El diagnóstico ya fue finalizado');
     }
 
-    const pregunta = await this.prisma.pregunta.findFirst({
+    const asignacion = await this.prisma.diagnosticoPregunta.findUnique({
       where: {
-        id: dto.preguntaId,
-        nivelEspecialidadId: diagnostico.nivelEspecialidadId,
+        diagnosticoId_preguntaId: { diagnosticoId, preguntaId: dto.preguntaId },
       },
+      include: { pregunta: true },
     });
-    if (!pregunta) {
+    if (!asignacion) {
       throw new NotFoundException(
         'La pregunta no pertenece a este diagnóstico',
       );
     }
+    const pregunta = asignacion.pregunta;
 
     const esCorrecta = pregunta.respuestaCorrecta === dto.alternativaElegida;
 
@@ -106,10 +151,10 @@ export class DiagnosticoService {
       });
     }
 
-    const [preguntas, respuestas, competencias] = await Promise.all([
-      this.prisma.pregunta.findMany({
-        where: { nivelEspecialidadId: diagnostico.nivelEspecialidadId },
-        select: { id: true, competenciaId: true },
+    const [asignaciones, respuestas, competencias] = await Promise.all([
+      this.prisma.diagnosticoPregunta.findMany({
+        where: { diagnosticoId },
+        select: { pregunta: { select: { id: true, competenciaId: true } } },
       }),
       this.prisma.respuesta.findMany({
         where: { diagnosticoId },
@@ -117,6 +162,7 @@ export class DiagnosticoService {
       }),
       this.prisma.competencia.findMany({ orderBy: { nombre: 'asc' } }),
     ]);
+    const preguntas = asignaciones.map((a) => a.pregunta);
 
     const esCorrectaPorPregunta = new Map(
       respuestas.map((r) => [r.preguntaId, r.esCorrecta]),
@@ -176,7 +222,7 @@ export class DiagnosticoService {
     usuarioId: string,
     patrones?: PatronCompetenciaDto[],
   ) {
-    const diagnostico = await this.obtenerPropio(diagnosticoId, usuarioId);
+    await this.obtenerPropio(diagnosticoId, usuarioId);
 
     const porcentajePorCompetencia = new Map<CompetenciaNombre, number>(
       Object.entries(PATRON_SIMULACION_POR_DEFECTO) as [
@@ -191,10 +237,11 @@ export class DiagnosticoService {
       );
     }
 
-    const preguntas = await this.prisma.pregunta.findMany({
-      where: { nivelEspecialidadId: diagnostico.nivelEspecialidadId },
-      include: { competencia: true },
+    const asignaciones = await this.prisma.diagnosticoPregunta.findMany({
+      where: { diagnosticoId },
+      select: { pregunta: { include: { competencia: true } } },
     });
+    const preguntas = asignaciones.map((a) => a.pregunta);
 
     const preguntasPorCompetencia = new Map<
       CompetenciaNombre,
