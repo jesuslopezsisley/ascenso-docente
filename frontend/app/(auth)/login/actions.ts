@@ -6,6 +6,7 @@ import { login } from "@/services/auth.service";
 
 export interface LoginFormState {
   error?: string;
+  values?: { email: string };
 }
 
 export async function loginAction(
@@ -15,8 +16,12 @@ export async function loginAction(
   const email = String(formData.get("email") ?? "").trim();
   const password = String(formData.get("password") ?? "");
 
+  // React resetea el <form> a sus defaultValue tras cada Server Action; se
+  // devuelve el email (nunca la contraseña) para volver a prellenarlo.
+  const values = { email };
+
   if (!email || !password) {
-    return { error: "Ingresa tu correo y tu contraseña." };
+    return { error: "Ingresa tu correo y tu contraseña.", values };
   }
 
   const result = await login({ email, password });
@@ -26,7 +31,7 @@ export async function loginAction(
       result.errors && result.errors.length > 0
         ? result.errors.join(" ")
         : result.message;
-    return { error: detalle };
+    return { error: detalle, values };
   }
 
   await createSession({

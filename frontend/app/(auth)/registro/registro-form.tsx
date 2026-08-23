@@ -29,6 +29,7 @@ export function RegistroForm() {
         name="nombre"
         type="text"
         autoComplete="name"
+        defaultValue={state.values?.nombre}
         required
       />
       <TextField
@@ -36,6 +37,7 @@ export function RegistroForm() {
         name="email"
         type="email"
         autoComplete="email"
+        defaultValue={state.values?.email}
         required
       />
       <TextField
@@ -57,7 +59,7 @@ export function RegistroForm() {
         <select
           id="nivelEspecialidadId"
           name="nivelEspecialidadId"
-          defaultValue={NIVELES_ESPECIALIDAD[0].id}
+          defaultValue={state.values?.nivelEspecialidadId ?? NIVELES_ESPECIALIDAD[0].id}
           required
           className="rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground outline-none transition-colors focus:border-primary focus:ring-1 focus:ring-primary"
         >

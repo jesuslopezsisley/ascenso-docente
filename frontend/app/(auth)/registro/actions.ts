@@ -6,6 +6,7 @@ import { register } from "@/services/auth.service";
 
 export interface RegistroFormState {
   error?: string;
+  values?: { email: string; nombre: string; nivelEspecialidadId: string };
 }
 
 export async function registroAction(
@@ -19,8 +20,12 @@ export async function registroAction(
     formData.get("nivelEspecialidadId") ?? "",
   );
 
+  // React resetea el <form> a sus defaultValue tras cada Server Action; se
+  // devuelven los campos no sensibles (nunca la contraseña) para prellenarlos.
+  const values = { email, nombre, nivelEspecialidadId };
+
   if (!email || !password || !nombre || !nivelEspecialidadId) {
-    return { error: "Completa todos los campos." };
+    return { error: "Completa todos los campos.", values };
   }
 
   const result = await register({ email, password, nombre, nivelEspecialidadId });
@@ -30,7 +35,7 @@ export async function registroAction(
       result.errors && result.errors.length > 0
         ? result.errors.join(" ")
         : result.message;
-    return { error: detalle };
+    return { error: detalle, values };
   }
 
   await createSession({
