@@ -21,9 +21,22 @@ export interface SessionUser {
   nivelEspecialidadId: string;
 }
 
+export interface SessionDiagnostico {
+  id: string;
+  estado: "en_progreso" | "completado";
+}
+
 export interface SessionPayload {
   user: SessionUser;
   accessToken: string;
+  /**
+   * El backend no expone un GET para listar/recuperar un diagnóstico en
+   * curso, así que esta referencia (id + estado) vive en la sesión para
+   * saber, entre cargas de página, si el usuario tiene uno activo.
+   */
+  diagnostico?: SessionDiagnostico;
+  /** true una vez que /simular devolvió 404 (DEMO_MODE=false en el backend). */
+  demoModeOff?: boolean;
 }
 
 function getSecretKey(): Uint8Array {
@@ -73,6 +86,20 @@ export async function getSession(): Promise<SessionPayload | null> {
   } catch {
     return null;
   }
+}
+
+/**
+ * Actualiza campos de la sesión activa (p. ej. el diagnóstico en curso) sin
+ * tocar user/accessToken. Solo puede llamarse desde un Server Function o
+ * Route Handler. No hace nada si no hay sesión (no debería ocurrir: solo se
+ * invoca desde rutas ya protegidas por el guard de /dashboard).
+ */
+export async function updateSession(
+  patch: Partial<Pick<SessionPayload, "diagnostico" | "demoModeOff">>,
+): Promise<void> {
+  const current = await getSession();
+  if (!current) return;
+  await createSession({ ...current, ...patch });
 }
 
 /** Solo puede llamarse desde un Server Function o Route Handler. */
