@@ -1,0 +1,662 @@
+[
+  {
+    "enunciado": "Al inicio del año escolar, los docentes y los estudiantes de primer grado están trabajando en el proyecto \"Cuido mi salud\", el cual tiene como finalidad promover hábitos de higiene en la comunidad educativa. Como parte de la búsqueda de información sobre el tema, una docente presenta a sus estudiantes un afiche titulado \"LAVA TUS MANOS CON AGUA Y JABÓN\", que incluye la pregunta \"¿Cuándo debes lavar tus manos?\" y menciona: antes de comer, después de ir al baño, después de jugar. La docente busca que los estudiantes deduzcan información del afiche. ¿Cuál de las siguientes acciones es adecuada para que la docente logre su propósito?",
+    "alternativas": {
+      "A": "Acompañarlos en la lectura del título del afiche. Después, pedir que señalen la imagen que se relaciona mejor con dicho título.",
+      "B": "Solicitar que examinen las palabras y las imágenes del afiche. Sobre esta base, pedir que expliquen para qué creen que fue elaborado.",
+      "C": "Decirles que la imagen más grande del afiche presenta algunos gérmenes. Luego, mencionarles algunas enfermedades que estos gérmenes pueden producir."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Como parte de una actividad del proyecto \"Cuido mi salud\", un grupo de estudiantes de primer grado realizó una encuesta anónima en el aula sobre la frecuencia con la que sus compañeros se lavan las manos antes de comer, obteniendo: \"A veces\" = 12 marcas, \"Siempre\" = 4 marcas. La docente les preguntó: \"¿A cuántos estudiantes encuestaron en total?\". Uno de los estudiantes del grupo escribió la operación 12 + 4 y obtuvo como resultado 52. La docente busca retroalimentar al estudiante de modo que comprenda por qué su resolución es incorrecta. ¿Cuál de las siguientes acciones pedagógicas es pertinente para este propósito?",
+    "alternativas": {
+      "A": "Solicitar que explique qué significa la U y la D en el tablero de valor posicional que ha utilizado. Luego, pedir que mencione qué números ha colocado en la columna de las unidades y en la columna de las decenas. Después, pedir que vuelva a sumar para verificar su resultado.",
+      "B": "Preguntar: \"¿Cuántos estudiantes se lavan las manos 'A veces' antes de comer? ¿Cuántos se lavan 'Siempre' las manos antes de comer?\". Luego, indicar que el total encontrado es incorrecto porque al sumar ambas cantidades no puede obtenerse un número tan grande. Después, pedir que vuelva a realizar la operación.",
+      "C": "Pedir que compare el total de marcas del conteo con el resultado de su operación. Luego, preguntar: \"¿Cuántos estudiantes 'Siempre' se lavan las manos antes de comer?\", y solicitar que explique si el número 4 corresponde a 4 unidades o a 4 decenas de estudiantes. Después, pedir que verifique si la ubicación del 4 corresponde con su valor posicional."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Como parte del proyecto \"Cuido mi salud\", los estudiantes de primer grado van a escribir afiches. Los docentes conversan sobre las estrategias que emplearán para favorecer que sus estudiantes se apropien del sistema de escritura. Adriano propone: darles varias ideas para que escriban los mensajes, pedir que cada uno dicte el mensaje para escribirlo en el afiche, y luego que elaboren dibujos que ilustren dichos mensajes. Bertha propone: pedirles que escriban libremente alrededor del propósito del afiche, preguntar a cada uno qué es lo que escribió, y luego colocar debajo de sus mensajes lo que quisieron decir, indicándoles que comparen su escrito con el nuevo texto. Cecilia propone: preguntarles sobre lo que quieren escribir, escribir sus respuestas en la pizarra, y luego pedirles que escriban en sus afiches el mensaje que más les gusta, verificando que estén transcribiendo correctamente los mensajes elegidos. ¿Cuál de las intervenciones presenta las acciones más adecuadas para favorecer que los estudiantes se apropien del sistema de escritura?",
+    "alternativas": {
+      "A": "La de Adriano.",
+      "B": "La de Bertha.",
+      "C": "La de Cecilia."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Después de visitar el mercado, la docente y los estudiantes de primer grado acuerdan realizar el proyecto \"Jugamos al mercado\", con puestos de frutas, abarrotes y venta de jugos. La docente pide a cada grupo que cree un diálogo entre un vendedor y un comprador basado en lo observado. Uno de los grupos presenta: Vendedor: \"¡Veeeenga, caseeeera! Lleve barato, baratito. ¿Qué quiere comprar? ¡Estoy rematando las manzanas!\". Compradora: \"Una mano de plátanos, por favor\". Vendedor: (dándole un racimo de 5 plátanos) \"Tenga, caserita\". Varios estudiantes de otros grupos preguntan qué significa la frase \"mano de plátanos\". La docente se propone orientarlos para que puedan deducir el significado de dicha frase. ¿Cuál de las siguientes actividades es más adecuada para este propósito?",
+    "alternativas": {
+      "A": "Explicarles qué significa la frase \"una mano de plátanos\". Luego, pedir que mencionen otras frases con sentido figurado que hayan escuchado. Después, preguntarles si en el diálogo presentado había otras expresiones de este tipo.",
+      "B": "Preguntarles cuántos plátanos recibió la compradora cuando pidió una \"mano\". Luego, pedirles que expliquen qué relación existe entre esa cantidad de plátanos y una mano. Finalmente, preguntarles por qué creen que se dice \"mano de plátanos\".",
+      "C": "Pedir que cada uno dibuje lo que se imagina cuando oye la expresión \"una mano de plátanos\". Luego, colocar sus dibujos en la pizarra e indicarles que determinen lo que tienen en común. Sobre esa base, preguntarles qué significa \"una mano de plátanos\"."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Con el propósito de afianzar en los estudiantes la comprensión del significado de la adición, la docente les pide que escriban en un cartel los precios de los jugos de naranja y de lúcuma que se venderán en la juguería, usando la información: el jugo de naranja costará 4 soles; el jugo de lúcuma costará 3 soles más que el jugo de naranja. ¿A cuál de los siguientes significados corresponde la situación planteada?",
+    "alternativas": {
+      "A": "Cambio, porque implica la acción de agregar una cantidad a otra, conociendo la cantidad inicial, la cual se modifica en el tiempo, y la cantidad de aumento, para determinar la cantidad final.",
+      "B": "Comparación, porque implica la acción de comparar una cantidad con otra, conociendo una de las cantidades comparadas y la diferencia, para determinar la otra cantidad comparada.",
+      "C": "Combinación, porque implica la acción de juntar una cantidad con otra, conociendo las cantidades que corresponden a las partes, para determinar la cantidad que corresponde al total."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "En el puesto de jugos del proyecto \"Jugamos al mercado\", los estudiantes están preparando limonada. Uno de los estudiantes comenta: \"Profesora, si echo una cucharada de azúcar en un vaso con agua y lo muevo, ¿ya no los puedo separar?\". ¿Cuál de las siguientes experiencias sería recomendable que la docente realice con los estudiantes para responder a la pregunta planteada en el comentario?",
+    "alternativas": {
+      "A": "Hervir a fuego lento la mezcla de agua y azúcar.",
+      "B": "Filtrar el azúcar de la mezcla utilizando un embudo y un papel de filtro.",
+      "C": "Esperar durante una hora para que el azúcar de la mezcla se ubique en la base del recipiente, luego, separar el agua."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado escribirán textos en los que explicarán a la comunidad educativa qué alimentos son los más adecuados para lograr una alimentación saludable. Como parte de la búsqueda de información, la docente presenta a los estudiantes una infografía sobre \"Grupos de alimentos\" (tubérculos, verduras, frutas, lácteos, carnes/pescados/huevos, grasas y azúcares), con ilustraciones de alimentos representativos de cada grupo. Durante el análisis de la infografía, la docente plantea la pregunta: \"¿Para qué se han colocado dibujos de algunos alimentos?\". ¿Qué capacidad lectora busca promover principalmente la docente con la pregunta?",
+    "alternativas": {
+      "A": "Reflexionar sobre los aspectos formales del texto.",
+      "B": "Recuperar información explícita del texto.",
+      "C": "Reorganizar la información del texto."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado se encuentran planificando sus textos sobre qué alimentos se deben consumir para tener una dieta saludable. La docente busca orientarlos durante el proceso de planificación de sus escritos. ¿Cuál de las siguientes acciones es más adecuada para lograr este propósito?",
+    "alternativas": {
+      "A": "Pedirles que elaboren un esquema de escritura enumerativo. Luego, explicarles que esto les permite organizar sus ideas desde la más general hasta la más específica. Después, corregir cada uno de los esquemas para que puedan empezar a escribir.",
+      "B": "Recordarles que el objetivo del texto es dar recomendaciones sobre qué alimentos se deben consumir. Luego, escribir en la pizarra algunas ideas que pueden desarrollar. Después, pedirles que elaboren una versión de sus planes de escritura.",
+      "C": "Determinar junto con ellos el propósito de sus textos. Luego, pedirles que intercambien ideas sobre los tipos de alimentos que consideran que deben consumir. Después, organizar con ellos dichas ideas en un plan de escritura en función del propósito mencionado."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un estudiante de quinto grado ha culminado la primera versión de su texto para fomentar el consumo de comida saludable: \"A toda la comunidad educativa: Toda las personas queremos una alimentación saludable. Yo creo que la personas debemos comer más frutas porque son saludables. Mi papá siempre me manda una fruta en mi lonchera, mi preferida es el mango. Me mancho toda mi ropa pero luego me lavo, también me gusta el chup de mango, más en verano porque hace mucho calor. Además, el verano es chévere porque vamos a la piscina.\" La docente busca orientar al estudiante en la mejora de su texto. ¿Cuál de los siguientes aspectos del escrito debe priorizar la docente en su retroalimentación?",
+    "alternativas": {
+      "A": "La presencia de digresiones que afectan la unidad temática.",
+      "B": "La falta de concordancia en ciertas frases, como en 'la personas'.",
+      "C": "La utilización de un léxico inadecuado para la situación comunicativa."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado están conversando sobre la obligatoriedad de utilizar uniformes escolares en la IE. La docente les ha propuesto formar grupos para debatir en torno a la pregunta: ¿los estudiantes deben utilizar uniforme? La docente ha elaborado una lista de cotejo para evaluar la participación de los estudiantes durante el debate, con los siguientes aspectos: 1. El estudiante adapta el vocabulario de su texto oral según el público. 2. El estudiante une las ideas de su texto oral con diversos tipos de conectores. 3. El estudiante varía la entonación al presentar su texto oral para enfatizar algunas ideas. ¿Cuál de los aspectos permite evaluar principalmente la cohesión de los textos orales de los estudiantes?",
+    "alternativas": {
+      "A": "El 1.",
+      "B": "El 2.",
+      "C": "El 3."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Uno de los grupos que está en contra del uso de uniformes está a punto de comenzar su participación en el debate. Vicente, uno de los integrantes, interviene: \"Buenas..., bueno... eh... nosotros creemos que los uniformes son útiles, de hecho. Pero queremos dejar de usarlos porque... eh... Creo que no hay que usar uniformes porque quiero dejar de usarlos, ¿no?\". La docente busca darle a Vicente una retroalimentación adecuada para que mejore su texto oral. ¿Qué aspecto del discurso de Vicente debe priorizar la docente en su retroalimentación?",
+    "alternativas": {
+      "A": "La falta de fluidez del texto oral debido a la presencia de varias muletillas.",
+      "B": "La ausencia de argumentos válidos para sostener la tesis del discurso oral.",
+      "C": "La inadecuación del léxico que utiliza con relación a la situación comunicativa."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado están leyendo un texto narrativo adaptado de \"El león y el perrito\" de León Tolstói, sobre un perrito que ingresó por accidente a la jaula de un león en un zoológico de Londres y ambos animales terminaron conviviendo y siendo amigos durante un año, hasta que el perrito enfermó y murió, y el león mostró un profundo duelo. El docente busca promover que los estudiantes deduzcan información implícita en el texto. ¿Cuál de las siguientes preguntas es apropiada para conseguir este propósito?",
+    "alternativas": {
+      "A": "¿Qué hizo el perrito al notar que estaba en la jaula del león?",
+      "B": "¿Cuánto tiempo vivieron juntos el león y el perrito?",
+      "C": "¿Por qué el león no quería que nadie se lleve al perrito?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Sobre el mismo texto \"El león y el perrito\", el docente busca que los estudiantes recuperen información explícita en el cuento. ¿Cuál de las siguientes actividades es adecuada para conseguir su propósito?",
+    "alternativas": {
+      "A": "Preguntarles si antes habían escuchado la palabra 'turbado'. Luego, solicitar que den hipótesis sobre el sentido que tiene dicha palabra en el contexto en que aparece.",
+      "B": "Solicitar que opinen sobre la reacción del león ante la muerte del perrito. Luego, pedir que expliquen qué indicios del texto creen que ayudan a determinar las emociones de dicho personaje.",
+      "C": "Entregarles cartulinas en las que se han ilustrado diversos pasajes del cuento. Luego, pedir que salgan a la pizarra para que los ordenen, cronológicamente, basándose en el contenido del texto."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Algunos estudiantes realizaron comentarios sobre el cuento \"El león y el perrito\" leído. Carmen, una estudiante, comenta: \"Parece que el autor nos quiere hacer ver que estos animales bien diferentes se han vuelto amigos. ¡Cómo un león no va a atacar a un perrito! Por más que sea un cuento, me hizo ver a los leones de una forma distinta\". ¿Qué capacidad lectora se evidencia principalmente en la intervención de la estudiante?",
+    "alternativas": {
+      "A": "Recuperar información explícita del texto.",
+      "B": "Reflexionar sobre el contenido del texto.",
+      "C": "Inferir el significado del texto."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado están escribiendo textos expositivos en los que explicarán la importancia de preservar la flora y la fauna de su localidad, que se publicarán en el periódico mural de la IE. El docente ha presentado un papelógrafo con tres pasos para el proceso de producción de textos: 1. Elegimos el formato de texto adecuado según nuestro propósito. 2. Consideramos a nuestros destinatarios al momento de elegir un registro. 3. Desarrollamos nuestras ideas de acuerdo con nuestros esquemas de escritura. ¿Cuál de estos pasos NO corresponde al proceso de planificación?",
+    "alternativas": {
+      "A": "El 1.",
+      "B": "El 2.",
+      "C": "El 3."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "El docente ha elaborado una lista de preguntas para que los estudiantes de sexto grado autoevalúen sus producciones escritas sobre la flora y fauna de su localidad: 1. ¿Has empleado un léxico variado a lo largo de tu texto? 2. ¿Has evitado que se presenten contradicciones en tu texto? 3. ¿Has empleado conectores que faciliten la lectura de tu texto? ¿Cuál de estas preguntas se centra en la revisión de los aspectos de coherencia de los textos?",
+    "alternativas": {
+      "A": "La 1.",
+      "B": "La 2.",
+      "C": "La 3."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un estudiante de sexto grado ha culminado la primera versión de su escrito titulado \"La mantarraya\": describe que la mantarraya está en peligro por la pesca y demora en tener crías; luego narra en primera persona una anécdota sobre acompañar a pescar a su tío, sobre un problema con el motor del bote y cómo terminó pescando varios peces pese al contratiempo. El docente nota que hay varios aspectos del texto que se deben mejorar. ¿Cuál de los siguientes aspectos debe priorizar en su retroalimentación?",
+    "alternativas": {
+      "A": "La omisión de comas a lo largo del texto.",
+      "B": "El empleo de expresiones informales.",
+      "C": "El desvío del propósito comunicativo."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Sobre el mismo texto \"La mantarraya\", en el primer párrafo el estudiante escribe: \"La mantarraya está en peligro y la pescan mucho. Estos animales demoran en tener crías. No pueden tener crías rápido y están en peligro por la pesca\". ¿Cuál de los siguientes problemas de coherencia se presenta en el primer párrafo del texto?",
+    "alternativas": {
+      "A": "Repetición innecesaria de ideas.",
+      "B": "Ausencia de unidad temática.",
+      "C": "Vacío de información."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Dado que los estudiantes van a participar en la yunza de la comunidad, el docente desea planificar una actividad para que reflexionen acerca de su identidad a partir del reconocimiento de las prácticas culturales de su comunidad. Tomando en cuenta el propósito del docente, ¿cuál de las siguientes actividades es más pertinente?",
+    "alternativas": {
+      "A": "Solicitar a los estudiantes que elaboren una guía de observación que permita recoger información sobre la festividad de la yunza. Luego, pedirles que apliquen la guía en la yunza de su comunidad. Finalmente, solicitar a los estudiantes que compartan, en plenaria, la descripción de lo observado.",
+      "B": "Solicitar a los estudiantes que indaguen sobre la historia de la festividad de la yunza en el Perú. Luego, pedirles que pregunten a las personas de su comunidad por qué es importante esta fiesta. Finalmente, solicitar a los estudiantes que expliquen si la yunza es una fiesta importante para ellos y por qué.",
+      "C": "Solicitar a los estudiantes que investiguen el origen de la festividad de la yunza en el Perú. Luego, pedirles que comparen cómo se realiza la yunza en diferentes regiones del país. Finalmente, solicitar a los estudiantes que señalen cuáles son los elementos más característicos de la yunza en cada región."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "En una IE ubicada en la región costa, durante una actividad de intercambio de loncheras, una docente de segundo grado presencia el siguiente diálogo: Pepe: \"Yo traje chuño. ¿Quién quiere que le invite?\". Hilda: \"¿Qué es eso? ¿Es una fruta? ¿Es una verdura?\". Ana: \"¿Está quemado? ¿Por qué su cáscara es tan oscura?\". Pepe: \"¡Cómo no van a saber qué es el chuño! Yo nací en Puno y en mi pueblo colocamos las papas afuera para que la helada las congele; luego, se les quita el hielo, se les pisa, se les seca y ya está el chuño\". A partir de esta situación, ¿cuál de las siguientes acciones de la docente es más adecuada para promover el diálogo intercultural entre sus estudiantes?",
+    "alternativas": {
+      "A": "Pedir a Pepe que comente qué platos se preparan con chuño; luego, solicitar a los estudiantes que expliquen de qué otras formas consumen papa en sus familias; finalmente, proponerles que averigüen las recetas a base de papa usadas por sus familias y que las intercambien con sus compañeros.",
+      "B": "Indicar a los estudiantes que expliquen por qué creen que la papa es tan consumida en nuestro país; luego, pedirles que nombren los platos que prefieren y que usen como ingrediente la papa; finalmente, solicitarles que elaboren un afiche sobre el origen y la preparación del plato que nombraron.",
+      "C": "Solicitar a Pepe que comente en qué platos se consume el chuño; luego, mostrar a los estudiantes que la técnica del chuño es una forma de conservación de alimentos que existe desde la época prehispánica; finalmente, explicarles por qué es necesario valorarla."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Una docente desea activar los saberes previos de los estudiantes acerca del concepto de justicia. Para ello, les pide que conformen grupos y realicen una dramatización sobre un caso de injusticia que conozcan. Después de que cada grupo ha representado su escena, la docente les pide que expliquen por qué consideran que el caso dramatizado evidencia una injusticia. ¿Por qué esta actividad es pertinente para activar los saberes previos de los estudiantes?",
+    "alternativas": {
+      "A": "Porque la dramatización permite reconocer si los conocimientos que poseen los estudiantes son útiles o si no cuentan con conocimientos previos respecto al tema.",
+      "B": "Porque la dramatización requiere que los estudiantes recurran a sus concepciones y experiencias personales, y que las expliciten.",
+      "C": "Porque la dramatización es una técnica que ayuda a captar la atención de los estudiantes y promueve su participación."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "El docente pidió a sus estudiantes que dibujen a su animal favorito. Enrique, un estudiante de primer grado, decidió dibujar un león. Se esforzaba para que su león salga lo mejor posible, pero, como no quedaba como quería, lo borró varias veces. De tanto borrar, la hoja quedó manchada, y, al ver esto, Enrique se molestó y la rompió. Todos sus compañeros lo miraron sorprendidos. Ante lo sucedido, el docente se propone ayudar a Enrique a que desarrolle la autorregulación de sus emociones. Después de que Enrique se ha calmado, ¿cuál de las siguientes acciones del docente es más adecuada para su propósito?",
+    "alternativas": {
+      "A": "Pedirle que reflexione preguntándole qué generó que se molestara tanto. Luego, explicarle que un dibujo no es tan importante como para que se moleste. Finalmente, motivarlo para que se proponga no volver a molestarse ante una situación similar.",
+      "B": "Pedirle que se disculpe con sus compañeros por su comportamiento. Luego, explicarle por qué no es correcto molestarse. Finalmente, entregarle otra hoja para que vuelva a hacer su dibujo indicándole que no es necesario que su dibujo salga perfecto.",
+      "C": "Pedirle que trate de explicar qué sintió antes y después de romper la hoja. Luego, pedirle que indique qué otras acciones podría haber realizado en lugar de romper la hoja. Finalmente, orientarlo a que identifique cuáles de estas acciones no lo afectan a él ni a los demás."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Al finalizar un trabajo en equipo, Bruno le dice a su compañero Manuel: \"No hemos terminado el trabajo porque hablas mucho. ¿Por qué mejor no te callas?\". Manuel le responde en voz alta: \"¿A ti quién te ha dicho que eres el líder del equipo? ¡Eres un mandón!\". Los estudiantes están por seguir la discusión cuando la docente interviene y les pide que se acerquen a su escritorio mientras sus compañeros salen al recreo. Si la docente desea que Bruno y Manuel desarrollen habilidades socioemocionales para la resolución de conflictos, ¿cuál de las siguientes acciones es pertinente para iniciar este proceso?",
+    "alternativas": {
+      "A": "Solicitar a los estudiantes que respiren hondo, que expresen los hechos y cómo se han sentido durante la situación descrita. Luego, pedirle a cada uno que trate de explicar cómo se sentiría si fuera su compañero y por qué cree que este actuó de esa manera.",
+      "B": "Indicar a los estudiantes que su acción va en contra del clima de convivencia que se promueve en el aula. Luego, explicarles que existen emociones negativas a las que no se debe hacer caso porque, tal como les pasó a ellos, pueden causar discusiones y peleas.",
+      "C": "Pedir a cada uno de los estudiantes que describa lo sucedido e indique qué acciones del compañero lo han molestado. Luego, solicitarles que no le den tanta importancia a la riña de hoy y que tomen en cuenta que su amistad es más importante."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Una docente ha presentado a sus estudiantes de sexto grado el siguiente dilema moral: José, un amistoso estudiante, observa de casualidad que uno de sus mejores amigos sustrae del armario del salón una prueba que la docente va a tomar. La docente nota la prueba faltante y conversa individualmente con cada estudiante para esclarecer la situación. José no sabe si contarle a la docente lo que sabe o no. ¿Cuál de las siguientes acciones es pertinente que realice la docente para que sus estudiantes identifiquen los valores que entran en conflicto en el dilema moral planteado?",
+    "alternativas": {
+      "A": "Asignar al azar a cada equipo de estudiantes uno de los cursos de acción posibles para José. Luego, pedir a cada equipo que elabore argumentos que justifiquen que José se comporte según el curso de acción asignado al equipo. Por último, solicitar a cada equipo que exponga sus argumentos.",
+      "B": "Pedir a cada equipo de estudiantes que elija uno de los posibles cursos de acción para José. Luego, solicitar a cada equipo que explique, desde su perspectiva, qué valor es más importante para la vida: la amistad o la veracidad. Por último, pedir a cada equipo que elabore un texto argumentativo al respecto.",
+      "C": "Solicitar a cada equipo de estudiantes que elabore un listado de razones por las cuales la veracidad y el respeto son los valores más importantes en la situación de José. Luego, solicitar a cada equipo que elabore un texto en el que se intente convencer a José de que diga la verdad. Por último, pedir a cada equipo que exponga sus textos."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "El propósito de un docente del ciclo IV es que los estudiantes interpreten fuentes históricas acerca de la cultura Moche. Para el desarrollo de una de las actividades, el docente les presenta la fotografía de un cántaro Moche. ¿Cuál de las siguientes acciones es más adecuada para promover la interpretación de la fuente presentada?",
+    "alternativas": {
+      "A": "El docente pide a los estudiantes que describan el estilo de la cerámica Moche y el uso que probablemente le dieron los moches a este cántaro. Luego, les solicita que seleccionen un objeto actual que se use de forma similar. Por último, les indica que comenten las diferencias entre ambos objetos.",
+      "B": "El docente pide a los estudiantes que describan al personaje representado y los elementos que lo acompañan. Luego, les solicita que describan la acción realizada por el personaje. Por último, les pide que comenten cuál es el valor de este cántaro para conocer las actividades que realizaban los moches.",
+      "C": "El docente pide a los estudiantes que describan la forma del cántaro. Luego, les solicita que indaguen acerca de los materiales y los colores que se han empleado en dicho ceramio. Por último, los orienta para que elaboren su propio ceramio considerando las características de la cerámica Moche."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, una docente presentó a los estudiantes un conjunto de imágenes representativas del patrimonio cultural de la cultura Paracas. Algunos estudiantes se mostraron interesados en las tradiciones funerarias Paracas. Por ello, la docente les preguntó: \"¿Cómo enterramos hoy en día a nuestros muertos? ¿Los paracas enterraban a sus muertos como se hace actualmente? ¿Qué diferencias encuentran entre sus costumbres funerarias y las nuestras?\". Si el propósito de la docente es favorecer la comprensión del tiempo histórico, ¿cuál de los siguientes desempeños se busca promover a partir de las preguntas planteadas?",
+    "alternativas": {
+      "A": "La descripción de cambios y permanencias de un fenómeno histórico.",
+      "B": "El reconocimiento de diferentes dimensiones de un proceso histórico.",
+      "C": "La identificación de los ritmos de cambio en la historia."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un grupo de estudiantes del ciclo IV ha elaborado un organizador gráfico sobre la conquista del Tahuantinsuyo, que vincula: guerra civil entre Huáscar y Atahualpa, apoyo de algunos grupos indígenas a los españoles, superioridad militar de los españoles, difusión de la religión cristiana y disminución de la población indígena, todos convergiendo en la conquista del Tahuantinsuyo. ¿Cuál de los siguientes desempeños vinculados a la construcción de interpretaciones históricas evidencia principalmente el trabajo elaborado por este grupo de estudiantes?",
+    "alternativas": {
+      "A": "La distinción entre causas estructurales y coyunturales de un proceso histórico.",
+      "B": "El reconocimiento de cambios y continuidades de un proceso histórico.",
+      "C": "La identificación de la multicausalidad de un proceso histórico."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un docente desea realizar una actividad en la que los estudiantes ubiquen su vivienda, su IE y los parques de su localidad en una representación plana. ¿Cuál de las siguientes fuentes es adecuada para la realización de la actividad prevista?",
+    "alternativas": {
+      "A": "Una carta topográfica.",
+      "B": "Un plano catastral.",
+      "C": "Un mapa físico."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Durante una salida de campo, un docente ha entregado a los estudiantes un croquis del barrio que incluye la IE y una indicación del norte. Para iniciar la actividad, el docente pide a los estudiantes que ubiquen la IE y el cerro Rumicruz en el croquis del barrio y en el terreno. Luego, les solicita que sobre la IE tracen dos líneas que se crucen perpendicularmente. Después, les pide que señalen los puntos cardinales en los extremos de las líneas perpendiculares. Para continuar con la actividad en el campo, ¿cuál de las siguientes pautas es pertinente brindar a los estudiantes para que demuestren que pueden orientarse utilizando elementos referenciales en una representación plana y en el terreno?",
+    "alternativas": {
+      "A": "\"Ahora observen el terreno, y señalen el lugar por donde se observa el sol al amanecer y el lugar donde se encuentra el mar\".",
+      "B": "\"Ahora observen el croquis y el terreno, e indiquen en qué dirección se encuentra el cerro con respecto a la IE\".",
+      "C": "\"Ahora observen el croquis, e identifiquen todos los elementos sociales y naturales que están representados en él\"."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "En una sesión de aprendizaje, la docente está desarrollando una actividad con el propósito de que sus estudiantes identifiquen zonas de mayor riesgo frente a un fenómeno natural peligroso como un huaico. Como primer paso, la docente les ha brindado una imagen satelital en la que se observa una cuenca y sus afluentes; los estudiantes han reconocido el recorrido de los huaicos por las quebradas, han descrito los materiales que podrían ser arrastrados y han mencionado qué daños podría ocasionar este fenómeno. Luego, la docente presenta a los estudiantes un mapa de la misma cuenca. Si la docente desea que los estudiantes identifiquen, en este mapa, las zonas de mayor riesgo frente a la ocurrencia de un huaico, ¿cuál de las siguientes acciones es pertinente?",
+    "alternativas": {
+      "A": "Solicitarles que delimiten el área de alta pendiente y ubiquen los centros poblados que se encuentran en estas zonas.",
+      "B": "Solicitarles que delimiten el área de la cuenca y ubiquen los centros poblados situados a lo largo de su río principal.",
+      "C": "Solicitarles que delimiten el área de las quebradas y ubiquen los centros poblados que estén emplazados a lo largo de ellas."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Una docente desea que sus estudiantes reflexionen sobre prácticas culturales en el Perú en el marco del enfoque intercultural. Para ello, está planificando una unidad didáctica que aborde la fiesta de carnaval. ¿Cuál de las siguientes acciones es más pertinente para desarrollar esta unidad?",
+    "alternativas": {
+      "A": "Diseñar sesiones que aborden las fiestas de carnaval más concurridas del país y su beneficio para la difusión de la cultura peruana.",
+      "B": "Diseñar sesiones que aborden las fiestas de carnaval de las comunidades de los estudiantes y su vinculación con los demás carnavales del país.",
+      "C": "Diseñar sesiones que aborden la fiesta de carnaval de la localidad de los estudiantes y su nivel de importancia en relación con otras fiestas de carnaval del país."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un docente desea promover la participación de los estudiantes en la construcción de normas que favorezcan la convivencia en el aula. ¿Cuál de las siguientes acciones es más pertinente para este propósito?",
+    "alternativas": {
+      "A": "El docente pide a representantes del aula que revisen las normas de convivencia utilizadas el año anterior. Luego, les solicita que planteen alternativas de mejora a estas normas. Por último, les indica que incorporen sus propuestas a las normas de convivencia del aula.",
+      "B": "El docente pregunta a los estudiantes en qué aspectos creen que la convivencia en el aula ha mejorado y en cuáles no. Luego, les pide que planteen metas que les gustaría lograr en su convivencia como grupo. Finalmente, les solicita que propongan normas que ayuden al cumplimiento de esas metas.",
+      "C": "El docente evalúa, junto con el resto del equipo de docentes, el estado actual de la convivencia entre los estudiantes. Luego, pide a los estudiantes que determinen qué aspectos de la convivencia en el aula requieren ser mejorados. Sobre esta base, el docente elabora las nuevas normas de convivencia."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Raúl, un estudiante que presenta ceguera, se ha integrado al grupo de sexto grado. A pesar de que se realizó un proceso inicial de sensibilización en el grado, los docentes han notado que los estudiantes evitan incorporar a Raúl en sus actividades. Incluso, un docente ha escuchado a un estudiante decir: \"No hagamos grupo con Raúl. Como no ve, pienso que no podrá hacer bien las tareas\". Ante esta situación, los docentes buscan que los estudiantes cuestionen estereotipos en torno a las personas con ceguera. ¿Cuál de las siguientes actividades es pertinente para este propósito?",
+    "alternativas": {
+      "A": "Pedir a los estudiantes que, con los ojos vendados, realicen diversas actividades que son cotidianas en la IE como desplazarse en el aula, jugar en el patio, trabajar en equipo, entre otras. Luego, solicitarles que, individualmente, describan cómo se sintieron durante esta experiencia.",
+      "B": "Solicitar a los estudiantes que, a partir de la observación del espacio público, identifiquen las condiciones que tienen que enfrentar las personas con ceguera para movilizarse en la localidad. Luego, pedirles que redacten una propuesta que favorezca su desplazamiento con mejores condiciones.",
+      "C": "Mostrar a los estudiantes resúmenes de biografías de personas que presentan ceguera y que han contribuido en el campo de la ciencia, del arte, entre otros. Luego, orientarlos en el análisis de las características del entorno que influyeron positiva o negativamente para el desarrollo de estas personas."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes es una actividad inicial para abordar el sentido del canje o resta con reserva en la operación 42 – 15?",
+    "alternativas": {
+      "A": "Entregar 42 semillas a cada estudiante y pedirles que retiren 15 semillas. Luego, pedir que digan con cuántas semillas se ha quedado cada uno. Después, preguntar: \"¿Qué acción se ha realizado? ¿Cuántas semillas se han retirado? ¿Quedaron más o menos semillas de las que se tenían inicialmente? ¿Cuántas semillas quedaron?\".",
+      "B": "Entregar material base diez para que representen 42 como 4 decenas y 2 unidades. Luego, presentar en la pizarra la operación 42 – 15 y explicar que 2 se debe 'prestar' de 4 para 'convertirse' en 12 y, así, poder restarle 5, y que el 4 se 'convierte' en 3 y se resta con 1. Después, preguntar: \"¿Cuál es el resultado?\". Finalmente, pedir que lo representen con el material base diez.",
+      "C": "Entregar 4 atados de 10 palitos cada uno y 2 palitos sueltos, a cada estudiante. Luego, pedir que identifiquen la cantidad de atados, la cantidad de palitos en cada atado y la cantidad de palitos sueltos. Después, preguntar: \"¿Qué se puede hacer para retirar 15 palitos? ¿Cuántos atados serán necesarios desarmar para retirar 15 palitos? ¿Cuántos atados y cuántos palitos sueltos quedaron?\"."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes acciones pedagógicas es pertinente para que los estudiantes se inicien en el proceso de construcción de la noción de doble?",
+    "alternativas": {
+      "A": "Preguntar: \"¿Qué entienden por doble? ¿Alguna vez han escuchado esa palabra?\". Luego, entregar un grupo de 5 semillas a cada pareja de estudiantes y comentar que, para encontrar el doble de 5 semillas, se imaginen que las colocan frente a un espejo. Después, preguntar: \"¿Cuánto es el doble de 5?\".",
+      "B": "Plantear el siguiente problema: \"Ana tiene 6 años y Pedro tiene el doble de años. ¿Cuántos años tiene Pedro?\". Luego, señalar que el doble de un número significa multiplicar por 2, por lo que el doble de 6 es igual a 12. Después, preguntar: \"¿Cuánto es el doble de 4? ¿Y el doble de 5? ¿Y el doble de 8?\".",
+      "C": "Preguntar: \"En la manga de una camisa hay 3 botones, ¿cuántos botones habrá en total en las dos mangas de la camisa?\". Luego, pedir que resuelvan la misma situación considerando, esta vez, que cada manga tenga 5 botones. Después, preguntar: \"¿Cuántas veces consideras la cantidad de botones de una manga para saber el total de botones en las mangas de la camisa?\"."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "El propósito de una docente es que los estudiantes resuelvan problemas que involucran la comprensión de la división. Aprovechando el interés de estos por una visita a un museo, les plantea: \"Para la visita al museo, se alquilarán buses. Cada bus puede transportar hasta 34 personas. Si 385 estudiantes y 13 docentes irán a esta visita, ¿cuántos buses, como mínimo, serán necesarios para transportarlos?\". Uno de los estudiantes suma 385 + 13 = 398, divide 398 entre 34 obteniendo cociente 11 y resto 23 (398 - 34x11 = 398-374... el estudiante calcula 34x11=374? En su procedimiento obtiene una diferencia de 23 al restar), y responde: \"Se necesitarán 11 buses\". Considerando el propósito de la docente, ¿cuál es el principal error que se evidencia en la resolución del estudiante?",
+    "alternativas": {
+      "A": "Omite la interpretación del residuo en la división como elemento a tomar en cuenta al determinar la cantidad de buses que se necesitará.",
+      "B": "Obtiene una diferencia incorrecta al restar 58 y 34, ya que el resultado que encuentra es 23 cuando debe ser 24.",
+      "C": "Denomina a los participantes de la visita al museo como estudiantes sin considerar que algunos son docentes."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes afirmaciones es falsa?",
+    "alternativas": {
+      "A": "\"En el número 49, hay 4 decenas y el 4 equivale a 40 unidades\".",
+      "B": "\"En el número 140, hay 4 decenas en total\".",
+      "C": "\"En el número 53, hay 4 decenas y 13 unidades\"."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Como parte de una reunión, un grupo de docentes está analizando la operación 35 x 25, resuelta mediante productos parciales (175 y 70, dejando un espacio en la columna de las unidades para el segundo producto parcial, con resultado final 875). En la discusión, surge la pregunta: \"¿Por qué se deja un espacio en la columna de las unidades al escribir el segundo producto parcial en este procedimiento?\". Se presentan las respuestas de tres docentes: Ana: \"Porque se está multiplicando por 2 y se tiene que alinear el resultado ordenadamente debajo del 2\". Bruno: \"Porque, en el número 25, el 2 corresponde a las decenas; por ello, al multiplicar por 2, el resultado está en decenas\". Carlos: \"Porque es una regla matemática que permite efectuar la operación correctamente; de lo contrario, se obtendría un resultado equivocado\". ¿Cuál de estas respuestas evidencia mayor comprensión del algoritmo de la multiplicación?",
+    "alternativas": {
+      "A": "Ana.",
+      "B": "Bruno.",
+      "C": "Carlos."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Se sabe que una figura formada por 3 hexágonos unidos (en forma de trébol/triángulo) representa 1/3 de una unidad. ¿Qué parte de esta unidad representa la unión de una figura de 2 hexágonos unidos y una figura de 3 hexágonos unidos en fila (en zigzag)?",
+    "alternativas": {
+      "A": "1/5",
+      "B": "5/9",
+      "C": "5/3"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Se tiene un terreno dividido en zonas para sembrar distintos tipos de flores: margaritas, lirios, rosas, tulipanes, claveles y hortensias. Se sabe que: el área de la zona de rosas equivale a 1/8 de la zona de margaritas y a 1/2 de la zona de tulipanes; el área de la zona de lirios equivale a 3/8 de la zona de margaritas y a 1/2 de la zona de hortensias; el área de la zona de claveles equivale a 2/3 de la zona de hortensias. Si el área total del terreno es de 72 m², ¿cuánto es el área de la zona de hortensias?",
+    "alternativas": {
+      "A": "18 m²",
+      "B": "12 m²",
+      "C": "6 m²"
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un docente plantea la siguiente tarea: Lily trabaja en un consultorio veterinario y debe suministrar un medicamento a un perro cuya masa es 24 kg. Si la dosis recomendada de este medicamento para un perro de 10 kg es de 25 mL, ¿cuál será la dosis que Lily deberá suministrar al perro de 24 kg? ¿Cuál es el principal propósito de aprendizaje al plantear esta tarea a los estudiantes?",
+    "alternativas": {
+      "A": "Que establezcan relaciones de proporcionalidad entre dos magnitudes.",
+      "B": "Que propongan la definición del concepto de proporcionalidad considerando las magnitudes involucradas.",
+      "C": "Que justifiquen su procedimiento de solución al resolver problemas de proporcionalidad que involucran magnitudes."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un docente plantea la siguiente situación: Rolando piensa comprar un departamento y visita una empresa donde le muestran un plano en el que la sala mide 3 cm y la cocina mide 2 cm. El lado de la sala que mide 3 cm, en la realidad mide 300 cm. Si el lado de la cocina mide 2 cm, ¿cuánto medirá en la realidad? Un estudiante resuelve así: \"Si la medida real del lado de la sala es 300 cm, entonces se ha aumentado 297 cm a la medida en el plano (3 cm + 297 cm = 300 cm). Por tanto, para encontrar la medida real del lado de la cocina se debe aumentar 297 cm a la medida en el plano (2 cm + 297 cm). Es decir, la medida real del lado de la cocina será 299 cm\". ¿Cuál de las siguientes alternativas expresa el principal error en la resolución del estudiante?",
+    "alternativas": {
+      "A": "Utiliza una unidad de medida de longitud incorrecta en su respuesta como centímetros, cuando debió usar metros.",
+      "B": "Establece una relación aditiva, en vez de establecer una relación multiplicativa que considere un factor constante.",
+      "C": "Emplea una estrategia diferente a la regla de tres simple, que es la que permite resolver un problema que involucra proporcionalidad."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes tareas implica un mayor nivel de demanda cognitiva?",
+    "alternativas": {
+      "A": "Colocar el nombre de dos sólidos diferentes que han sido elaborados con cartulina, cubo y pirámide cuadrangular, e indicar la forma que tienen sus caras.",
+      "B": "Mencionar las semejanzas y diferencias que existen entre un cubo y una pirámide cuadrangular que han sido elaborados con cartulina.",
+      "C": "Armar un cubo y una pirámide cuadrangular a partir de sus moldes que han sido elaborados con cartulina."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Una docente presenta a los estudiantes la imagen de un sólido y les pide que grafiquen la forma en que se observa desde cada vista: desde arriba, de lado y de frente. ¿Por qué la actividad propuesta es de alta demanda cognitiva?",
+    "alternativas": {
+      "A": "Porque implica que el estudiante despliegue habilidades motrices finas para realizar los trazos de las formas obtenidas desde cada vista haciendo uso de instrumentos de medida.",
+      "B": "Porque implica que el estudiante haga uso de habilidades para observar formas tridimensionales, como cubos, que suponen un mayor nivel de complejidad, y no solo formas bidimensionales.",
+      "C": "Porque implica que el estudiante emplee habilidades de visualización para realizar una representación mental del sólido, lo cual le permitirá graficar las formas que se obtienen desde cada vista."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "El dueño de un restaurante ha decidido realizar un agasajo para los hijos del personal que trabaja con él. Por ello, ha realizado una encuesta para recoger información sobre la cantidad total de hijos de cada trabajador y ha organizado los resultados en un gráfico de barras que muestra la cantidad de trabajadores (eje vertical, de 0 a 6) según la cantidad total de hijos que tienen (eje horizontal, de 0 a 4). Según el gráfico, ¿cuántos hijos hay en total?",
+    "alternativas": {
+      "A": "23",
+      "B": "15",
+      "C": "10"
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un docente elaboró un gráfico circular que representa las preferencias deportivas de sus 24 estudiantes (fútbol, vóley, básquetbol, natación y gimnasia), haciendo uso de una hoja de cálculo. ¿A cuál de las siguientes tablas de frecuencia correspondería el gráfico presentado?",
+    "alternativas": {
+      "A": "Fútbol: 8, Vóley: 6, Básquetbol: 4, Natación: 3, Gimnasia: 3.",
+      "B": "Fútbol: 12, Vóley: 6, Básquetbol: 4, Natación: 1, Gimnasia: 1.",
+      "C": "Fútbol: 9, Vóley: 7, Básquetbol: 4, Natación: 2, Gimnasia: 2."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un grupo de estudiantes ha realizado la siguiente indagación: 1. Colocaron dos semillas de lentejas en dos vasos de plástico iguales con la misma cantidad de tierra. 2. Ubicaron estos vasos en dos cajas de zapatos con los mismos obstáculos internos y un agujero. 3. Expusieron ambas cajas cerradas a la luz solar. 4. Solo abrieron las cajas cuando debían regar las plantas. 5. Regaron las plantas en los mismos días y con la misma cantidad de agua. Luego de una semana, se muestran las dos cajas abiertas, cada una con un agujero por donde entra luz, y en ambas la planta ha crecido orientándose y sorteando los obstáculos hacia la fuente de luz que entra por el agujero. ¿Cuál de las siguientes conclusiones se puede establecer a partir de los resultados de esta indagación?",
+    "alternativas": {
+      "A": "Las plantas necesitan de luz para crecer.",
+      "B": "Los obstáculos determinan la forma de crecimiento de las plantas.",
+      "C": "El crecimiento de las plantas se orienta hacia la fuente de luz."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Para dar inicio a una unidad de aprendizaje sobre la electricidad, una docente solicita a sus estudiantes que representen cómo funcionan los circuitos eléctricos. Uno de los estudiantes representa un circuito con una pila, un foco y un solo cable que conecta un polo de la pila con el foco (sin cable de retorno del foco a la pila). ¿Cuál de los siguientes es el principal error que evidencia el estudiante en su representación?",
+    "alternativas": {
+      "A": "No colocar un segundo cable que vaya del foco a la pila.",
+      "B": "No dibujar los polos de la pila.",
+      "C": "No dibujar un interruptor."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Como parte de una unidad con el propósito de aprendizaje \"Explica cómo los órganos de un sistema del cuerpo humano se relacionan para cumplir su función\", una docente ha elaborado una rúbrica de evaluación con los niveles: En inicio (C) - Menciona las necesidades de los seres humanos, con o sin errores conceptuales; En proceso (B) - Relaciona los órganos y/o sistemas del cuerpo humano con las funciones que estos realizan, con o sin errores conceptuales; Logro esperado (A) - Explica cómo los órganos de un sistema del cuerpo humano se relacionan para cumplir su función, sin errores conceptuales. La docente aún no ha definido el nivel \"Logro destacado (AD)\". ¿Cuál de las siguientes descripciones es pertinente para este nivel?",
+    "alternativas": {
+      "A": "Explica cómo se relacionan diferentes sistemas del cuerpo humano para realizar una función vital dada, sin errores conceptuales.",
+      "B": "Explica relaciones sistema-función por lo menos para ocho de los, aproximadamente, once sistemas del cuerpo humano, sin errores conceptuales.",
+      "C": "Explica cómo los órganos de un sistema del cuerpo humano se relacionan para cumplir una función e identifica enfermedades que afectan a dichos sistemas, sin errores conceptuales."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "evaluacion_formativa",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Usando la rúbrica sobre \"Explica cómo los órganos de un sistema del cuerpo humano se relacionan para cumplir su función\" (En inicio: menciona necesidades de los seres humanos; En proceso: relaciona órganos/sistemas con sus funciones; Logro esperado: explica cómo los órganos se relacionan para cumplir la función, sin errores conceptuales), la docente pide a sus estudiantes que respondan: \"¿Cómo funciona el sistema circulatorio?\". Un estudiante responde: \"El sistema circulatorio funciona porque el corazón bombea la sangre a todas las partes del cuerpo\". De acuerdo con la rúbrica propuesta por la docente, ¿en qué nivel de aprendizaje se ubica el estudiante?",
+    "alternativas": {
+      "A": "Logro esperado (A)",
+      "B": "En proceso (B)",
+      "C": "En inicio (C)"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "evaluacion_formativa",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Usando la misma rúbrica, la docente pide a sus estudiantes que respondan: \"¿Cómo funciona el sistema digestivo?\". Un estudiante responde: \"Todos necesitamos comer, cuando comemos trabaja nuestro sistema digestivo, después de masticar se forma una masa que pasa por el esófago y llega al estómago donde los jugos gástricos la dividen en partes más pequeñas que pasan a los intestinos y salen por el ano\". Según la rúbrica establecida por la docente, ¿en qué nivel de aprendizaje se ubica este estudiante?",
+    "alternativas": {
+      "A": "Logro esperado (A)",
+      "B": "En proceso (B)",
+      "C": "En inicio (C)"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "evaluacion_formativa",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Un grupo de estudiantes propone indagar sobre la capacidad pulmonar máxima de los integrantes de su grupo, siguiendo estos pasos: 1. Conseguir un bidón de siete litros y marcar los litros en el bidón con un plumón indeleble. 2. Agregar agua al bidón sin llenarlo completamente. 3. Introducir el bidón invertido en un balde que también contiene agua, procurando que el agua contenida en el bidón no se derrame. 4. Conectar una manguera en el pico del bidón. 5. Uno de los integrantes inhalará por la boca la máxima cantidad de aire que pueda y, luego, exhalará por la boca soplando a través de la manguera. 6. Cada integrante repetirá los pasos del 2 al 5. 7. Registrarán y compararán cuánto gas puede exhalar cada uno. Uno de los integrantes pregunta al docente si debería llenar el bidón por completo con agua o no. ¿Cuál de las siguientes preguntas es pertinente para brindar ayuda pedagógica al estudiante?",
+    "alternativas": {
+      "A": "¿No crees que voltear el bidón será suficiente para que el agua del balde ingrese y desplace todo el aire contenido inicialmente en el bidón?",
+      "B": "¿Crees que si el bidón no contuviera un poco de aire en su interior sería posible sumergirlo en el balde con agua para realizar la experiencia?",
+      "C": "Si inicialmente el bidón contiene aire, ¿qué deberías hacer para que tus mediciones registren solo el volumen de gas exhalado por los integrantes del grupo?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Luego de realizar las primeras mediciones de capacidad pulmonar con el bidón, una estudiante comenta: \"Marta y Sandra tienen casi el mismo volumen pulmonar porque ambas al exhalar hicieron que salga un poquito más de un litro de agua del bidón\". ¿Cuál de las siguientes preguntas debe plantear primero el docente a la estudiante para que mejore la precisión de sus mediciones?",
+    "alternativas": {
+      "A": "¿A qué crees que se deba que el volumen pulmonar de Marta y Sandra sea tan parecido?",
+      "B": "¿Crees que si les pedimos a Marta y a Sandra medir una vez más su volumen pulmonar seguirá siendo el mismo?",
+      "C": "¿Qué modificación podrías hacer en las unidades de medida para cuantificar la diferencia entre el volumen pulmonar de Marta y Sandra?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "En el marco de la indagación sobre capacidad pulmonar usando el bidón invertido en agua, ¿por qué el gas exhalado se ubica por encima del agua en el bidón?",
+    "alternativas": {
+      "A": "Porque es menos denso que el agua.",
+      "B": "Porque su masa es menor que la del agua.",
+      "C": "Porque sus moléculas son más pequeñas que las del agua."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Una docente presenta a sus estudiantes dos cubos de hielo idénticos contenidos en dos recipientes iguales de vidrio transparente, uno con tapa y el otro sin tapa. Luego, pregunta a los estudiantes si creen que alguno de ellos se va a derretir primero y por qué. Después de recibir las respuestas de los estudiantes, les pide que esperen diez minutos para que los hielos se derritan y vuelve a pedirles que expliquen lo que han observado. ¿Por qué esta actividad favorece la formulación de hipótesis?",
+    "alternativas": {
+      "A": "Porque permite que los estudiantes comparen sus respuestas iniciales con los resultados experimentales.",
+      "B": "Porque permite que los estudiantes manifiesten sus saberes previos para buscar la causa de un fenómeno.",
+      "C": "Porque permite identificar los errores de los estudiantes en la explicación de un fenómeno."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "En la actividad de los dos cubos de hielo idénticos en recipientes de vidrio (uno con tapa y otro sin tapa), ¿cuál de las siguientes es la variable independiente de esta experiencia?",
+    "alternativas": {
+      "A": "La presencia o ausencia de tapa en el recipiente.",
+      "B": "La temperatura del ambiente.",
+      "C": "La masa de los hielos."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "En la misma actividad de los dos cubos de hielo, ¿cuál de las siguientes es la variable dependiente de esta experiencia?",
+    "alternativas": {
+      "A": "La variación del tamaño de los cubos de hielo en el tiempo.",
+      "B": "El material del que están hechos los envases.",
+      "C": "La masa de los envases de vidrio que contienen los cubos de hielo."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "En la actividad de los dos cubos de hielo idénticos, uno en un recipiente sin tapa y otro en un recipiente con tapa, después de diez minutos, ¿cuál de los cubos de hielo se derritió primero?",
+    "alternativas": {
+      "A": "El cubo de hielo 1 (sin tapa).",
+      "B": "El cubo de hielo 2 (con tapa).",
+      "C": "Se derritieron al mismo tiempo."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Durante una unidad sobre cómo los sistemas del cuerpo humano trabajan de manera integrada, un docente, con el objetivo de que los estudiantes comprueben que el tipo de actividad realizada afecta la frecuencia cardíaca, ha planificado que parejas de estudiantes: 1. Estando sentados, se tomen el pulso durante un minuto y lo anoten. 2. Luego, uno caminará durante dos minutos y se le tomará nuevamente el pulso durante un minuto. 3. Después, descansará durante tres minutos. 4. Luego, correrá durante dos minutos y se le tomará el pulso durante un minuto. 5. Se repetirán los pasos cambiando de rol. Los datos obtenidos por Ana y Mateo muestran que, después de caminar, Mateo registró 85 pulsaciones y Ana 80; después de correr, Mateo registró 100 y Ana 90. A partir de estos datos, Mateo comenta: \"Los hombres tienen mayor frecuencia cardíaca que las mujeres\". ¿Cuál de las siguientes preguntas es pertinente formular a Mateo para que reflexione sobre el error que se evidencia en su comentario?",
+    "alternativas": {
+      "A": "¿La frecuencia cardíaca cambia en función del sexo o de la actividad realizada?",
+      "B": "¿Qué otras diferencias entre Ana y tú, además del sexo, pueden influir en la cantidad de pulsaciones que registraron?",
+      "C": "¿Cuál es la diferencia entre tu cantidad de pulsaciones y las de Ana en cada actividad?"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  },
+  {
+    "enunciado": "Ana y Mateo quieren representar los datos de pulsaciones que obtuvieron en las distintas actividades (sentados, después de caminar, después de correr) para ambos. ¿Cuál de los siguientes tipos de gráfico sería adecuado que utilicen?",
+    "alternativas": {
+      "A": "Un gráfico de líneas titulado \"Pulso según la actividad\", con el eje horizontal en minutos (1, 3 y 5) como escala continua, y dos líneas que muestran la cantidad de pulsaciones de Mateo y de Ana en un minuto.",
+      "B": "Un gráfico de barras agrupadas titulado \"Pulso según la actividad\", con el eje horizontal por tipo de actividad (sentados, después de caminar, después de correr) y, para cada una, una barra con la cantidad de pulsaciones de Mateo y otra con la de Ana en un minuto.",
+      "C": "Un gráfico circular titulado \"Promedio de pulsaciones de Mateo y Ana\", que reparte el total entre las categorías sentados, después de caminar y después de correr."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2018"
+  }
+]

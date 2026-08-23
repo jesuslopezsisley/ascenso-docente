@@ -26,11 +26,13 @@ const COMPETENCIAS_PEDAGOGICAS_GENERALES = [
 
 const TIPO_COMPETENCIA = "pedagógica_general";
 
+// Copia autocontenida dentro de backend/ (no depende de docs/, que vive
+// fuera del Root Directory que Railway despliega). El original en
+// docs/seed-preguntas-primaria-2018.json sigue siendo la fuente de verdad
+// para el trabajo de clasificación; si se reclasifica algo ahí, hay que
+// volver a copiarlo acá.
 const PREGUNTAS_JSON_PATH = path.join(
   __dirname,
-  "..",
-  "..",
-  "docs",
   "seed-preguntas-primaria-2018.json",
 );
 
