@@ -1,22 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import { NOMBRES_COMPETENCIA } from "@/lib/competencias";
 import { getSession } from "@/lib/session";
 import { finalizarDiagnostico } from "@/services/diagnostico.service";
 
 export const metadata: Metadata = {
   title: "Reporte — Ascenso Docente",
-};
-
-const NOMBRES_COMPETENCIA: Record<string, string> = {
-  comprension_produccion_textos: "Comprensión y producción de textos",
-  indagacion_cientifica: "Indagación científica",
-  resolucion_problemas_matematicos: "Resolución de problemas matemáticos",
-  convivencia_tutoria_socioemocional: "Convivencia, tutoría y socioemocional",
-  ciencias_sociales_ciudadania: "Ciencias sociales y ciudadanía",
-  retroalimentacion_acompanamiento: "Retroalimentación y acompañamiento",
-  enfoque_inclusivo: "Enfoque inclusivo",
-  evaluacion_formativa: "Evaluación formativa",
 };
 
 export default async function ReportePage() {
@@ -102,12 +92,18 @@ export default async function ReportePage() {
         ))}
       </ul>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center gap-3">
         <Link
           href="/dashboard"
           className="rounded-md border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
         >
           Volver al inicio
+        </Link>
+        <Link
+          href="/dashboard/plan-estudio"
+          className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+        >
+          Ver mi plan de estudio
         </Link>
       </div>
     </main>
