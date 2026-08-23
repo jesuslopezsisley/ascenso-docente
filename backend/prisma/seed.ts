@@ -26,15 +26,17 @@ const COMPETENCIAS_PEDAGOGICAS_GENERALES = [
 
 const TIPO_COMPETENCIA = "pedagógica_general";
 
-// Copia autocontenida dentro de backend/ (no depende de docs/, que vive
-// fuera del Root Directory que Railway despliega). El original en
-// docs/seed-preguntas-primaria-2018.json sigue siendo la fuente de verdad
+// Copias autocontenidas dentro de backend/ (no dependen de docs/, que vive
+// fuera del Root Directory que Railway despliega). Los originales en
+// docs/seed-preguntas-primaria-<anio>.json siguen siendo la fuente de verdad
 // para el trabajo de clasificación; si se reclasifica algo ahí, hay que
-// volver a copiarlo acá.
-const PREGUNTAS_JSON_PATH = path.join(
-  __dirname,
-  "seed-preguntas-primaria-2018.json",
-);
+// volver a copiarlo acá. Cada cuadernillo nuevo (nuevo año) se agrega como
+// una entrada más en esta lista — el seed es reiniciable y siempre reinserta
+// TODOS los años listados aquí, así que agregar 2020 no borra 2018/2019.
+const PREGUNTAS_JSON_PATHS = [
+  path.join(__dirname, "seed-preguntas-primaria-2018.json"),
+  path.join(__dirname, "seed-preguntas-primaria-2019.json"),
+];
 
 interface PreguntaSeed {
   enunciado: string;
@@ -42,11 +44,14 @@ interface PreguntaSeed {
   respuestaCorrecta: "A" | "B" | "C";
   competencia: (typeof COMPETENCIAS_PEDAGOGICAS_GENERALES)[number];
   fuente: string;
+  anio: number;
 }
 
 function leerPreguntas(): PreguntaSeed[] {
-  const raw = fs.readFileSync(PREGUNTAS_JSON_PATH, "utf-8");
-  const preguntas = JSON.parse(raw) as PreguntaSeed[];
+  const preguntas = PREGUNTAS_JSON_PATHS.flatMap((rutaJson) => {
+    const raw = fs.readFileSync(rutaJson, "utf-8");
+    return JSON.parse(raw) as PreguntaSeed[];
+  });
 
   for (const [i, p] of preguntas.entries()) {
     if (!COMPETENCIAS_PEDAGOGICAS_GENERALES.includes(p.competencia)) {
@@ -59,15 +64,18 @@ function leerPreguntas(): PreguntaSeed[] {
         `Pregunta #${i + 1} tiene una respuestaCorrecta inválida: "${p.respuestaCorrecta}"`,
       );
     }
+    if (!Number.isInteger(p.anio)) {
+      throw new Error(`Pregunta #${i + 1} tiene un anio inválido: "${p.anio}"`);
+    }
   }
 
   return preguntas;
 }
 
 async function main() {
-  console.log(`Leyendo preguntas desde ${PREGUNTAS_JSON_PATH}...`);
+  console.log(`Leyendo preguntas desde ${PREGUNTAS_JSON_PATHS.length} archivo(s)...`);
   const preguntas = leerPreguntas();
-  console.log(`  ${preguntas.length} preguntas encontradas en el JSON.`);
+  console.log(`  ${preguntas.length} preguntas encontradas en total.`);
 
   const nivelEspecialidad = await prisma.nivelEspecialidad.upsert({
     where: { nombre: NIVEL_ESPECIALIDAD.nombre },
@@ -111,6 +119,7 @@ async function main() {
       alternativas: p.alternativas,
       respuestaCorrecta: p.respuestaCorrecta,
       fuente: p.fuente,
+      anio: p.anio,
       competenciaId,
       nivelEspecialidadId: nivelEspecialidad.id,
     };
