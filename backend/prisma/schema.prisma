@@ -1,0 +1,137 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider     = "prisma-client"
+  output       = "../generated/prisma"
+  moduleFormat = "cjs"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+/// Combinación de nivel educativo y especialidad (p. ej. "EBR Primaria").
+model NivelEspecialidad {
+  id           String   @id @default(cuid())
+  nivel        String
+  especialidad String
+  nombre       String   @unique
+  createdAt    DateTime @default(now())
+
+  preguntas    Pregunta[]
+  usuarios     Usuario[]
+  diagnosticos Diagnostico[]
+
+  @@unique([nivel, especialidad])
+}
+
+/// Competencia pedagógica evaluada por una pregunta (p. ej. "indagacion_cientifica").
+model Competencia {
+  id        String   @id @default(cuid())
+  nombre    String   @unique
+  tipo      String
+  createdAt DateTime @default(now())
+
+  preguntas Pregunta[]
+}
+
+/// Pregunta de opción múltiple (A, B, C) extraída de un cuadernillo de examen.
+model Pregunta {
+  id                String   @id @default(cuid())
+  enunciado         String
+  alternativas      Json
+  respuestaCorrecta String
+  fuente            String
+  createdAt         DateTime @default(now())
+
+  competencia         Competencia       @relation(fields: [competenciaId], references: [id])
+  competenciaId       String
+  nivelEspecialidad   NivelEspecialidad @relation(fields: [nivelEspecialidadId], references: [id])
+  nivelEspecialidadId String
+  respuestas          Respuesta[]
+
+  @@index([competenciaId])
+  @@index([nivelEspecialidadId])
+}
+
+/// Usuario que se registra para postular a un NivelEspecialidad y rendir simulacros.
+model Usuario {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  password  String
+  nombre    String
+  createdAt DateTime @default(now())
+
+  nivelEspecialidad   NivelEspecialidad @relation(fields: [nivelEspecialidadId], references: [id])
+  nivelEspecialidadId String
+  diagnosticos        Diagnostico[]
+
+  @@index([nivelEspecialidadId])
+}
+
+enum EstadoDiagnostico {
+  en_progreso
+  completado
+}
+
+/// Intento de simulacro/diagnóstico de un usuario para su NivelEspecialidad.
+model Diagnostico {
+  id                  String            @id @default(cuid())
+  fecha               DateTime          @default(now())
+  estado              EstadoDiagnostico @default(en_progreso)
+  usuario             Usuario           @relation(fields: [usuarioId], references: [id])
+  usuarioId           String
+  nivelEspecialidad   NivelEspecialidad @relation(fields: [nivelEspecialidadId], references: [id])
+  nivelEspecialidadId String
+  respuestas          Respuesta[]
+  planEstudio         PlanEstudio?
+
+  @@index([usuarioId])
+  @@index([nivelEspecialidadId])
+}
+
+/// Respuesta de un usuario a una Pregunta dentro de un Diagnostico.
+model Respuesta {
+  id                 String   @id @default(cuid())
+  alternativaElegida String
+  esCorrecta         Boolean
+  createdAt          DateTime @default(now())
+
+  diagnostico   Diagnostico @relation(fields: [diagnosticoId], references: [id])
+  diagnosticoId String
+  pregunta      Pregunta    @relation(fields: [preguntaId], references: [id])
+  preguntaId    String
+
+  @@unique([diagnosticoId, preguntaId])
+  @@index([diagnosticoId])
+  @@index([preguntaId])
+}
+
+/// Plan de estudio estructurado generado por IA a partir del reporte de un
+/// Diagnostico finalizado. Una fila por Diagnostico (se regenera con upsert).
+model PlanEstudio {
+  id        String   @id @default(cuid())
+  semanas   Int
+  resumen   String
+  createdAt DateTime @default(now())
+
+  diagnostico   Diagnostico  @relation(fields: [diagnosticoId], references: [id])
+  diagnosticoId String       @unique
+  sesiones      SesionPlan[]
+}
+
+/// Una sesión individual dentro de un PlanEstudio, marcable como completada.
+model SesionPlan {
+  id           String  @id @default(cuid())
+  semana       Int
+  competencia  String
+  tema         String
+  quePracticar String
+  completada   Boolean @default(false)
+
+  planEstudio   PlanEstudio @relation(fields: [planEstudioId], references: [id])
+  planEstudioId String
+
+  @@index([planEstudioId])
+}
