@@ -5,16 +5,11 @@ import Link from "next/link";
 import { registroAction, type RegistroFormState } from "./actions";
 import { TextField } from "@/components/text-field";
 import { FormError } from "@/components/form-error";
+import type { NivelEspecialidad } from "@/services/nivel-especialidad.service";
 
 const initialState: RegistroFormState = {};
 
-// TODO: reemplazar por un fetch a GET /nivel-especialidad cuando exista el
-// endpoint; por ahora es la única especialidad sembrada en el backend.
-const NIVELES_ESPECIALIDAD = [
-  { id: "cmt61e7mb00003io3z9gy9mim", nombre: "EBR Primaria" },
-];
-
-export function RegistroForm() {
+export function RegistroForm({ niveles }: { niveles: NivelEspecialidad[] }) {
   const [state, formAction, pending] = useActionState(
     registroAction,
     initialState,
@@ -59,21 +54,25 @@ export function RegistroForm() {
         <select
           id="nivelEspecialidadId"
           name="nivelEspecialidadId"
-          defaultValue={state.values?.nivelEspecialidadId ?? NIVELES_ESPECIALIDAD[0].id}
+          defaultValue={state.values?.nivelEspecialidadId ?? niveles[0]?.id}
           required
-          className="rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground outline-none transition-colors focus:border-primary focus:ring-1 focus:ring-primary"
+          disabled={niveles.length === 0}
+          className="rounded-md border border-border bg-background px-3 py-2 text-sm text-foreground outline-none transition-colors focus:border-primary focus:ring-1 focus:ring-primary disabled:opacity-60"
         >
-          {NIVELES_ESPECIALIDAD.map((nivel) => (
+          {niveles.map((nivel) => (
             <option key={nivel.id} value={nivel.id}>
               {nivel.nombre}
             </option>
           ))}
         </select>
+        {niveles.length === 0 ? (
+          <FormError message="No se pudieron cargar las especialidades disponibles. Intenta recargar la página." />
+        ) : null}
       </div>
 
       <button
         type="submit"
-        disabled={pending}
+        disabled={pending || niveles.length === 0}
         className="mt-2 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90 disabled:opacity-60"
       >
         {pending ? "Creando cuenta…" : "Crear cuenta"}
