@@ -597,6 +597,17 @@ Para CADA UNA de las 60 preguntas marcadas, produce un objeto con:
   identificar y corregir su propio error?", donde la respuesta correcta
   depende de LA FORMA de la intervención docente, no del contenido) → ahí sí
   usa retroalimentacion_acompanamiento.
+
+  Pista adicional para decidir entre (a) y (b) (es una pista de juicio, NO
+  una regla rígida — sigue siendo un caso a criterio tuyo): fíjate si las
+  alternativas comparan TÉCNICAS pedagógicas intercambiables para atender
+  una misma necesidad general, sin que el enunciado nombre un error o
+  concepto específico ya identificado (eso apunta más hacia
+  retroalimentacion_acompanamiento); o si las alternativas diagnostican o
+  responden a un error/concepto CONCRETO ya nombrado explícitamente en el
+  enunciado (eso apunta más hacia la competencia de contenido
+  correspondiente). Esta pista no es determinante por sí sola — sopésala
+  junto con el resto del enunciado.
 - competencia: exactamente UNA de estas 8 competencias pedagógicas (usa el
   string exacto, en snake_case), consistente con razonamiento_competencia:
   ${COMPETENCIAS_PEDAGOGICAS.map((c) => `- ${c}`).join('\n  ')}
