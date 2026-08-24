@@ -38,6 +38,7 @@ const PREGUNTAS_JSON_PATHS = [
   path.join(__dirname, "seed-preguntas-primaria-2019.json"),
   path.join(__dirname, "seed-preguntas-primaria-2021.json"),
   path.join(__dirname, "seed-preguntas-primaria-2022.json"),
+  path.join(__dirname, "seed-preguntas-primaria-2023.json"),
 ];
 
 interface PreguntaSeed {

@@ -654,15 +654,32 @@ Para CADA UNA de las 60 preguntas marcadas, produce un objeto con:
   trabajo/respuesta/error previo del estudiante siendo atendido — NUNCA
   para preguntas de estrategia didáctica general o introducción de un
   concepto nuevo desde cero, esas van directo a la competencia de
-  contenido sin pasar por esta pista): fíjate si las alternativas
-  comparan TÉCNICAS pedagógicas intercambiables para atender esa
-  producción/error del estudiante, sin que el enunciado nombre un error o
-  concepto específico ya identificado en ELLA (eso apunta más hacia
-  retroalimentacion_acompanamiento); o si las alternativas diagnostican o
-  responden a un error/concepto CONCRETO ya nombrado explícitamente en el
-  enunciado (eso apunta más hacia la competencia de contenido
-  correspondiente). Es una pista de juicio, no una regla rígida — no es
-  determinante por sí sola, sopésala junto con el resto del enunciado.
+  contenido sin pasar por esta pista). Fíjate en qué comparan las
+  alternativas entre sí:
+
+  - Si las alternativas SON distintos posibles DIAGNÓSTICOS — cada una
+    identifica un problema/error DIFERENTE que podría estar presente, y
+    hay que reconocer cuál de esos problemas es el que realmente se
+    evidencia (p. ej. "¿la docente debe priorizar A: desvío del
+    propósito, B: falta de concordancia, o C: léxico inadecuado?", donde
+    A/B/C son diagnósticos distintos, no formas distintas de abordar el
+    MISMO diagnóstico) → esto es conocimiento de contenido: usa la
+    competencia de contenido correspondiente, NO
+    retroalimentacion_acompanamiento.
+
+  - Si el enunciado YA nombra explícitamente CUÁL es el error/problema
+    específico del estudiante, y las alternativas son distintas
+    TÉCNICAS/ESTRATEGIAS para abordar ESE MISMO error ya identificado →
+    esto SÍ es retroalimentacion_acompanamiento, SIN IMPORTAR qué tan
+    específica del dominio sea la técnica descrita (p. ej. usar un
+    tablero de valor posicional, comparar con tarjetas léxicas, señalar
+    el sonido de una letra — que la técnica use herramientas propias de
+    matemática o de lectoescritura NO la convierte en competencia de
+    contenido; la especificidad de la técnica es señal de que es una
+    BUENA retroalimentación, no evidencia de que sea otra competencia).
+
+  Es una pista de juicio, no una regla rígida — no es determinante por sí
+  sola, sopésala junto con el resto del enunciado.
 - competencia: exactamente UNA de estas 8 competencias pedagógicas (usa el
   string exacto, en snake_case), consistente con razonamiento_competencia:
   ${COMPETENCIAS_PEDAGOGICAS.map((c) => `- ${c}`).join('\n  ')}
