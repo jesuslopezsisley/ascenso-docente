@@ -510,7 +510,7 @@ const PREGUNTA_SCHEMA = {
     escenario_docente_reacciona: {
       type: Type.BOOLEAN,
       description:
-        'true si el escenario de la pregunta involucra a un docente evaluando, respondiendo, corrigiendo, orientando o ayudando a un estudiante EN RELACIÓN A algo que el estudiante dijo, hizo o produjo — esto incluye tanto reacciones espontáneas del docente COMO casos donde el estudiante pide ayuda para mejorar/corregir su propio trabajo (p. ej. "el estudiante le pide que lo ayude a mejorar su texto"). No te limites a reacciones no solicitadas: cualquier interacción docente-producto/error del estudiante cuenta. Independientemente de cuál sea la competencia correcta — este patrón se confunde frecuentemente con retroalimentacion_acompanamiento aunque el contenido de fondo sea otra competencia.',
+        'true si el escenario de la pregunta involucra a un docente evaluando, respondiendo, corrigiendo, orientando o ayudando a un estudiante EN RELACIÓN A algo que el estudiante YA dijo, hizo o produjo — esto incluye tanto reacciones espontáneas del docente COMO casos donde el estudiante pide ayuda para mejorar/corregir su propio trabajo. FALSE si es una estrategia didáctica general para introducir/enseñar un concepto nuevo desde cero, sin un trabajo/respuesta/error previo de un estudiante específico (ahí no hay nada que retroalimentar). El requisito clave es que exista una producción PREVIA del estudiante siendo atendida, no que el docente simplemente "ayude" o "enseñe". Independientemente de cuál sea la competencia correcta — este patrón se confunde frecuentemente con retroalimentacion_acompanamiento aunque el contenido de fondo sea otra competencia.',
     },
     razonamiento_competencia: {
       type: Type.STRING,
@@ -615,13 +615,26 @@ Para CADA UNA de las 60 preguntas marcadas, produce un objeto con:
   la clave oficial real.
 - escenario_docente_reacciona: true/false — ¿el escenario de la pregunta
   involucra a un docente evaluando, respondiendo, corrigiendo, orientando o
-  ayudando a un estudiante EN RELACIÓN A algo que el estudiante dijo, hizo o
-  produjo? Esto incluye TANTO reacciones espontáneas del docente COMO casos
-  donde es el estudiante quien pide ayuda para mejorar o corregir su propio
-  trabajo (p. ej. "el estudiante le pide que lo ayude a mejorar su texto" —
-  eso también cuenta, no solo cuando el docente interviene sin que se lo
-  pidan). Responde esto ANTES de decidir la competencia, con la cabeza fría:
-  que el escenario tenga esta forma NO significa automáticamente que la
+  ayudando a un estudiante EN RELACIÓN A algo que el estudiante YA DIJO,
+  HIZO O PRODUJO? Esto incluye TANTO reacciones espontáneas del docente
+  COMO casos donde es el estudiante quien pide ayuda para mejorar o
+  corregir su propio trabajo (p. ej. "el estudiante le pide que lo ayude a
+  mejorar su texto" — eso también cuenta, no solo cuando el docente
+  interviene sin que se lo pidan).
+
+  IMPORTANTE — esto es false, NO true, cuando la pregunta es sobre una
+  ESTRATEGIA DIDÁCTICA GENERAL para introducir o enseñar un concepto NUEVO
+  desde cero, sin que exista una producción, respuesta o error previo de
+  un estudiante específico que el docente esté evaluando o corrigiendo
+  (p. ej. "¿cuál de las siguientes acciones es pertinente para que los
+  estudiantes se inicien en la construcción de la noción de doble?" → esto
+  es false: no hay nada previo del estudiante que retroalimentar, es
+  enseñanza de un concepto nuevo). El requisito clave es que exista un
+  trabajo/respuesta/error PREVIO del estudiante siendo atendido — no basta
+  con que el docente "ayude" o "enseñe" de alguna forma.
+
+  Responde esto ANTES de decidir la competencia, con la cabeza fría: que
+  el escenario tenga esta forma NO significa automáticamente que la
   competencia sea retroalimentacion_acompanamiento.
 - razonamiento_competencia: 1-2 oraciones explicando por qué elegiste esa
   competencia. Si escenario_docente_reacciona es true, tu razonamiento debe
@@ -636,16 +649,20 @@ Para CADA UNA de las 60 preguntas marcadas, produce un objeto con:
   depende de LA FORMA de la intervención docente, no del contenido) → ahí sí
   usa retroalimentacion_acompanamiento.
 
-  Pista adicional para decidir entre (a) y (b) (es una pista de juicio, NO
-  una regla rígida — sigue siendo un caso a criterio tuyo): fíjate si las
-  alternativas comparan TÉCNICAS pedagógicas intercambiables para atender
-  una misma necesidad general, sin que el enunciado nombre un error o
-  concepto específico ya identificado (eso apunta más hacia
+  Pista adicional para decidir entre (a) y (b), aplicable SOLO cuando
+  escenario_docente_reacciona es true (es decir, solo cuando ya hay un
+  trabajo/respuesta/error previo del estudiante siendo atendido — NUNCA
+  para preguntas de estrategia didáctica general o introducción de un
+  concepto nuevo desde cero, esas van directo a la competencia de
+  contenido sin pasar por esta pista): fíjate si las alternativas
+  comparan TÉCNICAS pedagógicas intercambiables para atender esa
+  producción/error del estudiante, sin que el enunciado nombre un error o
+  concepto específico ya identificado en ELLA (eso apunta más hacia
   retroalimentacion_acompanamiento); o si las alternativas diagnostican o
   responden a un error/concepto CONCRETO ya nombrado explícitamente en el
   enunciado (eso apunta más hacia la competencia de contenido
-  correspondiente). Esta pista no es determinante por sí sola — sopésala
-  junto con el resto del enunciado.
+  correspondiente). Es una pista de juicio, no una regla rígida — no es
+  determinante por sí sola, sopésala junto con el resto del enunciado.
 - competencia: exactamente UNA de estas 8 competencias pedagógicas (usa el
   string exacto, en snake_case), consistente con razonamiento_competencia:
   ${COMPETENCIAS_PEDAGOGICAS.map((c) => `- ${c}`).join('\n  ')}
