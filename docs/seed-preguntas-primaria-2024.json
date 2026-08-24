@@ -1,0 +1,722 @@
+[
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 1, 2 y 3. Como parte de un proyecto de aprendizaje para promover la difusión de destacados deportistas peruanos, los estudiantes de sexto grado, con apoyo del docente, se encuentran leyendo diversos textos sobre dichos deportistas. A continuación, se presenta uno de estos textos: Angélica Espinoza Carranza se inició en el parataekwondo en 2017. Ella nació sin una parte del brazo izquierdo. Esto es consecuencia de la agenesia, una condición congénita caracterizada por la imposibilidad de desarrollo de un órgano. Sin embargo, ello no fue impedimento para que practique el parataekwondo, un deporte derivado del taekwondo, y que es practicado por personas con discapacidad física, visual o intelectual. El parataekwondo está regulado por la Federación Mundial de Taekwondo. En 2017, el recién formado Comité de Parataekwondo del Perú se vio en la tarea de salir a buscar paratletas para formarlos en esa disciplina deportiva. Algunos miembros de ese comité eran Delicia Paredes e Yvonne de la Cruz, ambas miembros de la Federación Peruana de Taekwondo. Ellas buscaron incansablemente en los centros de atención a personas con discapacidad en las Fuerzas Armadas, academias, entre otros. Fue en uno de estos centros, donde Angélica practicaba natación, cuando las integrantes del comité vieron su capacidad y la convencieron de que se animara a practicar el deporte del parataekwondo. Al mes de comenzar a entrenar, con ayuda de Yvonne de la Cruz, Angélica ganó su primera medalla en Costa Rica. Su consagración se dio luego de recibir varios reconocimientos en todo el Perú. Angélica, incluso fue la abanderada de nuestro país en los Juegos Parapanamericanos de 2019. En los Juegos Paralímpicos de Tokio en 2020, después de 21 largos años, el Perú obtuvo su primera medalla de oro gracias a la destacada participación de Angélica. La anterior medalla había sido alcanzada por Jimmy Eulert (paranatación) en Sydney 2000. En 2021, Angélica consiguió una medalla de oro en el Parapanamericano de Taekwondo. Además, ha sido declarada como la mejor parataekwondista de 2021 por la Federación Mundial de Taekwondo. Ella confía en que sus logros ayudarán a generar mayor conciencia para visibilizar y apoyar el paradeporte en el país. El docente propone a los estudiantes que intercambien ideas sobre los aspectos del texto que llamaron su atención. ¿Cuál de los comentarios de los estudiantes evidencia la capacidad de deducir información del texto?",
+    "alternativas": {
+      "A": "Julia dice: “Angélica, gracias a su talento y esfuerzo, ha ido mostrando un gran dominio del parataekwondo”.",
+      "B": "Amaru dice: “Es importante promover la igualdad de oportunidades para los paratletas; por eso, es necesario dar mayor difusión a casos como el de Angélica”.",
+      "C": "Ramiro dice: “Las integrantes del comité convencieron a Angélica de que practicara el deporte de parataekwondo luego de ver sus capacidades en la natación”."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 1, 2 y 3. Como parte de un proyecto de aprendizaje para promover la difusión de destacados deportistas peruanos, los estudiantes de sexto grado, con apoyo del docente, se encuentran leyendo diversos textos sobre dichos deportistas. A continuación, se presenta uno de estos textos: Angélica Espinoza Carranza se inició en el parataekwondo en 2017. Ella nació sin una parte del brazo izquierdo. Esto es consecuencia de la agenesia, una condición congénita caracterizada por la imposibilidad de desarrollo de un órgano. Sin embargo, ello no fue impedimento para que practique el parataekwondo, un deporte derivado del taekwondo, y que es practicado por personas con discapacidad física, visual o intelectual. El parataekwondo está regulado por la Federación Mundial de Taekwondo. En 2017, el recién formado Comité de Parataekwondo del Perú se vio en la tarea de salir a buscar paratletas para formarlos en esa disciplina deportiva. Algunos miembros de ese comité eran Delicia Paredes e Yvonne de la Cruz, ambas miembros de la Federación Peruana de Taekwondo. Ellas buscaron incansablemente en los centros de atención a personas con discapacidad en las Fuerzas Armadas, academias, entre otros. Fue en uno de estos centros, donde Angélica practicaba natación, cuando las integrantes del comité vieron su capacidad y la convencieron de que se animara a practicar el deporte del parataekwondo. Al mes de comenzar a entrenar, con ayuda de Yvonne de la Cruz, Angélica ganó su primera medalla en Costa Rica. Su consagración se dio luego de recibir varios reconocimientos en todo el Perú. Angélica, incluso fue la abanderada de nuestro país en los Juegos Parapanamericanos de 2019. En los Juegos Paralímpicos de Tokio en 2020, después de 21 largos años, el Perú obtuvo su primera medalla de oro gracias a la destacada participación de Angélica. La anterior medalla había sido alcanzada por Jimmy Eulert (paranatación) en Sydney 2000. En 2021, Angélica consiguió una medalla de oro en el Parapanamericano de Taekwondo. Además, ha sido declarada como la mejor parataekwondista de 2021 por la Federación Mundial de Taekwondo. Ella confía en que sus logros ayudarán a generar mayor conciencia para visibilizar y apoyar el paradeporte en el país. El docente busca seguir trabajando la comprensión del texto con los estudiantes. ¿Cuál de las siguientes acciones pedagógicas se centra en la obtención de información explícita del texto?",
+    "alternativas": {
+      "A": "Solicitarles que elaboren un relato breve sobre la participación de Angélica en los Juegos Paralímpicos de 2020.",
+      "B": "Proponerles que, a partir del texto leído, dialoguen sobre cómo el deporte puede aportar en la vida de las personas.",
+      "C": "Pedirles que, sobre la base de la información del texto, elaboren una lista de los reconocimientos que Angélica ha obtenido en su carrera."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 1, 2 y 3. Como parte de un proyecto de aprendizaje para promover la difusión de destacados deportistas peruanos, los estudiantes de sexto grado, con apoyo del docente, se encuentran leyendo diversos textos sobre dichos deportistas. A continuación, se presenta uno de estos textos: Angélica Espinoza Carranza se inició en el parataekwondo en 2017. Ella nació sin una parte del brazo izquierdo. Esto es consecuencia de la agenesia, una condición congénita caracterizada por la imposibilidad de desarrollo de un órgano. Sin embargo, ello no fue impedimento para que practique el parataekwondo, un deporte derivado del taekwondo, y que es practicado por personas con discapacidad física, visual o intelectual. El parataekwondo está regulado por la Federación Mundial de Taekwondo. En 2017, el recién formado Comité de Parataekwondo del Perú se vio en la tarea de salir a buscar paratletas para formarlos en esa disciplina deportiva. Algunos miembros de ese comité eran Delicia Paredes e Yvonne de la Cruz, ambas miembros de la Federación Peruana de Taekwondo. Ellas buscaron incansablemente en los centros de atención a personas con discapacidad en las Fuerzas Armadas, academias, entre otros. Fue en uno de estos centros, donde Angélica practicaba natación, cuando las integrantes del comité vieron su capacidad y la convencieron de que se animara a practicar el deporte del parataekwondo. Al mes de comenzar a entrenar, con ayuda de Yvonne de la Cruz, Angélica ganó su primera medalla en Costa Rica. Su consagración se dio luego de recibir varios reconocimientos en todo el Perú. Angélica, incluso fue la abanderada de nuestro país en los Juegos Parapanamericanos de 2019. En los Juegos Paralímpicos de Tokio en 2020, después de 21 largos años, el Perú obtuvo su primera medalla de oro gracias a la destacada participación de Angélica. La anterior medalla había sido alcanzada por Jimmy Eulert (paranatación) en Sydney 2000. En 2021, Angélica consiguió una medalla de oro en el Parapanamericano de Taekwondo. Además, ha sido declarada como la mejor parataekwondista de 2021 por la Federación Mundial de Taekwondo. Ella confía en que sus logros ayudarán a generar mayor conciencia para visibilizar y apoyar el paradeporte en el país. En otro momento del intercambio de ideas sobre el texto, Tirso, un estudiante, comentó lo siguiente: “Creo que el texto trata principalmente de que Angélica Espinoza, primero, hacía natación y, luego, pasó a practicar parataekwondo”. Ante esto, el docente busca ayudar a Tirso a darse cuenta de su error al identificar el tema central del texto. ¿Cuál de las siguientes preguntas es más adecuada para lograr dicho propósito?",
+    "alternativas": {
+      "A": "¿Por qué Angélica Espinoza dejó de hacer natación? ¿Has incorporado ideas sobre los logros de Angélica en el parataekwondo? Entonces, ¿cuál es el tema central del texto?",
+      "B": "¿Qué experiencias ha tenido Angélica Espinoza? ¿Cuál de ellas se menciona más veces en el texto? ¿Se debe considerar esa información para decir de qué trata principalmente el texto?",
+      "C": "¿Qué se dice sobre Angélica en cada párrafo del texto? ¿Cuál de estas ideas te ha llamado más la atención? ¿Cómo puedes organizar estas ideas para escribir de qué trata principalmente el texto?"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 4, 5, 6 y 7. Como parte de una situación de lectura, los estudiantes de segundo grado están leyendo diversos textos. Uno de estos es el siguiente: Había una vez una casa enorme. Tan grande era que, para abrir la puerta, había que subirse a una escalera. Adentro de la casa, vivían dos gatos chiquitos: uno negro y uno blanco. La gata blanca se llamaba Luna. El gato negro se llamaba Noche. Luna no podía vivir sin Noche. Noche no podía vivir sin Luna. Sobre los dos gatos, vivían tres pulgas: Lucrecia, Damasia y Amaranta. Todos los días, las pulgas jugaban carreras de saltos entre las cabezas de Noche y de Luna. A veces, Lucrecia picaba la oreja de la gata. – Perdóname, Luna. No quise lastimarte –le decía. En otras ocasiones, el gato se rascaba con fuerza. – Disculpen, chicas, se me fue la pata –maullaba Noche. Así vivían los gatos chiquitos con sus pulguitas en la casa enorme. Hasta que, un día, la inmensa puerta se abrió. Y entraron muebles. Detrás de los muebles, entraron personas. Detrás de las personas, entró... un grandííísimo, pesado y orejudo perro. Luna y Noche se escondieron en un rincón. – ¡Cielo, tu comida! –se escuchó. Pero Cielo, el perrazo, olfateaba el aroma de los gatos. – GGGRRRRRRR –gruñía, mientras levantaba los labios y mostraba sus dientes afilados. Cuando la trompa ya estaba cerquita de Luna y de Noche, Lucrecia, Damasia y Amaranta saltaron a la cabeza de Cielo. Entre ceja y ceja, picotearon su piel. El perro se puso bizco y sacudía la cabeza aullando. – ¡Basta! –gritó Noche. – ¡Vuelvan a casa! –dijo Luna. Y las tres pulgas saltaron sobre los gatos. Cielo suspiró y los miró agradecido. Desde ese día, Luna y Noche duermen bajo las orejas de Cielo. De vez en cuando, solo de vez en cuando, el perro les permite a las tres pulgas jugar en su cabeza. Esta fue la historia de un gran perro, dos gatos chiquitos y tres pulguitas que vivían en una casa enorme. Cielo no puede vivir sin Luna y sin Noche. Noche y Luna no pueden vivir sin Cielo. Y Lucrecia, Damasia y Amaranta no pueden vivir sin ninguno de los tres. Al culminar de leer el texto, los estudiantes dialogan sobre los aspectos que llamaron su atención. ¿Cuál de los comentarios se ajusta a una reflexión sobre el contenido del texto?",
+    "alternativas": {
+      "A": "Alda dice: “Las pulguitas fueron muy arriesgadas al defender a Noche y a Luna de Cielo”.",
+      "B": "Sandra dice: “A veces, Noche se rascaba con fuerza porque las pulgas le picaban fuerte”.",
+      "C": "Carol dice: “El cuento trata de un gran perro, dos gatos chiquitos y tres pulguitas”."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 4, 5, 6 y 7. Como parte de una situación de lectura, los estudiantes de segundo grado están leyendo diversos textos. Uno de estos es el siguiente: Había una vez una casa enorme. Tan grande era que, para abrir la puerta, había que subirse a una escalera. Adentro de la casa, vivían dos gatos chiquitos: uno negro y uno blanco. La gata blanca se llamaba Luna. El gato negro se llamaba Noche. Luna no podía vivir sin Noche. Noche no podía vivir sin Luna. Sobre los dos gatos, vivían tres pulgas: Lucrecia, Damasia y Amaranta. Todos los días, las pulgas jugaban carreras de saltos entre las cabezas de Noche y de Luna. A veces, Lucrecia picaba la oreja de la gata. – Perdóname, Luna. No quise lastimarte –le decía. En otras ocasiones, el gato se rascaba con fuerza. – Disculpen, chicas, se me fue la pata –maullaba Noche. Así vivían los gatos chiquitos con sus pulguitas en la casa enorme. Hasta que, un día, la inmensa puerta se abrió. Y entraron muebles. Detrás de los muebles, entraron personas. Detrás de las personas, entró... un grandííísimo, pesado y orejudo perro. Luna y Noche se escondieron en un rincón. – ¡Cielo, tu comida! –se escuchó. Pero Cielo, el perrazo, olfateaba el aroma de los gatos. – GGGRRRRRRR –gruñía, mientras levantaba los labios y mostraba sus dientes afilados. Cuando la trompa ya estaba cerquita de Luna y de Noche, Lucrecia, Damasia y Amaranta saltaron a la cabeza de Cielo. Entre ceja y ceja, picotearon su piel. El perro se puso bizco y sacudía la cabeza aullando. – ¡Basta! –gritó Noche. – ¡Vuelvan a casa! –dijo Luna. Y las tres pulgas saltaron sobre los gatos. Cielo suspiró y los miró agradecido. Desde ese día, Luna y Noche duermen bajo las orejas de Cielo. De vez en cuando, solo de vez en cuando, el perro les permite a las tres pulgas jugar en su cabeza. Esta fue la historia de un gran perro, dos gatos chiquitos y tres pulguitas que vivían en una casa enorme. Cielo no puede vivir sin Luna y sin Noche. Noche y Luna no pueden vivir sin Cielo. Y Lucrecia, Damasia y Amaranta no pueden vivir sin ninguno de los tres. Durante el intercambio de ideas, la docente tiene como propósito plantear algunas preguntas para promover que los estudiantes deduzcan información del texto. ¿Cuál de las siguientes preguntas es adecuada para ello?",
+    "alternativas": {
+      "A": "¿Con qué intención el autor escribió el gruñido de Cielo con letras mayúsculas?",
+      "B": "¿Qué fue lo que primero entró en la casa cuando la inmensa puerta se abrió?",
+      "C": "¿A qué se refiere Luna cuando le dice a las pulgas: “¡Vuelvan a casa!”?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 4, 5, 6 y 7. Como parte de una situación de lectura, los estudiantes de segundo grado están leyendo diversos textos. Uno de estos es el siguiente: Había una vez una casa enorme. Tan grande era que, para abrir la puerta, había que subirse a una escalera. Adentro de la casa, vivían dos gatos chiquitos: uno negro y uno blanco. La gata blanca se llamaba Luna. El gato negro se llamaba Noche. Luna no podía vivir sin Noche. Noche no podía vivir sin Luna. Sobre los dos gatos, vivían tres pulgas: Lucrecia, Damasia y Amaranta. Todos los días, las pulgas jugaban carreras de saltos entre las cabezas de Noche y de Luna. A veces, Lucrecia picaba la oreja de la gata. – Perdóname, Luna. No quise lastimarte –le decía. En otras ocasiones, el gato se rascaba con fuerza. – Disculpen, chicas, se me fue la pata –maullaba Noche. Así vivían los gatos chiquitos con sus pulguitas en la casa enorme. Hasta que, un día, la inmensa puerta se abrió. Y entraron muebles. Detrás de los muebles, entraron personas. Detrás de las personas, entró... un grandííísimo, pesado y orejudo perro. Luna y Noche se escondieron en un rincón. – ¡Cielo, tu comida! –se escuchó. Pero Cielo, el perrazo, olfateaba el aroma de los gatos. – GGGRRRRRRR –gruñía, mientras levantaba los labios y mostraba sus dientes afilados. Cuando la trompa ya estaba cerquita de Luna y de Noche, Lucrecia, Damasia y Amaranta saltaron a la cabeza de Cielo. Entre ceja y ceja, picotearon su piel. El perro se puso bizco y sacudía la cabeza aullando. – ¡Basta! –gritó Noche. – ¡Vuelvan a casa! –dijo Luna. Y las tres pulgas saltaron sobre los gatos. Cielo suspiró y los miró agradecido. Desde ese día, Luna y Noche duermen bajo las orejas de Cielo. De vez en cuando, solo de vez en cuando, el perro les permite a las tres pulgas jugar en su cabeza. Esta fue la historia de un gran perro, dos gatos chiquitos y tres pulguitas que vivían en una casa enorme. Cielo no puede vivir sin Luna y sin Noche. Noche y Luna no pueden vivir sin Cielo. Y Lucrecia, Damasia y Amaranta no pueden vivir sin ninguno de los tres. En otro momento del intercambio de ideas, un estudiante comenta lo siguiente: “Algunas partes de la historia no eran fáciles de entender. Por ejemplo, al inicio, no entendí quién dijo: ‘¡Cielo, tu comida!’. Pensé que era uno de los gatos o las pulgas, pero ellos le tenían miedo a Cielo. Entonces, volví a leer y me di cuenta de que no podían ser Luna, Cielo ni las pulgas; seguro era el dueño o dueña de Cielo”. ¿Qué proceso de aprendizaje se destaca principalmente en la intervención del estudiante?",
+    "alternativas": {
+      "A": "Conflicto cognitivo.",
+      "B": "Transferencia del aprendizaje.",
+      "C": "Metacognición sobre las estrategias de aprendizaje."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 4, 5, 6 y 7. Como parte de una situación de lectura, los estudiantes de segundo grado están leyendo diversos textos. Uno de estos es el siguiente: Había una vez una casa enorme. Tan grande era que, para abrir la puerta, había que subirse a una escalera. Adentro de la casa, vivían dos gatos chiquitos: uno negro y uno blanco. La gata blanca se llamaba Luna. El gato negro se llamaba Noche. Luna no podía vivir sin Noche. Noche no podía vivir sin Luna. Sobre los dos gatos, vivían tres pulgas: Lucrecia, Damasia y Amaranta. Todos los días, las pulgas jugaban carreras de saltos entre las cabezas de Noche y de Luna. A veces, Lucrecia picaba la oreja de la gata. – Perdóname, Luna. No quise lastimarte –le decía. En otras ocasiones, el gato se rascaba con fuerza. – Disculpen, chicas, se me fue la pata –maullaba Noche. Así vivían los gatos chiquitos con sus pulguitas en la casa enorme. Hasta que, un día, la inmensa puerta se abrió. Y entraron muebles. Detrás de los muebles, entraron personas. Detrás de las personas, entró... un grandííísimo, pesado y orejudo perro. Luna y Noche se escondieron en un rincón. – ¡Cielo, tu comida! –se escuchó. Pero Cielo, el perrazo, olfateaba el aroma de los gatos. – GGGRRRRRRR –gruñía, mientras levantaba los labios y mostraba sus dientes afilados. Cuando la trompa ya estaba cerquita de Luna y de Noche, Lucrecia, Damasia y Amaranta saltaron a la cabeza de Cielo. Entre ceja y ceja, picotearon su piel. El perro se puso bizco y sacudía la cabeza aullando. – ¡Basta! –gritó Noche. – ¡Vuelvan a casa! –dijo Luna. Y las tres pulgas saltaron sobre los gatos. Cielo suspiró y los miró agradecido. Desde ese día, Luna y Noche duermen bajo las orejas de Cielo. De vez en cuando, solo de vez en cuando, el perro les permite a las tres pulgas jugar en su cabeza. Esta fue la historia de un gran perro, dos gatos chiquitos y tres pulguitas que vivían en una casa enorme. Cielo no puede vivir sin Luna y sin Noche. Noche y Luna no pueden vivir sin Cielo. Y Lucrecia, Damasia y Amaranta no pueden vivir sin ninguno de los tres. En otro momento, la docente plantea algunas acciones pedagógicas para favorecer que los estudiantes reflexionen sobre el contenido del texto. ¿Cuál de las siguientes acciones pedagógicas se centra en dicho propósito?",
+    "alternativas": {
+      "A": "Entregarles tarjetas que contengan expresiones que fueron mencionadas por los personajes del cuento. Después, pedirles que, en el texto, busquen dichas frases y, en las tarjetas, anoten qué personajes las mencionan.",
+      "B": "Solicitarles que escriban recomendaciones a compañeros de otros salones para animarlos a leer el cuento. Después, proponerles que intercambien sus recomendaciones para brindarse sugerencias de mejora.",
+      "C": "Pedirles que dibujen la escena inicial y final del cuento. Después, solicitarles que expliquen qué elementos conforman las escenas que han dibujado."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 8, 9 y 10. Los estudiantes de quinto grado visitaron un albergue para animales. Luego de dicha visita, organizados en equipos y con orientación de la docente, los estudiantes acuerdan escribir cartas a representantes de diversas instituciones con el fin de solicitar donaciones para el albergue. Como parte del acompañamiento del proceso de escritura, la docente ofrece algunas recomendaciones a los estudiantes. ¿Cuál de las siguientes recomendaciones es adecuada para promover el proceso de planificación de un texto escrito?",
+    "alternativas": {
+      "A": "“Tengan claro a quiénes estarán dirigidas las cartas cuando pidan las donaciones”.",
+      "B": "“Verifiquen que el uso del punto ayude a delimitar con claridad las ideas del texto”.",
+      "C": "“Implementen las mejoras ortográficas que sean necesarias para facilitar la comprensión del texto”."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 8, 9 y 10. Los estudiantes de quinto grado visitaron un albergue para animales. Luego de dicha visita, organizados en equipos y con orientación de la docente, los estudiantes acuerdan escribir cartas a representantes de diversas instituciones con el fin de solicitar donaciones para el albergue. Los integrantes de un equipo han culminado la primera versión de su carta y le han pedido a la docente que los ayude con su revisión. A continuación, se presenta dicha carta: 6/8/2024 Direc. Víctor Reciba nuestros más cordiales saludos. Hoy le escribimos esta carta para comunicar que nos ayude con los gatos y perritos abandonados porque necesitan nuestro apoyo. En primer lugar, usted puede apoyarnos, porque los animales son seres vivos y muy importantes y usted sabe que las personas se preocupan por ellos, por lo que le pedimos que nos apoye en esto. Entonces, usted como persona buenita debería ayudarnos en esto porque no es bonito que los animalitos estén abandonados. Como dijimos ojalá pueda ayudarnos. chau, Los chicos de quinto grado. La docente busca orientar a los estudiantes en la mejora de su escrito. ¿Cuál de los siguientes aspectos de escritura debe priorizar en su revisión?",
+    "alternativas": {
+      "A": "La falta de adecuación del léxico según el destinatario.",
+      "B": "La falta de variedad de conectores en el texto.",
+      "C": "La falta de desarrollo de los argumentos."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 8, 9 y 10. Los estudiantes de quinto grado visitaron un albergue para animales. Luego de dicha visita, organizados en equipos y con orientación de la docente, los estudiantes acuerdan escribir cartas a representantes de diversas instituciones con el fin de solicitar donaciones para el albergue. Otro equipo de estudiantes escribió lo siguiente: Hola enfermero Patricio Esperamos que se encuentre bien y que todo vaya bien en la posta médica. Le cuento que los animalitos del albergue de la localidad necesitan ayuda. Por eso, buscamos su apoyo. Podemos ayudar de diferentes maneras. Le cuento que estos animalitos son rescatados de las calles y encuentran un hogar y nuevos amigos en ese albergue. Los señores encargados del albergue son buenas personas, ellos se encargan de curar las heridas de los animalitos que llegan heridos. La vez que los visitamos nos presentaron a una gatita de ojos grandes, de pelo color blanco, muy blanco y muy graciosa. Pudimos verla jugar con una pelota de trapo que estaba cerca de ella. Fue divertido conocer a esta gatita. Por favor, esperamos que todo le vaya bien. Equipo de quinto grado. La docente busca orientar a los integrantes del equipo para que noten el desvío del propósito comunicativo de su texto. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para ello?",
+    "alternativas": {
+      "A": "Preguntarles qué ideas creen que son imprescindibles en su carta para solicitar ayuda para el albergue. Luego, indicarles qué ideas de las mencionadas pueden usar según el propósito de su texto.",
+      "B": "Pedirles que indiquen el propósito de su texto. Luego, solicitarles que lo relean y determinen si la inclusión de la anécdota de la gatita mencionada en el texto contribuye con el desarrollo de dicho propósito.",
+      "C": "Comentarles que el propósito de la carta es justificar la importancia de brindar ayuda al albergue. Luego, decirles que hay información en su texto que es necesario cambiar para que se corresponda con dicho propósito."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado asistieron a una feria gastronómica en la que conocieron y probaron diversos platos típicos peruanos. A partir de esta visita, los estudiantes van a elaborar infografías sobre la preparación de platos típicos peruanos y las compartirán en el periódico mural de la IE. En este contexto, un grupo de estudiantes está elaborando el plan de escritura para una infografía acerca de la preparación del charqui y su uso en diversos platos regionales. A continuación, se presenta dicho plan: EL CHARQUI Y PLATOS TÍPICOS EN QUE LO USAN - Desde qué época existe el charqui - ¿Qué culturas antiguas crearon el charqui? - Los pueblos aimaras - Lugares donde se difundió la cultura de los pueblos aimaras - Forma de preparar el charqui - ¿Qué carnes se pueden usar? - La forma antigua - Pasos para preparar charqui - Propiedades nutritivas del charqui - ¿Qué nutrientes tiene el charqui? - ¿Es mejor que las carnes rojas? - Platos representativos que tienen charqui - Olluquito con charqui. Como parte del acompañamiento de la actividad, la docente busca que los estudiantes evalúen la pertinencia de los aspectos propuestos de acuerdo con el propósito de su infografía. ¿Qué acción pedagógica es más adecuada para lograr ello?",
+    "alternativas": {
+      "A": "Preguntarles por qué han incluido, por ejemplo, aspectos sobre los pueblos aimaras. Luego, pedirles que comenten en qué medida dichos aspectos ayudan a desarrollar el tema central de su infografía. Sobre esta base, proponer que reelaboren su plan de escritura.",
+      "B": "Indicarles los aspectos incluidos en su plan que no se relacionan con el tema de su infografía. Luego, explicarles por qué dichos aspectos no aportan al contenido de su infografía. Finalmente, brindarles algunas ideas que podrían incorporar en su texto.",
+      "C": "Recordarles cuál es el propósito comunicativo de su infografía. Luego, comentarles que su plan presenta información que se aleja del tema. Sobre esta base, solicitar que seleccionen los aspectos que les permitan centrarse en el desarrollo del tema elegido."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado participan en un proyecto de aprendizaje a partir del cual informarán a la comunidad educativa sobre la importancia de verificar la información de los medios de comunicación digital. En este contexto, un equipo de estudiantes está elaborando la primera versión de un díptico informativo sobre la necesidad de verificar la veracidad de la información que se difunde en redes sociales. A continuación, se presenta la sección de recomendaciones que un estudiante del equipo ha elaborado: Recomendaciones: ¿Qué debemos hacer para identificar si una información es falsa? Primero debemos saber revisar si la información difundida viene de una institución oficial o especializada en el tema. Sin embargo, a veces nos dejamos impresionar por algunas noticias de medios, aparentemente especializados, como una vez me pasó. Me acuerdo que fue cuando vi una noticia que trataba sobre el cambio climático. Yo leí que la noticia decía que el cambio climático no existe y que todos los cambios de temperatura que suceden ahora son naturales. Yo recuerdo que en Ciencia y Tecnología nos explicaron que sí existe el cambio climático. Entonces estaba confundido y le mostré la noticia a la profesora. Ella me ayudó a darme cuenta de que esa noticia era falsa, manipulaba la información. Entonces, desde ahí sé que es muy importante revisar lo que difundimos. El docente nota que, en el texto, se evidencian algunos problemas de escritura. ¿Cuál de los siguientes problemas de escritura se evidencia en dicho texto?",
+    "alternativas": {
+      "A": "La presencia de contradicciones en el texto.",
+      "B": "El desvío del propósito comunicativo del texto.",
+      "C": "El empleo de ideas repetitivas a lo largo del texto."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 13 y 14. Los estudiantes de quinto grado desarrollan, con orientación del docente, un proyecto de aprendizaje cuyo propósito es promover que la comunidad educativa participe frecuente y activamente en los espacios culturales de la localidad. En este contexto, los estudiantes, organizados en equipos, van a realizar diferentes actividades, como exposiciones sobre los espacios artísticos en los que participan y elaboración de entrevistas a representantes de espacios culturales. Con el fin de motivar a la comunidad educativa a participar en los talleres de teatro gratuitos de la municipalidad, una estudiante decidió elaborar una exposición en la que explicará por qué le gustan estos talleres. En este contexto, le ha pedido al docente que escuche la práctica de su exposición, cuya transcripción es la siguiente: “Holas. Este… les hablaré un poquitín acerca de por qué me gusta el taller de teatro… Eh… En primer lugar, este taller es algo bien divertido porque nos ayuda a conocer muchas historias... Este… cuando voy a mi taller me gusta que jugamos mucho… Además, me gusta porque puedo ser diferentes personajes, como seres mágicos y extraños. Eh… en este taller, juego mucho y puedo hacer de diferentes personajes como un ogro o una maga… Este… En este taller, también creamos juegos entre amigos y eso nos ayuda a que podamos hacer muchos personajes sorprendentes y aprendo a trabajar en equipo… Eh… a escucharnos con respeto… Además… Eh… siempre solemos representar a diferentes cosas en cada historia.”. Luego de escuchar a la estudiante, el docente busca ofrecerle una retroalimentación que la ayude a mejorar su texto oral. ¿Cuál de los siguientes aspectos debe priorizar la docente para ello?",
+    "alternativas": {
+      "A": "La utilización de léxico impreciso en su texto oral.",
+      "B": "La limitada progresión de ideas en su texto oral.",
+      "C": "El uso constante de muletillas en su texto oral."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 13 y 14. Los estudiantes de quinto grado desarrollan, con orientación del docente, un proyecto de aprendizaje cuyo propósito es promover que la comunidad educativa participe frecuente y activamente en los espacios culturales de la localidad. En este contexto, los estudiantes, organizados en equipos, van a realizar diferentes actividades, como exposiciones sobre los espacios artísticos en los que participan y elaboración de entrevistas a representantes de espacios culturales. Un equipo de estudiantes decidió entrevistar a la directora de un museo de la localidad. Para ayudar a los estudiantes en la preparación de sus entrevistas, el docente les ha entregado una lista con criterios que deben considerar en la formulación de preguntas. ¿Cuál de los siguientes criterios se centra en favorecer el desarrollo de las ideas de la entrevistada?",
+    "alternativas": {
+      "A": "Pronunciar con claridad las preguntas para asegurar que sean entendibles por la entrevistada.",
+      "B": "Usar, en las preguntas, un vocabulario variado y preciso acorde al tema de la entrevista.",
+      "C": "Elaborar repreguntas para aclarar algunas de las ideas ofrecidas por la entrevistada."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Como parte de una sesión de aprendizaje, los estudiantes de cuarto grado están escuchando audios de leyendas de animales. En este contexto, el docente les propone analizar la leyenda del jaguar. A continuación, se presenta un fragmento de la grabación: “Cuentan por ahí que, hace mucho tiempo, el jaguar era el único rey de la selva. Su gran fuerza y habilidad lo hacían sentir orgulloso. Esto le permitía dar órdenes a todos los animales, que, atemorizados, lo obedecían. Y así fue, hasta que un grillo se cansó de cumplir sus mandatos. Entonces, decidió retarlo a una pelea”. El docente propone a los estudiantes realizar una pausa a la grabación para dialogar sobre el contenido de este fragmento. ¿Qué comentario de los estudiantes evidencia una deducción de información a partir del texto oral?",
+    "alternativas": {
+      "A": "“Veo que este grillo ya no aguantó seguir haciendo caso al jaguar”.",
+      "B": "“Es gracioso que el que quiere pelearse con el jaguar sea un animal tan chiquito”.",
+      "C": "“Los otros animales no se enfrentaban al jaguar porque pensaban que este les podía hacer daño”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "En el marco de una unidad didáctica sobre cómo funcionan las máquinas simples en la vida cotidiana, un docente tiene como propósito activar los saberes previos de los estudiantes de sexto grado. Para ello, el docente pide a los estudiantes que se organicen en equipos y dialoguen a partir de las siguientes preguntas: “¿Qué máquinas simples utilizamos en nuestra vida diaria? ¿Cómo funcionan estas máquinas?”. ¿Por qué esta acción pedagógica es adecuada para activar los saberes previos de los estudiantes?",
+    "alternativas": {
+      "A": "Porque se centra en que los estudiantes reflexionen acerca de la importancia de comprender qué son las máquinas simples.",
+      "B": "Porque se centra en que los estudiantes elaboren explicaciones acerca de las máquinas simples sobre la base de su experiencia.",
+      "C": "Porque se centra en que los estudiantes cuestionen sus conocimientos sobre las máquinas simples y su funcionamiento."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 17, 18 y 19. Un docente tiene como propósito que los estudiantes de quinto grado expliquen las propiedades de la materia en situaciones cotidianas. En este contexto, los estudiantes analizan la siguiente situación presentada por el docente: María está hirviendo agua en una tetera transparente. Ella se da cuenta de que, en el fondo de la tetera, se forman burbujas y que estas ascienden hacia la superficie del agua. Intrigada por el movimiento de las burbujas, María pregunta a sus familiares: “¿De qué están hechas las burbujas que se observan dentro de la tetera?”. Su tía responde: “Están hechas de calor”; luego, su hermano dice: “Esas burbujas están hechas de oxígeno”; finalmente, su abuela dice: “Esas burbujas están hechas de agua en estado gaseoso”. En la situación, ¿cuál de los integrantes de la familia responde correctamente la pregunta de María?",
+    "alternativas": {
+      "A": "La tía de María.",
+      "B": "El hermano de María.",
+      "C": "La abuela de María."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 17, 18 y 19. Un docente tiene como propósito que los estudiantes de quinto grado expliquen las propiedades de la materia en situaciones cotidianas. En este contexto, los estudiantes analizan la siguiente situación presentada por el docente: María está hirviendo agua en una tetera transparente. Ella se da cuenta de que, en el fondo de la tetera, se forman burbujas y que estas ascienden hacia la superficie del agua. Intrigada por el movimiento de las burbujas, María pregunta a sus familiares: “¿De qué están hechas las burbujas que se observan dentro de la tetera?”. Su tía responde: “Están hechas de calor”; luego, su hermano dice: “Esas burbujas están hechas de oxígeno”; finalmente, su abuela dice: “Esas burbujas están hechas de agua en estado gaseoso”. A partir de esta situación, el docente pregunta a los estudiantes: “¿A qué se debe la formación de burbujas en el fondo de la tetera?”. ¿Qué proceso de aprendizaje busca promover principalmente el docente con esta pregunta?",
+    "alternativas": {
+      "A": "La activación de los saberes previos.",
+      "B": "La generación de conflicto cognitivo.",
+      "C": "La metacognición sobre las estrategias de aprendizaje."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 17, 18 y 19. Un docente tiene como propósito que los estudiantes de quinto grado expliquen las propiedades de la materia en situaciones cotidianas. En este contexto, los estudiantes analizan la siguiente situación presentada por el docente: María está hirviendo agua en una tetera transparente. Ella se da cuenta de que, en el fondo de la tetera, se forman burbujas y que estas ascienden hacia la superficie del agua. Intrigada por el movimiento de las burbujas, María pregunta a sus familiares: “¿De qué están hechas las burbujas que se observan dentro de la tetera?”. Su tía responde: “Están hechas de calor”; luego, su hermano dice: “Esas burbujas están hechas de oxígeno”; finalmente, su abuela dice: “Esas burbujas están hechas de agua en estado gaseoso”. En la situación, ¿qué propiedad física de la materia permite explicar que las burbujas ascienden hacia la superficie del agua?",
+    "alternativas": {
+      "A": "La densidad.",
+      "B": "La solubilidad.",
+      "C": "El punto de ebullición."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, la mayoría de estudiantes comenta que solo los reptiles, como los cocodrilos y las iguanas, son similares a los dinosaurios. Luego de escucharlos, la docente presenta a los estudiantes la imagen de las patas de un gallo y las de un dinosaurio, y les solicita que las comparen. A partir de esta acción pedagógica, ¿cuál es el principal proceso de aprendizaje que busca promover la docente en los estudiantes?",
+    "alternativas": {
+      "A": "La metacognición sobre las estrategias de aprendizaje.",
+      "B": "La generación de conflicto cognitivo.",
+      "C": "La transferencia de aprendizajes."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado y su docente se encuentran desarrollando una unidad didáctica que tiene como propósito que comprendan cómo se realiza la respiración en el ser humano. En este contexto, durante una de las sesiones, un estudiante realiza el siguiente comentario: “El proceso de respiración se realiza a través del sistema respiratorio que tienen todas las personas y está formado por varios órganos, como los pulmones. Gracias a este sistema, el cuerpo inspira para tomar oxígeno del exterior por la nariz y pasar a los otros órganos; luego, espira para botar el dióxido de carbono”. La docente busca que el estudiante amplíe sus ideas sobre el proceso de respiración en el ser humano. ¿Cuál de los siguientes grupos de preguntas es necesario priorizar para ello?",
+    "alternativas": {
+      "A": "¿Qué diferencias hay entre la inspiración y espiración en el ser humano? ¿De dónde proviene el oxígeno que inspiramos?",
+      "B": "¿Cuál es la función que tiene el sistema respiratorio en las personas? ¿En qué órgano de este sistema se inicia la respiración?",
+      "C": "¿Has considerado para qué sirve el oxígeno que ingresa al cuerpo en la respiración? ¿De dónde proviene el dióxido de carbono que eliminamos al exterior?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "En el marco de un proyecto de aprendizaje, uno de los propósitos de la docente es que los estudiantes de cuarto grado expliquen cómo se realiza la nutrición del ser humano. En este contexto, durante una de las sesiones, los estudiantes dialogan, junto con la docente, sobre cómo se realiza el proceso de digestión de los alimentos en nuestro cuerpo. A continuación, se presenta el comentario de uno de los estudiantes: “Lo que comemos ingresa por la boca. Luego, pasa al esófago y llega al estómago. En el estómago, el alimento se separa en sólido y líquido para pasar a cada uno de los dos intestinos, que están conectados con el estómago. Todo lo líquido pasa al intestino delgado y todo lo sólido pasa al intestino grueso”. La docente ha identificado logros y aspectos por mejorar en el comentario del estudiante. ¿Cuál de los siguientes logros se evidencia en dicho comentario?",
+    "alternativas": {
+      "A": "Describe la absorción de nutrientes en el sistema digestivo.",
+      "B": "Explica las funciones de los órganos en el proceso de la digestión.",
+      "C": "Identifica los órganos que participan en la digestión de los alimentos."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "En el marco de un proyecto de aprendizaje sobre la creación y cuidado de áreas verdes de la IE, un docente de tercer grado desarrolla, junto con los estudiantes, actividades que promuevan la comprensión de las características de las plantas. Una de estas actividades tiene como propósito que los estudiantes identifiquen los aspectos que permiten que las plantas crezcan. A partir de dicha actividad, el docente nota que la mayoría de los estudiantes considera que la luz es un aspecto indispensable para la germinación de una semilla. ¿Cuál de las siguientes experiencias es más adecuada para favorecer que los estudiantes cuestionen dicha idea?",
+    "alternativas": {
+      "A": "Cultivar dos grupos de semillas iguales: un grupo en ausencia de luz y el otro en presencia de luz. Utilizar el mismo volumen de agua, la misma frecuencia en el riego y la misma tierra de cultivo en los dos grupos de semillas.",
+      "B": "Cultivar dos grupos de semillas iguales: un grupo en ausencia de luz y en algodón, el otro grupo de semillas en presencia de luz y en tierra de cultivo. Utilizar el mismo volumen de agua y la misma frecuencia en el riego en los dos grupos de semillas.",
+      "C": "Cultivar dos grupos de semillas iguales: un grupo en ausencia de luz y riego interdiario, el otro grupo de semillas en presencia de luz y con riego diario. Utilizar el mismo volumen de agua en el riego y la misma tierra de cultivo en los dos grupos de semillas."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 24 y 25. Una docente inicia una unidad didáctica cuyo propósito es que los estudiantes indaguen sobre las propiedades de la materia. En una de las sesiones de la unidad, la docente y los estudiantes, organizados en equipos, realizaron la siguiente propuesta de indagación: Los estudiantes emplearon 3 vasos iguales, los cuales contienen el mismo volumen de agua, y se aseguraron de que el agua contenida en los vasos presente la misma temperatura ambiente (20°C). Luego, en cada vaso, disolvieron diferentes masas de sal de cocina. Después, introdujeron, en cada vaso, 1 huevo de gallina crudo y fresco, de similar masa y volumen. Los estudiantes observaron lo que sucede con los huevos y registraron que estos se ubican a diferentes alturas desde la base del vaso, del siguiente modo: Vaso 1: el huevo se ubica en la base del vaso. Vaso 2: el huevo se ubica a la mitad del vaso. Vaso 3: el huevo se ubica cerca de la superficie del agua del vaso. A partir de la situación, ¿cuál de las siguientes preguntas es coherente con la indagación propuesta?",
+    "alternativas": {
+      "A": "¿De qué manera influye la temperatura del agua en la altura que alcanzan los huevos introducidos en un vaso con agua y sal?",
+      "B": "¿De qué manera cambia la altura que alcanzan los huevos al ser introducidos en vasos con diferente volumen de agua?",
+      "C": "¿De qué manera afecta la masa de sal diluida en el vaso de agua en la altura que alcanzan los huevos introducidos?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 24 y 25. Una docente inicia una unidad didáctica cuyo propósito es que los estudiantes indaguen sobre las propiedades de la materia. En una de las sesiones de la unidad, la docente y los estudiantes, organizados en equipos, realizaron la siguiente propuesta de indagación: Los estudiantes emplearon 3 vasos iguales, los cuales contienen el mismo volumen de agua, y se aseguraron de que el agua contenida en los vasos presente la misma temperatura ambiente (20°C). Luego, en cada vaso, disolvieron diferentes masas de sal de cocina. Después, introdujeron, en cada vaso, 1 huevo de gallina crudo y fresco, de similar masa y volumen. Los estudiantes observaron lo que sucede con los huevos y registraron que estos se ubican a diferentes alturas desde la base del vaso, del siguiente modo: Vaso 1: el huevo se ubica en la base del vaso. Vaso 2: el huevo se ubica a la mitad del vaso. Vaso 3: el huevo se ubica cerca de la superficie del agua del vaso. Una estudiante comentó, en plenaria, que está muy interesada en volver a realizar la experiencia. Esta vez, la realizará en casa y, en lugar de usar huevos de gallina, usará huevos de codorniz para los 3 vasos. ¿Qué tipo de variable se cambiará en esta nueva experiencia?",
+    "alternativas": {
+      "A": "La variable independiente.",
+      "B": "La variable dependiente.",
+      "C": "La variable control."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Un estudiante presentó la siguiente tabla a su docente: Pregunta: ¿Calentar el agua disolverá más azúcar? Variable independiente: La temperatura del agua Variable dependiente: El tipo de azúcar (blanca o rubia). ¿Cuál es el error en la tabla presentada por el estudiante?",
+    "alternativas": {
+      "A": "El planteamiento de la pregunta.",
+      "B": "La identificación de la variable dependiente.",
+      "C": "La identificación de la variable independiente."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Una docente presenta a los estudiantes de quinto grado una bolsa con 1 kilogramo de arroz y otra bolsa con 1 kilogramo de arena fina. Luego, inicia el diálogo con ellos a partir de la siguiente pregunta: “¿Cuál de las bolsas creen que tiene mayor cantidad de materia?”. A continuación, se presenta la respuesta de una estudiante: “Pienso que la bolsa de arroz tiene más materia porque es más grande”. Con relación a las características de la materia, ¿cuál de los siguientes aprendizajes es necesario priorizar para brindar retroalimentación a la estudiante?",
+    "alternativas": {
+      "A": "Identifica la diferencia entre kilogramos y gramos.",
+      "B": "Identifica la diferencia entre masa y volumen.",
+      "C": "Identifica la diferencia entre masa y peso."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado, con orientación del docente, desarrollan una unidad didáctica sobre cómo actúa el calor en los cuerpos. Como parte de una de las actividades iniciales, el docente presenta a los estudiantes la siguiente situación: Javier estaba preparando la comida y le pidió a Karina, su hermana menor, que le pase un cucharón para mover el aderezo de la sartén. Ella le pasa un cucharón de metal, pero Javier le dice que mejor le entregue el cucharón de madera porque el de metal se calienta en menos tiempo y podría quemarse la mano. A partir del análisis y el reconocimiento de la relación de variables que se presentan en la situación, el docente busca que los estudiantes identifiquen la variable independiente que pueden indagar. ¿Cuál de las siguientes preguntas es más adecuada para dicho propósito?",
+    "alternativas": {
+      "A": "¿Qué es lo que hace que un cucharón se caliente en más o menos tiempo que el otro?",
+      "B": "¿Qué se debe medir para saber que un cucharón se calienta en más o menos tiempo que el otro?",
+      "C": "¿Qué se tiene que hacer para comprobar que un cucharón se calienta en más o menos tiempo que el otro?"
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 29 y 30. Como parte de una unidad didáctica sobre los cambios físicos y químicos de la materia, algunos estudiantes de sexto grado comentan a la docente que han notado que la pulpa de algunas frutas, como la manzana, se oscurece al estar expuesta al aire. A partir de estos comentarios, los estudiantes quieren indagar sobre los factores que pueden hacer que dicho oscurecimiento sea más lento. En una de las sesiones de la unidad, uno de los equipos ha planteado la siguiente hipótesis: Si a la pulpa de una manzana se le echa jugo de limón y está expuesta al aire, la pulpa demora más en oscurecerse en comparación con la pulpa de otra manzana a la que se le echa agua. En la hipótesis planteada por los estudiantes, ¿cuál es la variable dependiente?",
+    "alternativas": {
+      "A": "La cantidad de manzanas que se use en el experimento.",
+      "B": "El tipo de líquido que se echará en las manzanas cortadas.",
+      "C": "El tiempo que tardarán las manzanas cortadas en cambiar de color."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 29 y 30. Como parte de una unidad didáctica sobre los cambios físicos y químicos de la materia, algunos estudiantes de sexto grado comentan a la docente que han notado que la pulpa de algunas frutas, como la manzana, se oscurece al estar expuesta al aire. A partir de estos comentarios, los estudiantes quieren indagar sobre los factores que pueden hacer que dicho oscurecimiento sea más lento. En una de las sesiones de la unidad, uno de los equipos ha planteado la siguiente hipótesis: Si a la pulpa de una manzana se le echa jugo de limón y está expuesta al aire, la pulpa demora más en oscurecerse en comparación con la pulpa de otra manzana a la que se le echa agua. A partir de la hipótesis planteada, el equipo elabora propuestas de indagación para comprobarla. ¿Cuál de las siguientes propuestas es adecuada para ello?",
+    "alternativas": {
+      "A": "Usar tres mitades de manzana de iguales características y ubicarlas en lugares con las mismas condiciones. Luego, echar, en volúmenes iguales, jugo de limón en la pulpa de una de las mitades; en otra mitad, agua; y, en la tercera mitad, no echar ningún líquido. Después, observar las tres mitades y registrar el tiempo de la pulpa que se oscurece primero.",
+      "B": "Emplear tres mitades de manzanas de iguales características y ubicarlas en un mismo lugar. Luego, en la pulpa de una mitad, echar jugo de limón; en otra mitad, echar agua en menor volumen que el jugo de limón; y, en la última mitad, no echar ningún líquido. Después, observar las tres mitades y registrar el tiempo de la pulpa que se oscurece primero.",
+      "C": "Conseguir tres mitades de manzanas de iguales características y ubicarlas en diferentes ambientes. Luego, echar, en volúmenes iguales, jugo de limón en la pulpa de una mitad; en la otra mitad, agua; y, en la tercera mitad de la manzana, no echar ningún líquido. Después, observar las tres mitades y registrar el tiempo de la pulpa que se oscurece primero."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Durante el desarrollo de una sesión de aprendizaje, el docente de primer grado realiza una actividad cuyo propósito es favorecer que los estudiantes reconozcan sus emociones. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para promover el logro de dicho propósito?",
+    "alternativas": {
+      "A": "Presentar a los estudiantes imágenes de rostros que expresen diversas emociones. Luego, solicitarles que imiten, frente a sus compañeros y por turnos, cada uno de los rostros presentados.",
+      "B": "Pedir que cada estudiante comparta, en plenaria, una situación personal importante para ellos. Luego, comentarles, a cada uno de ellos, qué emoción suele ser más frecuente en las situaciones que compartieron y cómo deberían actuar al respecto.",
+      "C": "Pedir a los estudiantes que mencionen algunas emociones, las representen frente al espejo y se observen mientras lo hacen. Luego, pedirles que comenten voluntariamente alguna situación personal en la que hayan sentido una de las emociones mencionadas."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 32 y 33. Los estudiantes de segundo grado desarrollan, con orientación de la docente, un proyecto de aprendizaje acerca de sus historias familiares. En este contexto, una de las actividades consiste en elaborar álbumes fotográficos familiares. Durante la actividad, la docente pide a los estudiantes que presenten algunas fotos que incluirán en sus álbumes y compartan algunos comentarios sobre estas. ¿En cuál de las siguientes intervenciones de los estudiantes se evidencia la noción de simultaneidad?",
+    "alternativas": {
+      "A": "Leo dice: “En esta foto, estoy con mis primos jugando en un charco bien grande. De chiquito, me gustaba saltar en los charcos y, cada vez que puedo, lo sigo haciendo; aunque ya no salto charcos tan grandes porque me puedo mojar mucho”.",
+      "B": "Cecilia dice: “Esta foto es de cuando tenía tres años y estoy con mi familia en la playa. Aquí se ve que mi papá está jugando conmigo en la arena, mientras que, detrás de nosotros, se ve a mi mamá entrando al mar”.",
+      "C": "Andrés dice: “En esta foto, estoy con mis tíos en mi casa. Recuerdo que ese día, primero, fuimos a pastear a las ovejas tempranito y, más tarde, comimos unas ricas truchas con papa y arroz”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 32 y 33. Los estudiantes de segundo grado desarrollan, con orientación de la docente, un proyecto de aprendizaje acerca de sus historias familiares. En este contexto, una de las actividades consiste en elaborar álbumes fotográficos familiares. Una vez que los estudiantes han terminado de pegar las fotos en sus álbumes, la docente busca promover en ellos la construcción de la identidad personal. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para favorecer dicho propósito?",
+    "alternativas": {
+      "A": "Indicar a los estudiantes que, en su álbum, señalen quiénes conforman su familia y comenten qué actividades les gusta realizar con ellos. Luego, invitarlos a que compartan sus álbumes y comenten por qué les gusta hacer las actividades mencionadas con su familia.",
+      "B": "Pedir a los estudiantes que, en su álbum, incluyan otras fotos de diferentes momentos con los miembros de su familia. Luego, invitarlos a que compartan sus álbumes y comenten qué acciones podrían haber realizado para que dichos momentos fueran más divertidos.",
+      "C": "Solicitar a los estudiantes que, en su álbum, indiquen qué actividades estaban realizando en las fotos, quiénes aparecen y dónde están. Luego, invitarlos a que compartan sus álbumes y mencionen qué eventos familiares aparecen recurrentemente."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Durante el refrigerio, la docente de primer grado indica a los estudiantes que, al terminar de comer, pueden guardar sus loncheras y prepararse para el recreo. Cuando toca el timbre para el inicio del recreo, Sara, una de las estudiantes, coloca rápidamente los alimentos que no comió dentro de su lonchera y trata de cerrarla. Al no conseguirlo, se molesta, deja la lonchera a un costado y empieza a llorar en su sitio. La docente, quien ha observado la situación, se acerca a Sara para ayudarla. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para promover la autorregulación emocional de la estudiante?",
+    "alternativas": {
+      "A": "Mencionar a la estudiante que, si pierde la calma, le será más difícil cerrar su lonchera. Luego, comentarle que el problema que se le ha presentado no es de gravedad. Finalmente, aconsejarle que, en lugar de estar frustrada, trate de disfrutar del recreo jugando con sus compañeros.",
+      "B": "Pedir a la estudiante que narre lo que ha sucedido y cómo esto la hizo sentir. Luego, explicarle que, a veces, cuando no obtenemos resultados que esperamos, es normal sentirnos afectados. Finalmente, ayudarla a que identifique otras maneras de afrontar situaciones que la hagan sentir así.",
+      "C": "Ayudar a la estudiante a sacar los alimentos de su lonchera y explicarle qué es lo que impedía que cierre bien. Luego, recordarle que, siempre que tenga dificultades, puede acercarse a ella y pedirle ayuda. Finalmente, mostrarle cómo se podrían guardar sus cosas dentro de la lonchera y pedirle que lo vuelva a hacer por sí misma."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Durante el recreo, una docente observa que José Luis, un estudiante de cuarto grado, está sentado solo en una esquina del patio y con la mirada hacia el suelo. La docente se acerca para preguntarle qué le ocurre y José Luis le responde lo siguiente: “Hoy traje en la lonchera ensalada de frutas y recordé a mis abuelitos. Todas las mañanas solía desayunar la ensalada de frutas que preparábamos juntos. Hace dos semanas, se mudaron lejos y me da pena. Los extraño mucho”. ¿Cuál de las siguientes posibles intervenciones de la docente evidencia empatía?",
+    "alternativas": {
+      "A": "“Yo crecí junto a mis primas hasta que se mudaron. Como me aburría sin ellas, mis papás me llevaban a visitarlas cada cierto tiempo. Pienso que podrías pedirles a tus papás que vayan contigo a visitar a tus abuelitos al menos una vez por semana”.",
+      "B": "“Me imagino lo triste que debes estar, creo que yo también lo estaría. Se nota que estabas acostumbrado a realizar actividades con tus abuelitos y que es difícil no verlos todos los días como antes”.",
+      "C": "“Tranquilo, estoy seguro de que tus abuelitos están bien. Creo que no deberías estar tan triste. Además, estos cambios son parte de la vida y, poco a poco, te acostumbrarás”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 36, 37 y 38. En una IE, se viene desarrollando un proyecto de aprendizaje que busca evidenciar las problemáticas de la localidad. En este contexto, los estudiantes de quinto grado han recorrido los alrededores de la IE y han notado que uno de los principales problemas identificados es el abandono de perros en las calles. En una plenaria, los estudiantes comparten sus opiniones sobre este problema. En sus intervenciones, todos afirman estar de acuerdo en que está mal que las personas abandonen a los perros y brindan diferentes justificaciones al respecto. ¿Cuál de las siguientes intervenciones de los estudiantes evidencia un mayor nivel de autonomía moral?",
+    "alternativas": {
+      "A": "Ariel dice: “Yo creo que está mal porque si los vecinos te ven, te pueden denunciar e, incluso, podrías pagar multas por el abandono de mascotas”.",
+      "B": "Cristóbal dice: “Me parece que está mal porque los perros sienten y no merecen ser maltratados y abandonados. Esto los hace sufrir”.",
+      "C": "Betty dice: “Pienso que está mal porque hay leyes que protegen a los animales. Entonces, al abandonarlos, las están incumpliendo”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 36, 37 y 38. En una IE, se viene desarrollando un proyecto de aprendizaje que busca evidenciar las problemáticas de la localidad. En este contexto, los estudiantes de quinto grado han recorrido los alrededores de la IE y han notado que uno de los principales problemas identificados es el abandono de perros en las calles. En otra actividad del proyecto, la docente busca que los estudiantes reconozcan por qué la problemática del abandono de perros es un asunto público. ¿Cuál de las siguientes preguntas es más adecuada para ello?",
+    "alternativas": {
+      "A": "¿Cómo crees que la presencia de perros abandonados en las calles influye en la vida de la localidad? ¿Crees que modifica la convivencia?",
+      "B": "¿Cuántos perros abandonados encontraron en la localidad? ¿En qué zonas de la localidad se pueden encontrar más perros abandonados?",
+      "C": "¿Qué razones creen que podrían tener algunas personas para abandonar a sus mascotas? ¿Qué les aconsejarían?"
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 36, 37 y 38. En una IE, se viene desarrollando un proyecto de aprendizaje que busca evidenciar las problemáticas de la localidad. En este contexto, los estudiantes de quinto grado han recorrido los alrededores de la IE y han notado que uno de los principales problemas identificados es el abandono de perros en las calles. Luego de que los estudiantes discutieron por qué el abandono de perros en la localidad es un asunto público, la docente busca que los estudiantes problematicen dicho asunto. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para promover el logro de dicho propósito?",
+    "alternativas": {
+      "A": "Orientar a los estudiantes en la elaboración de una guía de entrevista para recoger las opiniones de los vecinos sobre lo que genera el abandono de perros en las calles. Luego, pedirles que, con la información obtenida en las entrevistas, agrupen dicha información en organizadores gráficos, según se vinculen a la salud, la seguridad o algún otro aspecto.",
+      "B": "Revisar con los estudiantes información acerca de campañas para promover la tenencia responsable de perros y la efectividad de estas. Luego, pedirles que elaboren un mural para informar a la comunidad educativa acerca de cómo estas campañas han contribuido a disminuir el abandono de perros.",
+      "C": "Presentar a los estudiantes las razones por las cuales no es correcto abandonar animales domésticos. Sobre esta base, pedirles que imaginen que conocen a una persona que está pensando en abandonar a su perro en la calle y que le escriban una carta para convencerla de que no lo haga."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Jon y Ana, dos estudiantes de tercer grado, son muy amigos. Hace unos días, Jon le comentó a Ana que estaba triste porque perdió el cuaderno que le prestó una compañera. Asimismo, Jon le pidió a Ana que no le contara esto a nadie. Durante el recreo, Ana le contó a su compañero Gael lo que Jon le me confió a ella. Al enterarse de ello, Jon, molesto, fue corriendo a buscar a Ana y, al encontrarla, se suscitó la siguiente interacción entre ambos: Jon dice: “¡Eres una chismosa! ¡Nunca debí confiar en ti!”. Ana dice: “Se lo conté a Gael porque quería saber si se le ocurría una forma de ayudarte. ¿Por qué me gritas? Yo solo quería ayudar”. Jon dice: “¡Eres una metiche! ¡Por tu culpa todos van a saber lo que pasó!”. Ana se pone a llorar. Ante esto, el docente se acerca a ella y a Jon. Luego de ayudar a ambos estudiantes a calmarse, el docente escucha la explicación de Jon sobre lo que sucedió y decide mediar el diálogo entre ellos para favorecer la resolución del conflicto. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para ello?",
+    "alternativas": {
+      "A": "Preguntarle a Jon si cree que comunicarse con gritos es adecuado para poder resolver la situación con Ana. Luego, preguntarle a Ana si cree que Jon volverá a confiar en ella después de haber actuado como actuó. Finalmente, preguntarles qué solución darían para la comunicación poco adecuada de Jon y para la indiscreción de Ana.",
+      "B": "Pedirles a Jon y Ana que, por turnos y sin interrumpirse, expliquen por qué actuaron como lo hicieron y cómo se sienten al respecto. Luego, pedirles que compartan cómo creen que sus acciones afectaron al otro. Finalmente, a partir de esto, solicitarles que expresen qué esperan de su compañero y ayudarlos a plantear acciones que podrían realizar para tratar de satisfacer las expectativas del otro.",
+      "C": "Comentarle a Ana que comprende que, al contar lo que le ocurrió a Jon, solo trataba de ayudarlo, pero que no fue pertinente. Luego, decirle a Jon que entiende su molestia, pero que, si bien Ana compartió lo que él le contó, ella estaba tratando de ayudarlo. Finalmente, pedirles que se pidan disculpas por las reacciones que tuvieron y, teniendo en cuenta sus reflexiones, brindarles una solución adecuada para cada uno."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, los estudiantes de quinto grado, organizados en equipos, se están preparando para la presentación de una exposición. En este contexto, en uno de los equipos, surge el siguiente diálogo: Mayte dice: “Ya tenemos anotada la información que hemos seleccionado para la exposición. Ahora, hay que escribirla en el papelógrafo”. Jorge dice: “¡Ay!, yo tengo letra fea y no se va a entender. Yo creo que mejor lo haces tú, Mayte. Las chicas tienen letra más clara y bonita. Así, nuestra presentación puede quedar mejor”. Lucio dice: “Es verdad, las chicas tienen mejor letra. ¡Por favor, Mayte, hazlo tú!”. El docente escucha este diálogo y busca promover que los estudiantes identifiquen el estereotipo que subyace en la conversación de sus compañeros. ¿Cuál de las siguientes posibles intervenciones del docente es adecuada para ello?",
+    "alternativas": {
+      "A": "“Hay chicas que tienen una forma de escribir muy bonita, pero también hay chicos que lo hacen así. Por ejemplo, yo siempre he podido escribir de manera clara y con una letra de fácil lectura. ¿Que yo escriba así tiene que ver con que sea hombre o mujer, o es porque tengo esa habilidad?”.",
+      "B": "“Considero que no deberían preocuparse por la letra con la que escribirán en el papelógrafo, ya que lo importante es el contenido de su presentación. Mientras la información sea relevante y pertinente, ¿creen que debería importar quién escribe más bonito?”.",
+      "C": "“¿Les parece justo que Mayte tenga que escribir en el papelógrafo solo por ser chica? Deberían preguntarle a ella qué piensa y cuáles son las tareas que ella desea asumir antes de pedirle realizar las que ustedes esperan”."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Víctor y Jerónimo, dos estudiantes de tercer grado, están jugando en el patio durante el recreo. En el juego, Víctor empuja a Jerónimo sin medir su fuerza, lo que ocasiona que este se caiga. Jerónimo empieza a llorar, se niega a conversar con Víctor y se acerca a la docente para contarle lo sucedido. La docente, después de calmar a Jerónimo, considera conveniente también escuchar la versión de Víctor. Él le comenta que no fue su intención hacerle daño a Jerónimo, que estaba jugando y que quiere explicárselo, pero él no lo escucha. Entonces, la docente conversa con Jerónimo para que acceda a escuchar a Víctor. Luego, la docente acompaña a ambos estudiantes, quienes logran dialogar con respecto a cómo se sintieron y reconocen cómo sus acciones afectaron al otro. A partir de este diálogo, Víctor propone medir su fuerza la próxima vez que jueguen y Jerónimo propone que primero se tomará un momento para poder calmarse antes de conversar. Por último, la docente les pregunta si están de acuerdo con esas propuestas, a lo que los estudiantes dicen que sí. A partir de la situación presentada, ¿cuál es el principal mecanismo que está aplicando la docente para resolver el conflicto suscitado entre los estudiantes?",
+    "alternativas": {
+      "A": "La mediación.",
+      "B": "La negociación.",
+      "C": "La construcción de consenso."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Un docente de segundo grado está planificando una sesión de aprendizaje en la cual los estudiantes van a reconstruir parte de su historia personal. Para ello, el docente les pedirá que traigan al aula algunas pertenencias familiares que consideren valiosas. Luego, les planteará algunas preguntas con el propósito de que obtengan información sobre su historia personal a partir de estas pertenencias. ¿Qué grupo de preguntas es más adecuado para lograr el propósito propuesto por el docente?",
+    "alternativas": {
+      "A": "¿Para qué sirve el objeto que trajeron? ¿Cómo utilizan este objeto? ¿Qué otros usos se le puede dar al objeto que trajeron?",
+      "B": "¿Qué objeto han traído? ¿De qué material está hecho? ¿Cuáles son las características que más resaltan en el objeto que trajeron?",
+      "C": "¿Quién les dio ese objeto? ¿Qué anécdotas importantes recuerdan con este objeto? ¿Por qué dichas anécdotas son valiosas para ustedes?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Como parte de la planificación de una unidad didáctica para comprender el proceso de la caída del Tahuantinsuyo, una docente va a formular un problema histórico para promover en los estudiantes la construcción de interpretaciones históricas. ¿Cuál de las siguientes preguntas se corresponde con un problema histórico?",
+    "alternativas": {
+      "A": "¿Quiénes estuvieron al mando de los españoles que llegaron por primera vez al territorio del Tahuantinsuyo?",
+      "B": "¿Cuál fue la ruta que siguieron los españoles para llegar al territorio del Tahuantinsuyo?",
+      "C": "¿Cuáles fueron las principales causas de la caída del Tahuantinsuyo?"
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Los estudiantes de cuarto grado están desarrollando un proyecto de aprendizaje para recomendar mejoras en los servicios públicos de la comunidad. Como parte del proyecto, los estudiantes han realizado un recorrido por esta. Luego de ello, la docente y los estudiantes comentan sobre los lugares visitados y todos coinciden en que las calles cercanas al mercado son las que tienen una mayor acumulación de basura al aire libre. Para profundizar en el análisis de la problemática, la docente busca que los estudiantes reconozcan las consecuencias de esta situación. ¿Cuál de las siguientes acciones pedagógicas es adecuada para el logro de este propósito?",
+    "alternativas": {
+      "A": "Solicitar a los estudiantes que dialoguen sobre las iniciativas que se podrían plantear para afrontar esta problemática. Después, pedirles que expliquen cuáles creen que serían los beneficios de seguir las recomendaciones que proponen.",
+      "B": "Solicitar a los estudiantes que expliquen por qué creen que la mayor acumulación de basura se encuentra en estas calles. Después, pedirles que señalen quiénes serían las personas que deben responsabilizarse en revertir esta situación.",
+      "C": "Solicitar a los estudiantes que averigüen qué tipo de organismos vivos podrían proliferar debido a la acumulación de basura en las calles. Después, pedirles que comenten cómo estos organismos podrían influir en la salud pública en la localidad."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Durante el desarrollo de un proyecto de aprendizaje, los estudiantes han recopilado información acerca de buenas prácticas en el manejo de los residuos sólidos que producen en sus casas. Tres estudiantes comparten sus hallazgos. ¿Cuál de las siguientes intervenciones de los estudiantes evidencia una práctica de reutilización de residuos sólidos?",
+    "alternativas": {
+      "A": "Felipe dice: “Para no botar tanta basura, mi familia y yo hacemos compost en casa. Mezclamos desechos de frutas y verduras con restos de ramas y hojas secas en un balde con tapa. Al pasar los días, estos desechos se descomponen hasta convertirse en abono. Este abono lo echamos a nuestras plantas para que crezcan fuertes y bonitas”.",
+      "B": "Carmen dice: “Mi hermano y yo nos dimos cuenta de que teníamos muchas botellas de vidrio y de plástico en la casa. Para no tirarlas a la basura, decidimos pintarlas con materiales que teníamos disponibles. Luego, las usamos como macetas y jarroncitos y las colocamos como objetos de decoración en varios rincones de la casa”.",
+      "C": "Ángel dice: “Mis abuelitos y yo separamos la basura que generamos en casa en distintos tachos. Por ejemplo, colocamos las latas, los recipientes de plástico, las botellas de vidrio y cartones en una bolsa, y colocamos las pilas en otra bolsa. Luego, llevamos las bolsas a los lugares indicados por la municipalidad”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 46, 47 y 48. Como parte de un proyecto de aprendizaje, el docente y los estudiantes de segundo grado han realizado una visita a una granja y se están preparando para realizar exposiciones sobre dicha visita a los compañeros de otras aulas. En este contexto, durante una de las sesiones, se suscita el siguiente diálogo: El docente dice: “Ahora, vamos a ir recordando las actividades que realizamos y las que faltan por hacer. ¿Cómo podemos aprovechar el calendario para eso?”. Bertha dice: “Creo que podemos fijarnos en las fechas. Mire (señalando el número 9 en el calendario), el día 9 del mes de agosto nos organizamos para visitar la granja de don José y (señalando el número 11) el día 11 hicimos la visita”. Mélani dice: “Y, ahora, nos toca hacer las exposiciones. Tenemos que hacer 2”. El docente dice: “Muy bien. ¿Y cuánto tiempo nos falta para realizar esas exposiciones?”. Rodrigo dice: “A ver… Si hoy es 21 de agosto, entonces… (señalando los números en el calendario y mencionándolos en voz alta) 22, 23, 24, 25… ¡Faltan 4 días para una de las exposiciones, que será en nuestra aula!”. Mélani dice: “Y el 31 de agosto haríamos la exposición final a los compañeros de otras aulas”. ¿Cuál es el proceso de aprendizaje que el docente busca promover principalmente con sus intervenciones?",
+    "alternativas": {
+      "A": "Recoger saberes previos.",
+      "B": "Promover el conflicto cognitivo.",
+      "C": "Favorecer la transferencia de aprendizajes."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 46, 47 y 48. Como parte de un proyecto de aprendizaje, el docente y los estudiantes de segundo grado han realizado una visita a una granja y se están preparando para realizar exposiciones sobre dicha visita a los compañeros de otras aulas. En este contexto, durante una de las sesiones, se suscita el siguiente diálogo: El docente dice: “Ahora, vamos a ir recordando las actividades que realizamos y las que faltan por hacer. ¿Cómo podemos aprovechar el calendario para eso?”. Bertha dice: “Creo que podemos fijarnos en las fechas. Mire (señalando el número 9 en el calendario), el día 9 del mes de agosto nos organizamos para visitar la granja de don José y (señalando el número 11) el día 11 hicimos la visita”. Mélani dice: “Y, ahora, nos toca hacer las exposiciones. Tenemos que hacer 2”. El docente dice: “Muy bien. ¿Y cuánto tiempo nos falta para realizar esas exposiciones?”. Rodrigo dice: “A ver… Si hoy es 21 de agosto, entonces… (señalando los números en el calendario y mencionándolos en voz alta) 22, 23, 24, 25… ¡Faltan 4 días para una de las exposiciones, que será en nuestra aula!”. Mélani dice: “Y el 31 de agosto haríamos la exposición final a los compañeros de otras aulas”. ¿Cuál de los estudiantes emplea el conteo para medir el tiempo?",
+    "alternativas": {
+      "A": "Rodrigo.",
+      "B": "Mélani.",
+      "C": "Bertha."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 46, 47 y 48. Como parte de un proyecto de aprendizaje, el docente y los estudiantes de segundo grado han realizado una visita a una granja y se están preparando para realizar exposiciones sobre dicha visita a los compañeros de otras aulas. En este contexto, durante una de las sesiones, se suscita el siguiente diálogo: El docente dice: “Ahora, vamos a ir recordando las actividades que realizamos y las que faltan por hacer. ¿Cómo podemos aprovechar el calendario para eso?”. Bertha dice: “Creo que podemos fijarnos en las fechas. Mire (señalando el número 9 en el calendario), el día 9 del mes de agosto nos organizamos para visitar la granja de don José y (señalando el número 11) el día 11 hicimos la visita”. Mélani dice: “Y, ahora, nos toca hacer las exposiciones. Tenemos que hacer 2”. El docente dice: “Muy bien. ¿Y cuánto tiempo nos falta para realizar esas exposiciones?”. Rodrigo dice: “A ver… Si hoy es 21 de agosto, entonces… (señalando los números en el calendario y mencionándolos en voz alta) 22, 23, 24, 25… ¡Faltan 4 días para una de las exposiciones, que será en nuestra aula!”. Mélani dice: “Y el 31 de agosto haríamos la exposición final a los compañeros de otras aulas”. ¿Qué uso del número se evidencia en el comentario de Bertha?",
+    "alternativas": {
+      "A": "Nominal.",
+      "B": "Cardinal.",
+      "C": "Ordinal."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "En una IE, se viene desarrollando un proyecto de aprendizaje que implica la construcción de un vivero. En este contexto, durante una de las actividades del proyecto, los estudiantes de quinto grado, en pares, se encuentran revisando las anotaciones que realizaron sobre el tamaño del terreno que van a necesitar para el vivero. A partir de dichas anotaciones, se produce el siguiente diálogo: Mabel dice: “Veo que no necesitamos mucho espacio para el vivero. Creo que necesitamos tres quintos de los noventa metros cuadrados del jardín”. Jorge dice: “¿Tú crees? A ver, creo que para saber cuánto es los tres quintos de noventa, deberíamos dividir el noventa en cinco cantidades iguales y tomamos tres de ellas. Entonces, (mostrando sus anotaciones) eso significa que se divide noventa entre cinco y el resultado lo multiplicamos por tres. Así que, nuestro vivero medirá cincuenta y cuatro metros cuadrados”. ¿Qué significado de la fracción se evidencia en el comentario de Jorge?",
+    "alternativas": {
+      "A": "La fracción como medida.",
+      "B": "La fracción como cociente.",
+      "C": "La fracción como operador."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Como parte de un proyecto de aprendizaje relacionado con la venta de productos del huerto escolar, los estudiantes de segundo grado, organizados en equipos, luego de haber cosechado los rabanitos del huerto, averiguan la cantidad de atados que pueden armar con dicha cosecha. En este contexto, en uno de los equipos, se suscitó el siguiente diálogo: El docente dice: “Veo que han cosechado dos canastas de rabanitos”. Rayda dice: “Sí. En una canasta, tenemos 17 rabanitos y, en la otra, 24 rabanitos”. El docente dice: “Y con los rabanitos que cosecharon, ¿cuántos atados de 10 rabanitos, en total, se pueden armar?”. Rayda dice: “¡Eso es fácil! Un atado de 10 es una decena. Entonces, para saber cuántos atados se pueden armar, se mira las decenas en el número de rabanitos de cada canasta. Por ejemplo (escribe en una hoja los números 17 y 24), en la canasta con 17 rabanitos (señala el número escrito), el 1 representa un atado y el 7 los rabanitos que sobran. En la canasta con 24 rabanitos, se arman 2 atados y sobran 4 rabanitos. Al final, con todos los rabanitos que recolectamos se pueden armar 3 atados en total”. El docente ha identificado que Rayda, al determinar la cantidad de atados, no ha considerado los rabanitos sobrantes para armar otro atado. Entonces, decide brindarle retroalimentación. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para ello?",
+    "alternativas": {
+      "A": "Mencionarle que puede formar hasta cuatro atados y que, para ello, puede sumar los rabanitos que le sobraron de las dos canastas.",
+      "B": "Pedirle que identifique cuántos rabanitos sobraron al armar los atados y, luego, solicitarle que verifique si es posible usar el total de sobrantes para formar atados adicionales.",
+      "C": "Indicarle que, para determinar la máxima cantidad de atados de rabanito, debe juntar los rabanitos de las dos canastas y, a partir de esto, pedirle que vuelva a calcular cuántos atados se pueden formar."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Los estudiantes de cuarto grado están identificando patrones en diversas situaciones vinculadas con la IE. En este contexto, un equipo analiza el siguiente cuadro de reparto y recojo de material educativo del aula: Responsables del reparto y recojo de material educativo: Lunes (Raúl, Iván, Aurora), Martes (Amelia, Ana, Sergio), Miércoles (Pedro, Beto, Adela), Jueves (Vilma, Alesia, Marcos), Viernes (Antonio, Héctor, Matilde). Durante esta actividad, los estudiantes del equipo le comentan a la docente que tienen dificultades para encontrar patrones. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para ayudar al equipo a identificar patrones en el cuadro presentado?",
+    "alternativas": {
+      "A": "Preguntarles qué es un patrón y pedirles que mencionen algunos ejemplos. Después, plantearles un ejemplo con patrones similares al del cuadro y mencionarles de qué manera se pueden identificar dichos patrones. Finalmente, pedirles que repliquen lo mencionado para hallar los patrones del cuadro de reparto y recojo de materiales.",
+      "B": "Pedirles que anoten qué características identifican en cada día de reparto y recojo de materiales. Luego, preguntarles si identifican días que compartan características similares. Finalmente, solicitarles que utilicen alguna marca que les permita mostrar el patrón o los patrones que han identificado.",
+      "C": "Comentarles que un patrón, en el cuadro de recojo y reparto de materiales, puede hallarse al analizar la cantidad de niños o niñas por cada día. Sobre esta base, escribir en una hoja aparte, para los dos primeros días, la siguiente secuencia: dos niños-una niña, dos niñas-un niño. Finalmente, pedirles que completen dicha secuencia para los días restantes."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Los estudiantes de cuarto grado, organizados en equipos, están resolviendo el siguiente problema: Una panificadora se encuentra de aniversario y, por ello, desea repartir equitativamente 45 kilogramos de galletas entre los trabajadores de sus dos locales. Si en la empresa laboran 42 personas en el local A y 48 personas en el local B, ¿qué cantidad de galletas le corresponde a cada trabajador? En este contexto, un equipo presenta el siguiente procedimiento: (Muestra su registro y lo lee) Primero, hallamos el número total de trabajadores. Para ello, sumamos 42 más 48 y nos dio como resultado 90 trabajadores. Luego, dividimos 90 entre 45, porque el número mayor siempre se pone primero para poder dividir. Al hacer la división, obtuvimos como respuesta 2. Entonces, concluimos que cada trabajador recibirá 2 k de galletas. ¿Cuál de las siguientes alternativas evidencia el principal error en la resolución de este problema?",
+    "alternativas": {
+      "A": "Emplear abreviaturas inadecuadas como “k” en lugar de “kg” para referirse a kilogramos.",
+      "B": "Considerar que el número mayor es el dividendo y el número menor es el divisor.",
+      "C": "Realizar una suma con las cantidades de trabajadores de los locales A y B."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 53 y 54. Los estudiantes de tercer grado comentan a la docente cómo les va con el ensayo del baile que van a presentar en el festival de la IE. En este contexto, se da el siguiente diálogo: La docente dice: “¿Qué les parece el baile?”. Nélida dice: “El baile está chévere, pero hay una parte en la que se repiten varios pasos más de una vez. No recuerdo bien qué paso es antes y cuál viene después. Me confundo”. Hugo dice: “Sí, está un poco difícil”. La docente dice: “¿Qué creen que podemos hacer para recordar los pasos del baile?”. Hugo dice: “Ya sé. Podemos hacer un dibujo de cada paso (empieza dibujando monigotes, según cada paso). Los organizamos en fila, según como aparecen en el baile. Así, sabremos cuáles se repiten”. Nélida dice: “Tienes razón, así recordaremos qué pasos hacer”. Hugo dice: (Señalando los dibujos) “A ver, recordemos, empezamos levantando los brazos; luego, bajamos los brazos y ahí viene un salto. Luego, volvemos a hacer los mismos pasos, levantamos los brazos, volvemos a bajar los brazos y hacemos un salto”. Nélida dice: “Tienes razón, (señalando los dibujos) con los dibujos es más fácil recordar cuándo debemos levantar los brazos, cuándo debemos bajarlos y cuándo hacer el salto…”. ¿Qué proceso de aprendizaje evidencia Nélida?",
+    "alternativas": {
+      "A": "Transferencia de los aprendizajes.",
+      "B": "Generación de un conflicto cognitivo.",
+      "C": "Metacognición sobre su proceso de aprendizaje."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 53 y 54. Los estudiantes de tercer grado comentan a la docente cómo les va con el ensayo del baile que van a presentar en el festival de la IE. En este contexto, se da el siguiente diálogo: La docente dice: “¿Qué les parece el baile?”. Nélida dice: “El baile está chévere, pero hay una parte en la que se repiten varios pasos más de una vez. No recuerdo bien qué paso es antes y cuál viene después. Me confundo”. Hugo dice: “Sí, está un poco difícil”. La docente dice: “¿Qué creen que podemos hacer para recordar los pasos del baile?”. Hugo dice: “Ya sé. Podemos hacer un dibujo de cada paso (empieza dibujando monigotes, según cada paso). Los organizamos en fila, según como aparecen en el baile. Así, sabremos cuáles se repiten”. Nélida dice: “Tienes razón, así recordaremos qué pasos hacer”. Hugo dice: (Señalando los dibujos) “A ver, recordemos, empezamos levantando los brazos; luego, bajamos los brazos y ahí viene un salto. Luego, volvemos a hacer los mismos pasos, levantamos los brazos, volvemos a bajar los brazos y hacemos un salto”. Nélida dice: “Tienes razón, (señalando los dibujos) con los dibujos es más fácil recordar cuándo debemos levantar los brazos, cuándo debemos bajarlos y cuándo hacer el salto…”. ¿Qué logro de aprendizaje NO se evidencia en las intervenciones de Hugo?",
+    "alternativas": {
+      "A": "Plantea estrategias para identificar un patrón.",
+      "B": "Predice los términos que continúan en un patrón.",
+      "C": "Reconoce los elementos que se repiten en un patrón."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 55 y 56. En el marco de un proyecto de aprendizaje sobre juegos matemáticos, los estudiantes están elaborando 27 cubos de igual tamaño para construir un juego tridimensional llamado “Cubo soma”. En este contexto, se suscitó el siguiente diálogo: El docente dice: “¿Cómo vas con la elaboración de los cubos?”. Aldo dice: “Tengo dificultades para dibujar la plantilla del cubo. No sé cómo empezar”. El docente dice: (Le muestra una lata de leche que tiene su etiqueta) “A ver, ¿cómo podrías averiguar qué forma tiene esta etiqueta?”. Aldo dice: (Despega y extiende la etiqueta) “Despego la etiqueta. Al estar suelta y extenderla, mire, es un rectángulo…”. El docente dice: “Entonces, la cara lateral del cilindro tiene la forma de un rectángulo. ¿Y qué forma tienen las bases del cilindro?”. Aldo dice: “Son dos círculos”. El docente dice: “Entonces, ¿qué formas dibujarías para elaborar la plantilla del cilindro?”. Aldo dice: “Dibujaría un rectángulo y, en los lados largos de este, dos círculos”. El docente dice: “¿Y cómo puedes usar esos procedimientos para elaborar la plantilla del cubo?”. Aldo dice: “Ah, ya entendí, así como en el cilindro, podría imaginar que el cubo tiene una etiqueta. Al despegarla, también sería un rectángulo solo que habría líneas que marquen las cuatro caras laterales del cubo, y, al despegar las bases, serían dos cuadrados. Entonces, para elaborar la plantilla del cubo, podría dibujar un rectángulo dividido en 4 cuadrados de igual tamaño. Luego, en cada lado opuesto y libre del primer cuadrado, podría dibujar otro cuadrado. Entonces, la plantilla sería como una letra ‘T’”. ¿Cuál es el propósito principal de las intervenciones del docente?",
+    "alternativas": {
+      "A": "Brindar andamiaje sobre cómo elaborar la plantilla de una forma tridimensional.",
+      "B": "Recoger saberes previos sobre cómo elaborar la plantilla de una forma tridimensional.",
+      "C": "Generar conflicto cognitivo sobre cómo elaborar la plantilla de una forma tridimensional."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 55 y 56. En el marco de un proyecto de aprendizaje sobre juegos matemáticos, los estudiantes están elaborando 27 cubos de igual tamaño para construir un juego tridimensional llamado “Cubo soma”. En este contexto, se suscitó el siguiente diálogo: El docente dice: “¿Cómo vas con la elaboración de los cubos?”. Aldo dice: “Tengo dificultades para dibujar la plantilla del cubo. No sé cómo empezar”. El docente dice: (Le muestra una lata de leche que tiene su etiqueta) “A ver, ¿cómo podrías averiguar qué forma tiene esta etiqueta?”. Aldo dice: (Despega y extiende la etiqueta) “Despego la etiqueta. Al estar suelta y extenderla, mire, es un rectángulo…”. El docente dice: “Entonces, la cara lateral del cilindro tiene la forma de un rectángulo. ¿Y qué forma tienen las bases del cilindro?”. Aldo dice: “Son dos círculos”. El docente dice: “Entonces, ¿qué formas dibujarías para elaborar la plantilla del cilindro?”. Aldo dice: “Dibujaría un rectángulo y, en los lados largos de este, dos círculos”. El docente dice: “¿Y cómo puedes usar esos procedimientos para elaborar la plantilla del cubo?”. Aldo dice: “Ah, ya entendí, así como en el cilindro, podría imaginar que el cubo tiene una etiqueta. Al despegarla, también sería un rectángulo solo que habría líneas que marquen las cuatro caras laterales del cubo, y, al despegar las bases, serían dos cuadrados. Entonces, para elaborar la plantilla del cubo, podría dibujar un rectángulo dividido en 4 cuadrados de igual tamaño. Luego, en cada lado opuesto y libre del primer cuadrado, podría dibujar otro cuadrado. Entonces, la plantilla sería como una letra ‘T’”. ¿Cuál de los siguientes aprendizajes se evidencia en la última intervención de Aldo?",
+    "alternativas": {
+      "A": "Describe formas bidimensionales al elaborar la plantilla de una forma tridimensional.",
+      "B": "Justifica sus procedimientos al elaborar la plantilla de una forma tridimensional.",
+      "C": "Diseña una estrategia para elaborar la plantilla de una forma tridimensional."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 57 y 58. Los estudiantes de sexto grado, organizados en equipos, están desarrollando un proyecto de aprendizaje sobre el uso del internet en el hogar. En este contexto, un equipo planea realizar una encuesta en su IE con la finalidad de conocer si los estudiantes cuentan con internet en casa, el tiempo de uso que le dan y las actividades que realizan con esta tecnología. Después de elaborar las preguntas que usarán en la encuesta, los estudiantes se las presentan a la docente para que los ayude a revisarlas. Una de las preguntas es la siguiente: ¿Cuántas horas al día usas el internet en tu casa? A. Menos de 1 hora B. De 1 a 4 horas C. De 3 a 6 horas D. Más de 6 horas. La docente nota que, si bien hay logros en la pregunta elaborada por los estudiantes, hay aspectos que requieren mejorarse. ¿Cuál de los siguientes aspectos es necesario mejorar?",
+    "alternativas": {
+      "A": "La utilización de una pregunta cerrada.",
+      "B": "La cantidad de alternativas de respuestas.",
+      "C": "La organización de los intervalos de horas."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 57 y 58. Los estudiantes de sexto grado, organizados en equipos, están desarrollando un proyecto de aprendizaje sobre el uso del internet en el hogar. En este contexto, un equipo planea realizar una encuesta en su IE con la finalidad de conocer si los estudiantes cuentan con internet en casa, el tiempo de uso que le dan y las actividades que realizan con esta tecnología. Después de haber encuestado a una muestra de estudiantes de la IE, el equipo menciona a la docente que va a elaborar un gráfico de líneas para representar los datos que recopilaron con la siguiente pregunta: En tu casa, ¿para qué actividad usas más tiempo el internet? A. Para jugar con mis amigos/amigas B. Para realizar actividades escolares C. Para usar las redes sociales D. Para ver películas E. Otros. Ante ello, la docente busca que los estudiantes evalúen si es pertinente la elección de un gráfico de líneas. ¿Cuál de las siguientes acciones pedagógicas es adecuada para tal propósito?",
+    "alternativas": {
+      "A": "Indicarles que el gráfico de líneas se usa cuando es necesario representar cómo cambian los datos en un determinado tiempo. A partir de ello, proponerles usar un gráfico de barras para representar los datos recopilados en la pregunta de la encuesta.",
+      "B": "Mostrarles diversos tipos de gráficos, como un gráfico de líneas y un pictograma. Luego, pedirles que revisen cuál de estos gráficos es más fácil de elaborar y permite comparar, de forma más sencilla, la información obtenida con la pregunta de la encuesta.",
+      "C": "Presentarles ejemplos de gráficos de líneas para que identifiquen su uso y el tipo de variable involucrada. Sobre esta base, preguntarles si el gráfico que decidieron emplear permitirá representar adecuadamente los datos que han recopilado con la pregunta de la encuesta."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 59 y 60. En una IE, se están planteando mejoras en el menú escolar. En este contexto, para realizar algunas propuestas, los estudiantes de sexto grado buscan recoger información sobre las preferencias de sus compañeros de aula con respecto al menú del desayuno escolar. Luego de haber recogido información sobre las preferencias de los estudiantes, un equipo ha elaborado la siguiente tabla sobre las preferencias en cuanto a las bebidas: ¿Qué bebida te gusta más? Bebidas / Total: Ponche de habas (4), Avena con leche (5), Kiwicha con leche (7), Sémola con leche (3), Quinua con manzana (8). A partir de esta tabla, los integrantes del equipo sostuvieron el siguiente diálogo: Jaime dice: “Miren, para hacer el gráfico estadístico… tenemos que dibujar 5 barras porque hay 5 bebidas”. Pierina dice: “Sí. Además, quizás sería bueno ordenarlas de mayor a menor o al revés para compararlas”. Arturo dice: “Puede ser. Lo importante es que se note la diferencia de tamaño en las barras. Además, también debemos colocar el nombre de cada bebida debajo de cada barra”. Anabel dice: “Pero los nombres son muy grandes. Mejor pongamos un dibujo para simbolizarlos”. Arturo dice: “¡Ya sé! Solo pongamos la palabra más importante. Por ejemplo, solo pongamos ‘habas’ y ya no ‘ponche de habas’”. Pierina dice: “¡Está bien! Con eso ya tenemos todo lo que necesitamos para el gráfico”. A partir de este diálogo, se evidencian diversos logros con respecto a la elaboración del gráfico de barras. ¿Cuál de los siguientes logros NO se evidencia en el diálogo de los estudiantes?",
+    "alternativas": {
+      "A": "Identifica los títulos de los ejes del gráfico de barras que representará las preferencias de los estudiantes.",
+      "B": "Identifica la cantidad de barras necesarias de acuerdo con las preferencias de los estudiantes.",
+      "C": "Identifica un ordenamiento de las barras para comunicar adecuadamente las diferencias en las preferencias de los estudiantes."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  },
+  {
+    "enunciado": "Lea la siguiente situación y responda las preguntas 59 y 60. En una IE, se están planteando mejoras en el menú escolar. En este contexto, para realizar algunas propuestas, los estudiantes de sexto grado buscan recoger información sobre las preferencias de sus compañeros de aula con respecto al menú del desayuno escolar. Luego de haber recogido información sobre las preferencias de los estudiantes, un equipo ha elaborado la siguiente tabla sobre las preferencias en cuanto a las bebidas: ¿Qué bebida te gusta más? Bebidas / Total: Ponche de habas (4), Avena con leche (5), Kiwicha con leche (7), Sémola con leche (3), Quinua con manzana (8). A partir de esta tabla, los integrantes del equipo sostuvieron el siguiente diálogo: Jaime dice: “Miren, para hacer el gráfico estadístico… tenemos que dibujar 5 barras porque hay 5 bebidas”. Pierina dice: “Sí. Además, quizás sería bueno ordenarlas de mayor a menor o al revés para compararlas”. Arturo dice: “Puede ser. Lo importante es que se note la diferencia de tamaño en las barras. Además, también debemos colocar el nombre de cada bebida debajo de cada barra”. Anabel dice: “Pero los nombres son muy grandes. Mejor pongamos un dibujo para simbolizarlos”. Arturo dice: “¡Ya sé! Solo pongamos la palabra más importante. Por ejemplo, solo pongamos ‘habas’ y ya no ‘ponche de habas’”. Pierina dice: “¡Está bien! Con eso ya tenemos todo lo que necesitamos para el gráfico”. Sobre la base del diálogo de los estudiantes, el docente busca orientarlos para que identifiquen qué otros aspectos pueden considerar para mejorar la elaboración de su gráfico de barras. ¿Cuál de las siguientes preguntas favorece dicho propósito?",
+    "alternativas": {
+      "A": "¿Qué palabras clave usarán para nombrar cada barra del gráfico?",
+      "B": "¿Han pensado qué escala emplearán en el eje vertical de su gráfico?",
+      "C": "¿Han identificado todos los datos que serán representados en el gráfico?"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2024",
+    "anio": 2024
+  }
+]
