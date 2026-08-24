@@ -147,7 +147,7 @@ function main() {
     `Segmentación: ${limites.length}/${CANTIDAD_PREGUNTAS_ESPERADA} preguntas detectadas por numeración.\n`,
   );
 
-  const clavesOficiales = parsearClaves(textoClavesCrudo);
+  const clavesOficiales = parsearClaves(textoClavesCrudo, pdfClaves);
   validarClaves(clavesOficiales);
   console.log(
     `Hoja de claves: ${clavesOficiales.size}/${CANTIDAD_PREGUNTAS_ESPERADA} respuestas leídas.\n`,
@@ -343,8 +343,14 @@ export function limpiarTexto(texto: string, bookletCode: string): string {
   // impedía que coincidiera.
   let limpio = texto.replace(/\b[A-Z]\d{2}_\d{2}_\d{2}/g, '');
   const codigoEscapado = bookletCode.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // El pie de página trae distintas variantes entre años: solo el código,
+  // "N código", "código N", y desde 2025 con una anotación "/ EBR Primaria"
+  // de por medio en cualquiera de los dos lados. Se acepta un número
+  // opcional antes, el código, una anotación "/ texto" opcional, y un
+  // número opcional después — así cubre todas las variantes vistas.
   const lineasFooter = new RegExp(
-    `^\\s*(?:\\d+\\s+${codigoEscapado}|${codigoEscapado}\\s+\\d+|${codigoEscapado})\\s*$`,
+    `^\\s*\\d*\\s*${codigoEscapado}\\s*(?:/\\s*[\\p{L}\\s]*)?\\d*\\s*$`,
+    'u',
   );
   limpio = limpio
     .split('\n')
@@ -413,12 +419,23 @@ export function segmentarPreguntas(texto: string): {
   return { textoAnotado: lineasAnotadas.join('\n'), limites };
 }
 
+// Formatos de alternativa vistos entre años: "a ...", "a) ..." (minúscula,
+// 2018-2024) y "Alternativa A" / "Alternativa A." en su propia línea (2025).
+const PATRON_ALTERNATIVA_A = /^(?:a[\s).]|Alternativa\s+A\b)/;
+const PATRON_ALTERNATIVA_B = /^(?:b[\s).]|Alternativa\s+B\b)/;
+const PATRON_ALTERNATIVA_C = /^(?:c[\s).]|Alternativa\s+C\b)/;
+
 function tieneFirmaDeAlternativas(
   lineas: string[],
   desde: number,
   numeroActual: number,
 ): boolean {
-  const siguienteNumero = new RegExp(`^\\s*${numeroActual + 1}(?:[\\s.)]|$)`);
+  // El número de la siguiente pregunta puede venir solo ("61 ...") o con el
+  // prefijo "Pregunta " (2025: "Pregunta 61").
+  const siguienteNumero = new RegExp(
+    `^\\s*(?:Pregunta\\s+)?${numeroActual + 1}(?:[\\s.)]|$)`,
+    'i',
+  );
   let vistoA = false;
   let vistoB = false;
   const LIMITE_LINEAS = 60;
@@ -430,11 +447,11 @@ function tieneFirmaDeAlternativas(
   ) {
     const linea = lineas[i].trimStart();
     if (siguienteNumero.test(linea)) return false;
-    if (!vistoA && /^a[\s)]/.test(linea)) {
+    if (!vistoA && PATRON_ALTERNATIVA_A.test(linea)) {
       vistoA = true;
-    } else if (vistoA && !vistoB && /^b[\s)]/.test(linea)) {
+    } else if (vistoA && !vistoB && PATRON_ALTERNATIVA_B.test(linea)) {
       vistoB = true;
-    } else if (vistoA && vistoB && /^c[\s)]/.test(linea)) {
+    } else if (vistoA && vistoB && PATRON_ALTERNATIVA_C.test(linea)) {
       return true;
     }
   }
@@ -456,15 +473,85 @@ function validarSegmentacion(limites: LimiteSegmento[]): void {
   );
 }
 
+const PYTHON_BIN = process.env.PYTHON_BIN ?? 'python';
+
+// Empareja cada número de pregunta con la letra más cercana debajo de él
+// por POSICIÓN real (x, y) en la página, no por texto plano — necesario
+// porque en tablas muy compactas pdftotext fusiona letras de celdas
+// contiguas sin espacio entre ellas (p. ej. "AC", "AB" en vez de "A", "C"),
+// incluso con -layout (visto en 2025).
+const PYTHON_CLAVES_POSICIONAL = `
+import sys, json, pymupdf
+pdf_path = sys.argv[1]
+doc = pymupdf.open(pdf_path)
+page = doc[0]
+words = page.get_text('words')
+numeros = [w for w in words if w[4].isdigit() and 1 <= int(w[4]) <= 60]
+letras = [w for w in words if w[4] in ('A', 'B', 'C')]
+
+def banda_y(w):
+    return round(w[1] / 5) * 5
+
+filas_num = {}
+for w in numeros:
+    filas_num.setdefault(banda_y(w), []).append(w)
+filas_letra = {}
+for w in letras:
+    filas_letra.setdefault(banda_y(w), []).append(w)
+
+resultado = {}
+for by, nums in sorted(filas_num.items()):
+    candidatas = [ly for ly in filas_letra if 0 < (ly - by) < 30]
+    if not candidatas:
+        continue
+    ly = min(candidatas, key=lambda l: l - by)
+    letras_fila = sorted(filas_letra[ly], key=lambda w: w[0])
+    nums_fila = sorted(nums, key=lambda w: w[0])
+    if len(letras_fila) != len(nums_fila):
+        continue
+    for n, l in zip(nums_fila, letras_fila):
+        resultado[int(n[4])] = l[4]
+
+print(json.dumps(resultado))
+`;
+
+function parsearClavesPorPosicion(pdfPath: string): Map<number, Alternativa> {
+  const claves = new Map<number, Alternativa>();
+  try {
+    const salida = execFileSync(
+      PYTHON_BIN,
+      ['-c', PYTHON_CLAVES_POSICIONAL, pdfPath],
+      { encoding: 'utf-8', maxBuffer: 5 * 1024 * 1024 },
+    );
+    const resultado = JSON.parse(salida) as Record<string, string>;
+    for (const [numero, letra] of Object.entries(resultado)) {
+      if ((ALTERNATIVAS as readonly string[]).includes(letra)) {
+        claves.set(Number(numero), letra as Alternativa);
+      }
+    }
+  } catch {
+    // Si Python/PyMuPDF no está disponible o falla, esta estrategia
+    // simplemente no aporta nada — si ninguna estrategia junta las 60
+    // respuestas, validarClaves() falla con un error claro más adelante.
+  }
+  return claves;
+}
+
 /**
- * Tabla "Hoja de Respuestas". Se han visto 3 formatos distintos entre años:
+ * Tabla "Hoja de Respuestas". Se han visto varios formatos entre años:
  * 1. Pares "N LETRA N LETRA" en la misma línea (2019/2021/2022/2023).
  * 2. Filas simples "N LETRA", una por línea.
  * 3. Una línea con la fila de números ("1 2 3 ... 30") seguida de una línea
  *    con las letras concatenadas SIN separadores ("ACBACC...", 2024).
+ * 4. Tabla compacta donde pdftotext fusiona letras contiguas sin espacio
+ *    ("AC", "AB" en vez de "A", "C") — se resuelve por posición real con
+ *    PyMuPDF en vez de texto plano (2025). Requiere `pdfPath`.
  * Se prueban en orden hasta juntar las 60 respuestas.
  */
-export function parsearClaves(texto: string): Map<number, Alternativa> {
+export function parsearClaves(
+  texto: string,
+  pdfPath?: string,
+): Map<number, Alternativa> {
   const claves = new Map<number, Alternativa>();
   const filaDoble = /(\d{1,2})\s+([ABC])\s+(\d{1,2})\s+([ABC])/g;
   const filaSimple = /^\s*(\d{1,2})\s+([ABC])\s*$/gm;
@@ -490,6 +577,11 @@ export function parsearClaves(texto: string): Map<number, Alternativa> {
       listaNumeros.forEach((n, idx) => {
         claves.set(n, letras[1][idx] as Alternativa);
       });
+    }
+  }
+  if (claves.size < CANTIDAD_PREGUNTAS_ESPERADA && pdfPath) {
+    for (const [numero, letra] of parsearClavesPorPosicion(pdfPath)) {
+      if (!claves.has(numero)) claves.set(numero, letra);
     }
   }
   return claves;
