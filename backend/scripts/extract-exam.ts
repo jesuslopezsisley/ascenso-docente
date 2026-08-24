@@ -456,7 +456,14 @@ function validarSegmentacion(limites: LimiteSegmento[]): void {
   );
 }
 
-/** Tabla "Hoja de Respuestas": filas "N LETRA" o pares "N LETRA N LETRA". */
+/**
+ * Tabla "Hoja de Respuestas". Se han visto 3 formatos distintos entre años:
+ * 1. Pares "N LETRA N LETRA" en la misma línea (2019/2021/2022/2023).
+ * 2. Filas simples "N LETRA", una por línea.
+ * 3. Una línea con la fila de números ("1 2 3 ... 30") seguida de una línea
+ *    con las letras concatenadas SIN separadores ("ACBACC...", 2024).
+ * Se prueban en orden hasta juntar las 60 respuestas.
+ */
 export function parsearClaves(texto: string): Map<number, Alternativa> {
   const claves = new Map<number, Alternativa>();
   const filaDoble = /(\d{1,2})\s+([ABC])\s+(\d{1,2})\s+([ABC])/g;
@@ -470,6 +477,19 @@ export function parsearClaves(texto: string): Map<number, Alternativa> {
   if (claves.size < CANTIDAD_PREGUNTAS_ESPERADA) {
     while ((match = filaSimple.exec(texto)) !== null) {
       claves.set(Number(match[1]), match[2] as Alternativa);
+    }
+  }
+  if (claves.size < CANTIDAD_PREGUNTAS_ESPERADA) {
+    const lineas = texto.split('\n').map((l) => l.trim());
+    for (let i = 0; i < lineas.length - 1; i++) {
+      const numeros = lineas[i].match(/^(\d{1,2}(?:\s+\d{1,2}){2,})$/);
+      if (!numeros) continue;
+      const listaNumeros = numeros[1].split(/\s+/).map(Number);
+      const letras = lineas[i + 1].match(/^([ABC]+)$/);
+      if (!letras || letras[1].length !== listaNumeros.length) continue;
+      listaNumeros.forEach((n, idx) => {
+        claves.set(n, letras[1][idx] as Alternativa);
+      });
     }
   }
   return claves;
