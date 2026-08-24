@@ -10,12 +10,16 @@
  * Ejemplo:
  *   npx tsx scripts/extract-exam.ts 2022 "D:\...\Concurso de Ascenso EB 2022\EBR Primaria - Forma 1"
  *
- * Espera la estructura de carpetas usada desde 2019 en adelante:
- *   <ruta>/A0x-EBRP-11/*.pdf              (cuadernillo de preguntas)
- *   <ruta>/Claves A0x-EBRP-11/*.pdf       (hoja de respuestas, PDF separado)
- * 2018 no sigue esta estructura (respuestas embebidas en un PDF combinado
- * de varias secciones) y NO está soportado por este script — para ese año
- * se usó el proceso manual documentado en docs/seed-preguntas-primaria-2018.json.
+ * Espera la estructura de carpetas usada desde 2019 en adelante: 2
+ * subcarpetas dentro de <ruta>, cada una con 1 PDF — una con el cuadernillo
+ * de preguntas y otra con la hoja de respuestas separada. El nombre de la
+ * subcarpeta de claves varía entre años ("Claves A04-EBRP-11" en 2019/2021/
+ * 2022, "A04-EBRP-11 C" en 2023...), así que NO se identifica por nombre:
+ * se detecta por contenido (el PDF que trae "Hoja de Respuestas" en su
+ * primera página). 2018 no sigue esta estructura (respuestas embebidas en
+ * un PDF combinado de varias secciones) y NO está soportado por este
+ * script — para ese año se usó el proceso manual documentado en
+ * docs/seed-preguntas-primaria-2018.json.
  *
  * El trabajo humano después de correr esto se reduce a revisar lo que el
  * script imprime al final: preguntas con discrepancia entre la clave oficial
@@ -238,7 +242,16 @@ function fallar(mensaje: string): never {
   process.exit(1);
 }
 
-/** Busca el PDF de preguntas y el de la carpeta "Claves ..." dentro de `ruta`. */
+/**
+ * Busca el PDF de preguntas y el de claves dentro de `ruta`. El nombre de la
+ * subcarpeta de claves varía entre años ("Claves A04-EBRP-11" en 2019/2021/
+ * 2022, "A04-EBRP-11 C" en 2023...), así que NO se distingue por nombre de
+ * carpeta sino por CONTENIDO: el PDF que trae "Hoja de Respuestas" en su
+ * primera página es la clave; el otro es el cuadernillo de preguntas. Este
+ * script solo soporta la estructura de 2 subcarpetas con 1 PDF cada una,
+ * usada desde 2019 en adelante — 2018 (respuestas embebidas en un PDF
+ * combinado de varias secciones) no está soportado, usa el proceso manual.
+ */
 function localizarPdfs(ruta: string): {
   pdfPreguntas: string;
   pdfClaves: string;
@@ -247,28 +260,44 @@ function localizarPdfs(ruta: string): {
     .readdirSync(ruta, { withFileTypes: true })
     .filter((e) => e.isDirectory());
 
-  const carpetaClaves = entradas.find((e) => /^claves/i.test(e.name));
-  const carpetaPreguntas = entradas.find(
-    (e) => e !== carpetaClaves && !/^claves/i.test(e.name),
+  const pdfsPorCarpeta = entradas.map((e) => ({
+    carpeta: e.name,
+    pdf: unicoPdfEn(path.join(ruta, e.name)),
+  }));
+
+  if (pdfsPorCarpeta.length !== 2) {
+    fallar(
+      `Se esperaban exactamente 2 subcarpetas con 1 PDF cada una (preguntas + claves) dentro de "${ruta}", ` +
+        `se encontraron ${pdfsPorCarpeta.length}: ${pdfsPorCarpeta.map((p) => p.carpeta).join(', ') || '(ninguna)'}. ` +
+        `Si es un cuadernillo estilo 2018 (respuestas embebidas en un PDF combinado), usa el proceso manual.`,
+    );
+  }
+
+  const clasificadas = pdfsPorCarpeta.map((p) => ({
+    ...p,
+    esClaves: esPdfDeClaves(p.pdf),
+  }));
+  const claves = clasificadas.filter((c) => c.esClaves);
+  const preguntas = clasificadas.filter((c) => !c.esClaves);
+
+  if (claves.length !== 1 || preguntas.length !== 1) {
+    fallar(
+      `No se pudo distinguir cuál PDF es la hoja de claves y cuál el cuadernillo de preguntas dentro de "${ruta}" ` +
+        `(se esperaba que exactamente 1 de los 2 trajera "Hoja de Respuestas" en su primera página). ` +
+        `Carpetas: ${pdfsPorCarpeta.map((p) => p.carpeta).join(', ')}.`,
+    );
+  }
+
+  return { pdfPreguntas: preguntas[0].pdf, pdfClaves: claves[0].pdf };
+}
+
+function esPdfDeClaves(pdfPath: string): boolean {
+  const primeraPagina = execFileSync(
+    'pdftotext',
+    ['-layout', '-enc', 'UTF-8', '-f', '1', '-l', '1', pdfPath, '-'],
+    { encoding: 'utf-8', maxBuffer: 5 * 1024 * 1024 },
   );
-
-  if (!carpetaClaves) {
-    fallar(
-      `No se encontró una subcarpeta "Claves ..." dentro de "${ruta}". ` +
-        `Este script solo soporta la estructura usada desde 2019 en adelante ` +
-        `(carpeta de preguntas + carpeta "Claves ..." con el PDF de respuestas separado). ` +
-        `Si es un cuadernillo estilo 2018 (respuestas embebidas), usa el proceso manual.`,
-    );
-  }
-  if (!carpetaPreguntas) {
-    fallar(
-      `No se encontró la subcarpeta con el cuadernillo de preguntas dentro de "${ruta}".`,
-    );
-  }
-
-  const pdfPreguntas = unicoPdfEn(path.join(ruta, carpetaPreguntas.name));
-  const pdfClaves = unicoPdfEn(path.join(ruta, carpetaClaves.name));
-  return { pdfPreguntas, pdfClaves };
+  return /hoja de respuestas/i.test(primeraPagina);
 }
 
 function unicoPdfEn(carpeta: string): string {
@@ -352,9 +381,18 @@ export function segmentarPreguntas(texto: string): {
     i++
   ) {
     const linea = lineas[i].trimStart();
-    const match = linea.match(/^(\d{1,2})(?:[\s.)]|$)/);
-    if (!match) continue;
-    if (Number(match[1]) !== siguienteEsperado) continue;
+    // Normalmente el número está al inicio de la línea, pero a veces queda
+    // pegado sin espacio al final de texto de un gráfico/tabla incrustado
+    // en esa misma posición de la página (p. ej. una etiqueta de eje como
+    // "Cantidad de estudiantes57 El equipo..."). Por eso se busca el número
+    // en cualquier posición de la línea (mientras no sea parte de un número
+    // más largo), y se confía en tieneFirmaDeAlternativas() como red de
+    // seguridad contra falsos positivos.
+    const candidatos = [...linea.matchAll(/(?:^|\D)(\d{1,2})(?:[\s.)]|$)/g)];
+    const candidato = candidatos.find(
+      (m) => Number(m[1]) === siguienteEsperado,
+    );
+    if (!candidato) continue;
 
     if (tieneFirmaDeAlternativas(lineas, i, siguienteEsperado)) {
       limites.push({ numero: siguienteEsperado, lineIndex: i });
