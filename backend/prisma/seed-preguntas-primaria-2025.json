@@ -1,0 +1,722 @@
+[
+  {
+    "enunciado": "En una IE, se está realizando una reunión colegiada sobre los documentos de gestión pedagógica. En este contexto, los docentes están compartiendo sus ideas sobre una gestión escolar que considere los valores del enfoque inclusivo. ¿Cuál de los siguientes comentarios de los docentes se alinea a dichos valores?",
+    "alternativas": {
+      "A": "“La escuela debe contribuir a que los estudiantes con discapacidad puedan tener desempeños como los de sus compañeros que no tienen esa condición”.",
+      "B": "“La escuela debe favorecer que los estudiantes con discapacidad cuenten con las mismas posibilidades de aprender que cualquier otro estudiante”.",
+      "C": "“La escuela debe promover que los estudiantes con discapacidad reciban tanto un tratamiento especializado como una atención pedagógica”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una reunión sobre la implementación del diseño universal para el aprendizaje (DUA), el docente a cargo ofrece algunas sugerencias sobre los recursos que se pueden utilizar para acompañar a los estudiantes en el aula. A continuación, se presenta una de esas sugerencias: “Cuando diseñemos una sesión de aprendizaje, es necesario que los recursos que utilicemos respondan a las características de nuestros estudiantes. De esta manera, podemos ofrecer textos, gráficos o materiales audiovisuales para que ellos puedan aprender sin sentirse limitados por los recursos que usemos”. ¿Cuál de los siguientes principios del DUA se evidencia en la sugerencia anterior?",
+    "alternativas": {
+      "A": "Proporcionar múltiples formas de compromiso.",
+      "B": "Proporcionar múltiples formas de representación.",
+      "C": "Proporcionar múltiples formas de acción y expresión."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una IE de EBR, se realiza una charla sobre la atención a las personas en condición de discapacidad. Dado que en la escuela hay estudiantes que presentan discapacidades físicas, el docente facilitador sugiere realizar algunas adaptaciones en el patio de la IE. A continuación, se presenta una de las propuestas de adaptación compartida por el docente facilitador: “Para que los estudiantes con discapacidad física puedan disfrutar de los juegos en el patio, es necesario dar un mantenimiento periódico a las rampas. Además, es esencial que los juegos que tienen asientos puedan contar con suficientes elementos de seguridad. Así también, sería oportuno acondicionar en el patio algunas zonas de descanso”. Tres docentes comparten sus ideas sobre la propuesta. ¿Cuál de los siguientes comentarios de los docentes se alinea al enfoque inclusivo?",
+    "alternativas": {
+      "A": "“Considero que, con la propuesta, se está priorizando el cuidado de los estudiantes que tienen discapacidad física. Al implementarla, estaremos ayudando a prevenir accidentes en el patio mientras dichos estudiantes disfrutan de los juegos”.",
+      "B": "“Creo que la propuesta favorecerá la integración de los estudiantes. Me refiero a que será más fácil que aquellos que tienen discapacidad física reciban apoyo de sus compañeros para movilizarse en el patio, de modo que todos disfruten de los juegos”.",
+      "C": "“Me parece que la propuesta tiene como finalidad crear condiciones favorables para los estudiantes que tienen discapacidad física. Esto ayudará a que dichos estudiantes, así como sus compañeros, puedan disfrutar libremente del patio y de los juegos”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "enfoque_inclusivo",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado, con orientación de la docente, desarrollan un proyecto de aprendizaje que busca concientizar a la comunidad educativa sobre el rol de las abejas en el funcionamiento del ecosistema. En este contexto, en una de las actividades, los estudiantes están leyendo diferentes textos para recabar información. A continuación, se presenta uno de esos textos: En 2017, la Asamblea General de la Organización de las Naciones Unidas (ONU) proclamó el 20 de mayo como el Día Mundial de las Abejas. Esto se hizo para sensibilizar a la comunidad internacional respecto al importante rol que juegan las abejas en la preservación ecológica de nuestro planeta. Según los expertos en abejas de la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), un tercio de la producción mundial de alimentos depende de las abejas. A través de la polinización, las abejas, junto con otros animales, recogen el polen de las flores y lo esparcen en otras plantas. De este modo, contribuyen con la preservación de la biodiversidad y la seguridad alimentaria. En los últimos años, un problema que preocupa es la desaparición y muerte masiva de abejas. Si estas desaparecieran, la cadena alimentaria se vería afectada, lo que causaría un desequilibrio ecológico y la posible extinción de muchas especies. La causa exacta de la desaparición de las abejas no es fácil de precisar, pero se cree que se debe a una combinación de factores. Algunos factores son la invasión de su hábitat por parte de los humanos, las prácticas agrícolas intensivas, el uso indiscriminado de plaguicidas y la introducción de especies exóticas. Podemos contribuir a preservar a las abejas de muchas maneras, tanto a nivel comunitario como individual. A nivel individual, acciones como plantar flores nativas, comprar productos apícolas locales, y reducir el uso de pesticidas en jardines y huertos ayudan a protegerlas. A nivel comunitario, se recomienda promover la biodiversidad; impulsar prácticas agrícolas sostenibles aumentando la diversidad de los cultivos; y fomentar la conservación, la gestión y la restauración de hábitats específicos para mitigar el cambio climático. También, es importante promover el rescate y la cría de abejas, así como, prohibir el uso de plaguicidas perjudiciales para ellas. Para contribuir a la comprensión del texto, la docente plantea varias preguntas a los estudiantes. ¿Cuál de las siguientes preguntas se centra en que los estudiantes obtengan información explícita?",
+    "alternativas": {
+      "A": "¿Para qué se creó el Día Mundial de las Abejas?",
+      "B": "¿Por qué se busca proteger a las abejas?",
+      "C": "¿Cuál es el propósito principal del texto?"
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado, con orientación de la docente, desarrollan un proyecto de aprendizaje que busca concientizar a la comunidad educativa sobre el rol de las abejas en el funcionamiento del ecosistema. En este contexto, en una de las actividades, los estudiantes están leyendo diferentes textos para recabar información. A continuación, se presenta uno de esos textos: En 2017, la Asamblea General de la Organización de las Naciones Unidas (ONU) proclamó el 20 de mayo como el Día Mundial de las Abejas. Esto se hizo para sensibilizar a la comunidad internacional respecto al importante rol que juegan las abejas en la preservación ecológica de nuestro planeta. Según los expertos en abejas de la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), un tercio de la producción mundial de alimentos depende de las abejas. A través de la polinización, las abejas, junto con otros animales, recogen el polen de las flores y lo esparcen en otras plantas. De este modo, contribuyen con la preservación de la biodiversidad y la seguridad alimentaria. En los últimos años, un problema que preocupa es la desaparición y muerte masiva de abejas. Si estas desaparecieran, la cadena alimentaria se vería afectada, lo que causaría un desequilibrio ecológico y la posible extinción de muchas especies. La causa exacta de la desaparición de las abejas no es fácil de precisar, pero se cree que se debe a una combinación de factores. Algunos factores son la invasión de su hábitat por parte de los humanos, las prácticas agrícolas intensivas, el uso indiscriminado de plaguicidas y la introducción de especies exóticas. Podemos contribuir a preservar a las abejas de muchas maneras, tanto a nivel comunitario como individual. A nivel individual, acciones como plantar flores nativas, comprar productos apícolas locales, y reducir el uso de pesticidas en jardines y huertos ayudan a protegerlas. A nivel comunitario, se recomienda promover la biodiversidad; impulsar prácticas agrícolas sostenibles aumentando la diversidad de los cultivos; y fomentar la conservación, la gestión y la restauración de hábitats específicos para mitigar el cambio climático. También, es importante promover el rescate y la cría de abejas, así como, prohibir el uso de plaguicidas perjudiciales para ellas. En otro momento de la sesión, los estudiantes intercambian ideas sobre el texto. En este contexto, los estudiantes y la docente dialogan sobre la intención del autor al incluir el siguiente fragmento: “Según los expertos en abejas de la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), un tercio de la producción mundial de alimentos depende de las abejas”. ¿Cuál de los siguientes estudiantes identifica adecuadamente la intención del autor al incluir ese fragmento en el texto?",
+    "alternativas": {
+      "A": "Ramiro dice: “Considero que el fragmento sirve para que el lector sepa que algunas personas se especializan en el estudio de las abejas”.",
+      "B": "Merlina dice: “Creo que la intención del autor era destacar que existe una organización mundial de la agricultura y la alimentación”.",
+      "C": "Rocío dice: “Me parece que el autor busca dar soporte a su argumento sobre los peligros de que las abejas desaparezcan”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado, con orientación de la docente, desarrollan un proyecto de aprendizaje que busca concientizar a la comunidad educativa sobre el rol de las abejas en el funcionamiento del ecosistema. En este contexto, en una de las actividades, los estudiantes están leyendo diferentes textos para recabar información. A continuación, se presenta uno de esos textos: En 2017, la Asamblea General de la Organización de las Naciones Unidas (ONU) proclamó el 20 de mayo como el Día Mundial de las Abejas. Esto se hizo para sensibilizar a la comunidad internacional respecto al importante rol que juegan las abejas en la preservación ecológica de nuestro planeta. Según los expertos en abejas de la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), un tercio de la producción mundial de alimentos depende de las abejas. A través de la polinización, las abejas, junto con otros animales, recogen el polen de las flores y lo esparcen en otras plantas. De este modo, contribuyen con la preservación de la biodiversidad y la seguridad alimentaria. En los últimos años, un problema que preocupa es la desaparición y muerte masiva de abejas. Si estas desaparecieran, la cadena alimentaria se vería afectada, lo que causaría un desequilibrio ecológico y la posible extinción de muchas especies. La causa exacta de la desaparición de las abejas no es fácil de precisar, pero se cree que se debe a una combinación de factores. Algunos factores son la invasión de su hábitat por parte de los humanos, las prácticas agrícolas intensivas, el uso indiscriminado de plaguicidas y la introducción de especies exóticas. Podemos contribuir a preservar a las abejas de muchas maneras, tanto a nivel comunitario como individual. A nivel individual, acciones como plantar flores nativas, comprar productos apícolas locales, y reducir el uso de pesticidas en jardines y huertos ayudan a protegerlas. A nivel comunitario, se recomienda promover la biodiversidad; impulsar prácticas agrícolas sostenibles aumentando la diversidad de los cultivos; y fomentar la conservación, la gestión y la restauración de hábitats específicos para mitigar el cambio climático. También, es importante promover el rescate y la cría de abejas, así como, prohibir el uso de plaguicidas perjudiciales para ellas. A partir del texto, algunos estudiantes se muestran interesados por conocer más sobre el proceso de polinización. Ante esto, la docente les pregunta sobre lo que saben de la polinización y varios estudiantes intervienen. ¿Cuál de los estudiantes maneja información correcta sobre la polinización?",
+    "alternativas": {
+      "A": "Mary dice: “La polinización permite que las plantas obtengan nuevos individuos idénticos a ellas”.",
+      "B": "Favio dice: “Entonces, todas las plantas realizan la polinización para reproducirse”.",
+      "C": "Matías dice: “Debido a la polinización, las plantas producen frutos y semillas”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado, con orientación de la docente, desarrollan un proyecto de aprendizaje que busca concientizar a la comunidad educativa sobre el rol de las abejas en el funcionamiento del ecosistema. En este contexto, en una de las actividades, los estudiantes están leyendo diferentes textos para recabar información. A continuación, se presenta uno de esos textos: En 2017, la Asamblea General de la Organización de las Naciones Unidas (ONU) proclamó el 20 de mayo como el Día Mundial de las Abejas. Esto se hizo para sensibilizar a la comunidad internacional respecto al importante rol que juegan las abejas en la preservación ecológica de nuestro planeta. Según los expertos en abejas de la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), un tercio de la producción mundial de alimentos depende de las abejas. A través de la polinización, las abejas, junto con otros animales, recogen el polen de las flores y lo esparcen en otras plantas. De este modo, contribuyen con la preservación de la biodiversidad y la seguridad alimentaria. En los últimos años, un problema que preocupa es la desaparición y muerte masiva de abejas. Si estas desaparecieran, la cadena alimentaria se vería afectada, lo que causaría un desequilibrio ecológico y la posible extinción de muchas especies. La causa exacta de la desaparición de las abejas no es fácil de precisar, pero se cree que se debe a una combinación de factores. Algunos factores son la invasión de su hábitat por parte de los humanos, las prácticas agrícolas intensivas, el uso indiscriminado de plaguicidas y la introducción de especies exóticas. Podemos contribuir a preservar a las abejas de muchas maneras, tanto a nivel comunitario como individual. A nivel individual, acciones como plantar flores nativas, comprar productos apícolas locales, y reducir el uso de pesticidas en jardines y huertos ayudan a protegerlas. A nivel comunitario, se recomienda promover la biodiversidad; impulsar prácticas agrícolas sostenibles aumentando la diversidad de los cultivos; y fomentar la conservación, la gestión y la restauración de hábitats específicos para mitigar el cambio climático. También, es importante promover el rescate y la cría de abejas, así como, prohibir el uso de plaguicidas perjudiciales para ellas. La docente busca que los estudiantes reflexionen sobre el contenido del texto. ¿Cuál de las siguientes acciones pedagógicas es adecuada para su propósito?",
+    "alternativas": {
+      "A": "Solicitar a los estudiantes que señalen las propuestas para proteger a las abejas, de acuerdo con el texto. Luego, pedirles que seleccionen las propuestas que podrían aplicar, según su contexto.",
+      "B": "Solicitar a los estudiantes que indiquen los aportes de las abejas para la humanidad, según el texto. Luego, pedirles que escriban dicha información en carteles para colocarlos en la IE.",
+      "C": "Solicitar a los estudiantes que identifiquen los peligros que enfrentan las abejas, con base en el texto. Luego, pedirles que elaboren un gráfico que represente dichos peligros."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado, con orientación de la docente, desarrollan un proyecto de aprendizaje que busca concientizar a la comunidad educativa sobre el rol de las abejas en el funcionamiento del ecosistema. En este contexto, en una de las actividades, los estudiantes están leyendo diferentes textos para recabar información. A continuación, se presenta uno de esos textos: En 2017, la Asamblea General de la Organización de las Naciones Unidas (ONU) proclamó el 20 de mayo como el Día Mundial de las Abejas. Esto se hizo para sensibilizar a la comunidad internacional respecto al importante rol que juegan las abejas en la preservación ecológica de nuestro planeta. Según los expertos en abejas de la Organización de las Naciones Unidas para la Agricultura y la Alimentación (FAO), un tercio de la producción mundial de alimentos depende de las abejas. A través de la polinización, las abejas, junto con otros animales, recogen el polen de las flores y lo esparcen en otras plantas. De este modo, contribuyen con la preservación de la biodiversidad y la seguridad alimentaria. En los últimos años, un problema que preocupa es la desaparición y muerte masiva de abejas. Si estas desaparecieran, la cadena alimentaria se vería afectada, lo que causaría un desequilibrio ecológico y la posible extinción de muchas especies. La causa exacta de la desaparición de las abejas no es fácil de precisar, pero se cree que se debe a una combinación de factores. Algunos factores son la invasión de su hábitat por parte de los humanos, las prácticas agrícolas intensivas, el uso indiscriminado de plaguicidas y la introducción de especies exóticas. Podemos contribuir a preservar a las abejas de muchas maneras, tanto a nivel comunitario como individual. A nivel individual, acciones como plantar flores nativas, comprar productos apícolas locales, y reducir el uso de pesticidas en jardines y huertos ayudan a protegerlas. A nivel comunitario, se recomienda promover la biodiversidad; impulsar prácticas agrícolas sostenibles aumentando la diversidad de los cultivos; y fomentar la conservación, la gestión y la restauración de hábitats específicos para mitigar el cambio climático. También, es importante promover el rescate y la cría de abejas, así como, prohibir el uso de plaguicidas perjudiciales para ellas. En otro momento de la sesión, los estudiantes buscan información en otras fuentes para complementar lo que leyeron. Durante el intercambio de ideas sobre la información recogida, los estudiantes realizan comentarios. ¿En cuál de los siguientes comentarios se evidencia una mejor relación entre elementos naturales y sociales del espacio geográfico?",
+    "alternativas": {
+      "A": "Violeta dice: “Yo leí en internet que, en Perú, hay más de 250 mil colmenas apícolas, y que están principalmente en Cusco. Además, leí que son más de 1500 familias que se dedican a la apicultura como parte de sus actividades económicas”.",
+      "B": "Rosa dice: “Yo vi en un video que, en Perú, hay casi 25 mil especies de plantas con flores. Esas miles de flores dan néctar y polen a las abejas. Por eso, creo que es muy probable que las abejas puedan producir un montón de miel y que los apicultores la extraigan para que se pueda vender”.",
+      "C": "Javier dice: “Yo leí en un libro que las abejas son conocidas por su sistema de trabajo y que cada una tiene un rol. Por ejemplo, la mayoría, que son las obreras, cuidan las larvas y construyen el panal, entre otras labores; por otro lado, la abeja reina tiene otros roles, como engendrar a nuevas abejas. Creo que las abejas son un ejemplo de trabajo en equipo”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En el marco de una recopilación de canciones, los estudiantes de primer grado, con ayuda de la docente, leen y cantan la canción “¿Lobo estás?”. Luego de cantarla, la docente les propone algunas actividades. Una de estas consiste en entregar, a cada estudiante, una tira de papel que contenga el estribillo de la canción. Luego, les pide que señalen cada palabra de la canción mientras cantan y que repitan esta acción, las veces que crean necesarias. Al finalizar, organiza a los estudiantes en pares y les pide que compartan, entre ellos, cómo les fue con la realización de la actividad. ¿Por qué la actividad propuesta favorece la lectura de textos escritos?",
+    "alternativas": {
+      "A": "Porque favorece que los estudiantes tomen en cuenta, progresivamente, la correspondencia que existe entre lo que cantan y lo que está escrito.",
+      "B": "Porque promueve que los estudiantes recuerden la escritura correcta de algunas palabras que se encuentran en el estribillo de la canción.",
+      "C": "Porque propicia que los estudiantes centren su atención en la adecuada pronunciación de las palabras de una canción."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una sesión de aprendizaje, los estudiantes de cuarto grado están escuchando audios de leyendas de animales. En este contexto, el docente les propone analizar la leyenda del jaguar. A continuación, se presenta un fragmento de la grabación: “Cuentan por ahí que, hace mucho tiempo, el jaguar era el único rey de la selva. Su gran fuerza y habilidad lo hacían sentir orgulloso. Esto le permitía dar órdenes a todos los animales, que, atemorizados, lo obedecían. Y así fue, hasta que un grillo se cansó de cumplir sus mandatos. Entonces, decidió retarlo a una pelea…”. El docente propone a los estudiantes realizar una pausa a la grabación para dialogar sobre el contenido de este fragmento. ¿Qué comentario de los estudiantes evidencia una deducción de información a partir del texto oral?",
+    "alternativas": {
+      "A": "“Veo que este grillo ya no aguantó seguir haciendo caso al jaguar”.",
+      "B": "“Es gracioso que el que quiere pelearse con el jaguar sea un animal tan chiquito”.",
+      "C": "“Los otros animales no se enfrentaban al jaguar porque pensaban que este les podía hacer daño”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, los estudiantes de primer grado se encuentran escribiendo una lista de personajes de los cuentos leídos hasta ese momento. En este contexto, un estudiante pide a la docente que lo ayude a revisar su lista. Atendiendo su pedido, la docente se acerca al sitio del estudiante, observa su lista y le pide que la lea en voz alta. Durante la lectura, la docente nota que hay aspectos logrados y por mejorar con respecto al sistema de escritura empleado por el estudiante. La docente busca aprovechar la escritura de la palabra “IOCO” (“Pinocho”), presente en dicha lista, con el propósito de que el estudiante reflexione sobre el sistema de escritura. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para el logro de dicho propósito?",
+    "alternativas": {
+      "A": "Mostrarle tarjetas con las sílabas que conforman el nombre “Pinocho”. Luego, solicitarle que organice dichas sílabas siguiendo el orden que utilizó para escribir el nombre del cuento en su lista.",
+      "B": "Entregarle un cartel con palabras como “pepino” y “chupete” y preguntarle qué tienen en común con la palabra “Pinocho”. Luego, pedirle que identifique qué letras utilizadas en esos carteles le pueden servir para escribir “Pinocho”.",
+      "C": "Brindarle tarjetas con las letras que conforman el nombre “Pinocho” y pedirle que, usando todas, forme dicho nombre. Luego, indicarle que realice una comparación entre el nombre formado con las tarjetas y la palabra “Pinocho” de la lista que escribió."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado desarrollan, con orientación del docente, un proyecto de aprendizaje cuyo propósito es promover que la comunidad educativa participe, frecuente y activamente, en los espacios culturales de la localidad. En este contexto, los estudiantes, organizados en equipos, van a realizar diferentes actividades, como exposiciones sobre los espacios artísticos en los que participan y elaboración de entrevistas a representantes de espacios culturales. Con el fin de motivar a la comunidad educativa a participar en los talleres de teatro gratuitos de la municipalidad, una estudiante decidió elaborar una exposición en la que explicará por qué le gustan estos talleres. En este contexto, le ha pedido al docente que escuche la práctica de su exposición, cuya transcripción es la siguiente: “Holas. Este… les hablaré un poquitín acerca de por qué me gusta el taller de teatro… Eh… En primer lugar, este taller es algo bien divertido porque nos ayuda a conocer muchas historias... Este… cuando voy a mi taller, me gusta que jugamos mucho… Además, me gusta porque puedo ser diferentes personajes, como seres mágicos y extraños. Eh… en este taller, juego mucho y puedo hacer de diferentes personajes como un ogro o una maga… Este… En este taller, también creamos juegos entre amigos y eso nos ayuda a que podamos hacer muchos personajes sorprendentes, y aprendo a trabajar en equipo… eh… a escucharnos con respeto… Además… eh… siempre solemos representar a diferentes cosas en cada historia”. Luego de escuchar a la estudiante, el docente busca ofrecerle una retroalimentación que la ayude a mejorar su texto oral. ¿Cuál de los siguientes aspectos debe priorizar el docente para lograr ello?",
+    "alternativas": {
+      "A": "La utilización de léxico impreciso en su texto oral.",
+      "B": "La limitada progresión de ideas en su texto oral.",
+      "C": "El uso constante de muletillas en su texto oral."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de quinto grado desarrollan, con orientación del docente, un proyecto de aprendizaje cuyo propósito es promover que la comunidad educativa participe, frecuente y activamente, en los espacios culturales de la localidad. En este contexto, los estudiantes, organizados en equipos, van a realizar diferentes actividades, como exposiciones sobre los espacios artísticos en los que participan y elaboración de entrevistas a representantes de espacios culturales. Un equipo de estudiantes decidió entrevistar a la directora de un museo de la localidad. Para ayudar a los estudiantes en la preparación de sus entrevistas, el docente les ha entregado una lista con criterios que deben considerar en la formulación de preguntas. ¿Cuál de los siguientes criterios se centra en favorecer el desarrollo de las ideas de la entrevistada?",
+    "alternativas": {
+      "A": "Pronunciar con claridad las preguntas para asegurar que sean entendibles por la entrevistada.",
+      "B": "Usar, en las preguntas, un vocabulario variado y preciso acorde al tema de la entrevista.",
+      "C": "Elaborar repreguntas para aclarar algunas de las ideas ofrecidas por la entrevistada."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una unidad de aprendizaje, los estudiantes de sexto grado, organizados en equipos y con orientación del docente, van a escribir semblanzas sobre mujeres científicas peruanas para compartirlas con los compañeros de otros grados. Durante la planificación del texto, el docente y los estudiantes dialogan sobre el género que van a escribir. En este contexto, el docente busca recoger los saberes previos de los estudiantes acerca de los aspectos que deben considerarse al escribir una semblanza. ¿Cuál de los estudiantes ofrece un comentario que se corresponde con las características de una semblanza?",
+    "alternativas": {
+      "A": "Pedro dice: “Considero que, en las semblanzas de las científicas, es mejor evitar algunos aspectos de sus vidas como sus pasatiempos, aspectos sobre su carácter o alguna anécdota personal que le restaría valor a su trabajo”.",
+      "B": "Juana dice: “Pienso que, en las semblanzas de las científicas, hay que centrarnos en detallar sus experiencias y reconocimientos en su vida profesional, y extender esta información cuanto sea posible”.",
+      "C": "Carla dice: “Creo que, en las semblanzas de las científicas, es necesario incluir el contexto en el que ellas vivieron para que se pueda entender mejor el porqué de las actividades o acciones que realizaron”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una unidad de aprendizaje, los estudiantes de sexto grado, organizados en equipos y con orientación del docente, van a escribir semblanzas sobre mujeres científicas peruanas para compartirlas con los compañeros de otros grados. Durante el acompañamiento del trabajo en el aula, uno de los equipos le pide al docente que lo ayude a revisar la primera versión de la semblanza. El docente nota que se repiten innecesariamente algunas ideas en el texto. Por ello, busca brindar retroalimentación a los estudiantes del equipo para que mejoren su texto. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para ello?",
+    "alternativas": {
+      "A": "Pedirles que comenten por qué creen que es importante evitar la repetición innecesaria de ideas en un texto. Luego, solicitarles que revisen en su texto qué ideas se repiten varias veces. A partir de esto, pedirles que planteen algunas alternativas para evitar dicha repetición.",
+      "B": "Pedirles que lean su texto en voz alta e irles indicando las ideas que se repiten de forma innecesaria. Luego, proponerles algunas alternativas para reemplazar dichas ideas en su texto. A partir de esto, solicitarles que hagan un listado de estrategias que podrían usar para evitar dicha repetición.",
+      "C": "Pedirles que vuelvan a leer con detenimiento su texto e identifiquen si alguna idea se repite. Luego, solicitarles que revisen si dichas ideas repetidas son indispensables para que se comprenda su texto. A partir de esto, pedirles que planteen propuestas de qué podrían hacer cuando se repite una idea de forma innecesaria."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado, organizados en equipos, participan en un proyecto cuyo propósito es elaborar una revista literaria para promover la lectura de cuentos de diversos autores. Entre las actividades propuestas para el desarrollo de este proyecto, los estudiantes escribirán reseñas acerca de los últimos cuentos que han leído para compartirlas con los compañeros de la IE. En este contexto, los estudiantes intercambian ideas sobre la escritura de las reseñas. ¿Cuál de los siguientes comentarios se ajusta al propósito de una reseña?",
+    "alternativas": {
+      "A": "“Me parece que en la reseña podemos señalar los hechos que ayuden a saber lo que sucede en el cuento. Luego, podemos decirles qué tal nos pareció el cuento para que los lectores decidan si lo leen o no”.",
+      "B": "“Creo que, primero, necesitamos indicar las partes que más nos gustaron del cuento y explicar por qué. Con esto, podemos escribir una reseña para motivar a que nuestros compañeros lean la obra”.",
+      "C": "“Podemos escribir la reseña usando lo que dice el mismo cuento, realizando algunos cambios de palabras. A partir de esto, los lectores podrán tener una idea de lo que trata el cuento”."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una IE, se va a realizar una feria de ciencias. Por ello, los estudiantes de quinto grado, organizados en equipos, han acordado, con el docente, presentar exposiciones en las que se describa la función de algunos animales en el ecosistema. Estas exposiciones estarán dirigidas a los compañeros de primer y segundo grado. En este contexto, un equipo de estudiantes tiene como propósito presentar información sobre la importancia de las moscas para el ecosistema. Los integrantes del equipo han grabado la práctica de su exposición. A continuación, se presenta la transcripción de una parte de su presentación: “Hola a todos y todas. Nosotros vamos a exponer sobre cómo ayudan las moscas a la humanidad... Seguro, a más de uno les parecen feas, sucias y molestas. Ahora les venimos a contar… este… que las moscas son importantes porque ayudan a mantener el equilibrio ecológico del planeta. Este… estos insectos son considerados... este... un dosímetro biológico para la radiación y, gracias a ellas, sabemos los cambios que puede causar la radiación. Eh… ellas también están siendo afectadas por el cambio climático y debemos cuidarlas”. El docente le pide al equipo hacer una pausa para resaltar algunos aspectos logrados de su texto oral. ¿Cuál es un aspecto logrado en la presentación del equipo?",
+    "alternativas": {
+      "A": "Utilizar pausas de manera estratégica en el texto.",
+      "B": "Plantear el propósito del texto explícitamente.",
+      "C": "Mantener la unidad temática del texto."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una IE, se va a realizar una feria de ciencias. Por ello, los estudiantes de quinto grado, organizados en equipos, han acordado, con el docente, presentar exposiciones en las que se describa la función de algunos animales en el ecosistema. Estas exposiciones estarán dirigidas a los compañeros de primer y segundo grado. En este contexto, un equipo de estudiantes tiene como propósito presentar información sobre la importancia de las moscas para el ecosistema. Los integrantes del equipo han grabado la práctica de su exposición. A continuación, se presenta la transcripción de una parte de su presentación: “Hola a todos y todas. Nosotros vamos a exponer sobre cómo ayudan las moscas a la humanidad... Seguro, a más de uno les parecen feas, sucias y molestas. Ahora les venimos a contar… este… que las moscas son importantes porque ayudan a mantener el equilibrio ecológico del planeta. Este… estos insectos son considerados... este... un dosímetro biológico para la radiación y, gracias a ellas, sabemos los cambios que puede causar la radiación. Eh… ellas también están siendo afectadas por el cambio climático y debemos cuidarlas”. En otro momento, la docente nota que los estudiantes utilizan algunas expresiones o términos que dificultan la comprensión de su texto oral. Por ello, busca brindarles retroalimentación. La docente empieza por recordar junto con ellos el propósito de su texto y el público al que está dirigido. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para continuar con la retroalimentación?",
+    "alternativas": {
+      "A": "Pedirles que vuelvan a escuchar la grabación de su texto oral. Luego, preguntarles si el uso de palabras nuevas o desconocidas es relevante para que el público comprenda el texto. Finalmente, indicarles que busquen en el diccionario las definiciones de dichas palabras y que las incluyan en su texto oral.",
+      "B": "Pedirles que vuelvan a escuchar el audio de su texto oral. Luego, preguntarles qué términos creen que requerirían ser explicados con mayor detalle, tomando en cuenta al público. Finalmente, solicitarles que planteen algunas propuestas para presentar esa información, según el público al que está dirigida.",
+      "C": "Pedirles que vuelvan a escuchar el audio de su texto oral haciendo una pausa en la expresión “dosímetro biológico”. Luego, indicarles que evalúen si saber a qué alude dicha expresión es relevante para que el público comprenda su texto. Finalmente, preguntar de qué fuente la obtuvieron y por qué decidieron incluir esa expresión."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una sesión de aprendizaje, una estudiante de primer grado escribe el nombre de su compañera en una tarjeta de cumpleaños y se lo muestra a la docente. La estudiante escribió “Karlota” (para decir “Carlota”). Ante esto, la docente le propone buscar ese nombre en la lista de asistencia y le pide que se fije en cómo está escrito. La estudiante dice: “No está, señorita”. La docente se acerca y le pregunta en qué se fijó. La estudiante le indica que revisó el comienzo de cada nombre, pero ninguno empieza con “Kar”. A partir de esto, la docente le señala el nombre de Carlota y le pide que lo lea. La estudiante lee despacio (“Caar…”), duda, vuelve a leer, lee despacio (“Car-lo-ta”) y mira lo que escribió (“Karlota”). Luego, se detiene a observar los inicios “Car” y “Kar”, y dice: “Entonces, ‘Carlota’ también se escribe así, ¿no?”. A partir de esto, la docente elabora, junto con ella, algunos ejemplos similares. Finalmente, la estudiante va señalando cada letra del nombre de Carlota y lo va copiando en su tarjeta. ¿Cuál de los aprendizajes sobre la comprensión del sistema de escritura se evidencia en las acciones de la estudiante?",
+    "alternativas": {
+      "A": "Identifica que un mismo sonido puede representarse con diversas letras.",
+      "B": "Identifica que las letras de las palabras tienen una organización determinada.",
+      "C": "Identifica que existen reglas ortográficas para escribir las letras de las palabras."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "comprension_produccion_textos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una unidad didáctica en la que los estudiantes están identificando las características de los hongos, una estudiante comenta que, a veces, en el pan crece moho. Varios estudiantes están de acuerdo con este comentario, y a partir de esto, formulan diversas hipótesis. A continuación, se muestra la hipótesis que un equipo presentó a la docente: Los hongos tardarán más tiempo en crecer en los panes artesanales de panadería que se guardan en una bolsa de papel, en comparación con los que se guardan dentro de una bolsa de plástico. ¿Cuál es la variable independiente en la hipótesis planteada?",
+    "alternativas": {
+      "A": "El tipo de pan que se ha empleado.",
+      "B": "El material del que están hechas las bolsas.",
+      "C": "El tiempo que tarda el crecimiento de hongos en el pan."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una unidad didáctica en la que los estudiantes están identificando las características de los hongos, una estudiante comenta que, a veces, en el pan crece moho. Varios estudiantes están de acuerdo con este comentario, y a partir de esto, formulan diversas hipótesis. A continuación, se muestra la hipótesis que un equipo presentó a la docente: Los hongos tardarán más tiempo en crecer en los panes artesanales de panadería que se guardan en una bolsa de papel, en comparación con los que se guardan dentro de una bolsa de plástico. Los integrantes del equipo se encuentran planteando los pasos a seguir como parte de la propuesta de indagación para comprobar la hipótesis. ¿Cuál de los siguientes pasos es necesario incorporar en la propuesta de indagación?",
+    "alternativas": {
+      "A": "Cortar un mismo pan, recién comprado, en cuatro rebanadas iguales. Luego, colocar las cuatro rebanadas dentro de una bolsa de papel. Después, colocar la bolsa de papel dentro de una bolsa de plástico y guardarlas en un ambiente cálido durante tres días.",
+      "B": "Cortar un mismo pan, recién comprado, en cuatro rebanadas iguales. Luego, colocar dos rebanadas en una bolsa de papel y las otras dos en una bolsa de plástico. Después, guardar ambas bolsas en un mismo ambiente durante tres días.",
+      "C": "Cortar un mismo pan, recién comprado, en cuatro rebanadas iguales. Luego, colocar dos rebanadas en una bolsa de papel y las otras dos en una bolsa de plástico. Después, colocar cada bolsa en un ambiente diferente durante tres días."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una unidad didáctica en la que los estudiantes están identificando las características de los hongos, una estudiante comenta que, a veces, en el pan crece moho. Varios estudiantes están de acuerdo con este comentario, y a partir de esto, formulan diversas hipótesis. A continuación, se muestra la hipótesis que un equipo presentó a la docente: Los hongos tardarán más tiempo en crecer en los panes artesanales de panadería que se guardan en una bolsa de papel, en comparación con los que se guardan dentro de una bolsa de plástico. Al final de la indagación, los integrantes del equipo y la docente comparten algunas interpretaciones sobre los resultados obtenidos. En este contexto, los estudiantes comentan que tuvieron como resultado que los panes que estaban dentro de la bolsa de papel tardaron más tiempo en desarrollar hongos, en comparación con los panes que estaban dentro de la bolsa de plástico. Después de esto, la docente pregunta a los estudiantes lo siguiente: “En la indagación que realizaron usaron pan artesanal de la panadería. Ahora, ¿creen que suceda lo mismo si usan pan envasado hecho por una fábrica? Justifiquen su respuesta”. ¿Cuál es el propósito principal de la docente al plantear esta pregunta a los estudiantes?",
+    "alternativas": {
+      "A": "Promover la elaboración de hipótesis de una indagación.",
+      "B": "Promover la elaboración de conclusiones de una indagación.",
+      "C": "Promover la elaboración de un diseño de un plan de indagación."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de cuarto grado están desarrollando un proyecto denominado “Valorando la diversidad de nuestra localidad”. En este contexto, ellos han realizado una visita de estudio a una reserva natural. Al regresar de la visita, los estudiantes comentan al docente que lo que más les llamó la atención fue el musgo verde que cubría las rocas. La mayoría de estudiantes afirman que los musgos no son plantas, puesto que no tienen tallos, hojas ni raíces. A partir de la afirmación, el docente busca que los estudiantes identifiquen las características que permiten clasificar a los musgos como plantas. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para lograr dicho propósito?",
+    "alternativas": {
+      "A": "Presentarles las características de los musgos. Luego, a partir de esto, proponerles corroborar dichas características en los musgos de su localidad.",
+      "B": "Presentarles las características de los diferentes grupos de plantas que habitan el planeta. Luego, mencionarles a qué grupo de plantas pertenecen los musgos considerando que no tienen tallos, hojas ni raíces.",
+      "C": "Presentarles información sobre las características que diferencian a las plantas de otros seres vivos. Luego, a partir de esto, ayudarles a identificar cuáles de dichas características están presentes en los musgos."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Al retorno del recreo, durante un día caluroso, varios estudiantes de sexto grado elaboraron abanicos de cartulina de diferentes formas para refrescarse. La docente aprovecha esta situación para plantearles que, organizados en equipos, indaguen sobre cómo funcionan los abanicos. Durante una de las actividades, los equipos buscan información sobre por qué el uso de los abanicos genera sensación de frescura en las personas. La mayoría de equipos ha identificado lo siguiente: uno de los aspectos que explica dicha sensación es que los abanicos desplazan el aire caliente que rodea nuestro cuerpo, lo cual da lugar al aire frío que está alejado de nosotros. ¿Qué mecanismo de transferencia de calor han identificado los estudiantes?",
+    "alternativas": {
+      "A": "Conducción.",
+      "B": "Convección.",
+      "C": "Radiación."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Al retorno del recreo, durante un día caluroso, varios estudiantes de sexto grado elaboraron abanicos de cartulina de diferentes formas para refrescarse. La docente aprovecha esta situación para plantearles que, organizados en equipos, indaguen sobre cómo funcionan los abanicos. En otro momento, cada equipo elabora una hipótesis que luego pondrá a prueba. A continuación, se presenta la hipótesis de uno de los equipos: Los abanicos que tienen forma plana funcionan mejor que los abanicos que tienen forma de acordeón. La docente lee la hipótesis y nota que la variable dependiente (“funcionan mejor”) propuesta por el equipo no es precisa. Por ello, busca brindarles retroalimentación para que puedan mejorar su hipótesis. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para ello?",
+    "alternativas": {
+      "A": "Preguntarles a qué se refieren con que un tipo de abanico funciona mejor que otro y cómo podrán darse cuenta de ello. Luego, brindarles información sobre las características de una variable dependiente. A partir de todo esto, pedirles que ajusten su hipótesis.",
+      "B": "Solicitarles que identifiquen la variable dependiente de su hipótesis sobre el funcionamiento de los abanicos. Luego, mencionarles que esta variable requiere mejorarse. A partir de todo esto, preguntarles qué mejoras son necesarias realizar en la hipótesis de su indagación.",
+      "C": "Proponerles ejemplos de hipótesis que se ajusten a su indagación. Luego, indicarles que seleccionen uno de los ejemplos presentados que podrían usar en su indagación para determinar el funcionamiento de los abanicos. A partir de todo esto, pedirles que reemplacen su hipótesis con el ejemplo seleccionado."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una de las sesiones de aprendizaje, los estudiantes de tercer grado comentan al docente que han notado la presencia de polillas al interior de tres armarios del aula y quieren ahuyentarlas. Estos tres armarios tienen iguales características y están vacíos porque pronto los van a pintar. A partir de esta situación, el docente propone a los estudiantes que, en equipos, planteen propuestas de indagación para identificar qué podría ahuyentar a las polillas de dichos armarios. A continuación, un estudiante, de uno de los equipos, menciona lo siguiente: “Nosotros pondremos clavos de olor en bolsitas de plástico bien cerradas para que los clavos no se salgan de ellas y guarden su aroma por más tiempo. Con el olor, ya no habrá polillas. Luego, pondremos las bolsitas en dos de los tres armarios que hay en el aula. Después de una semana, registraremos lo que pasa en los armarios donde pusimos las bolsitas y en el armario en el que no pusimos nada”. ¿Cuál de las siguientes preguntas es pertinente que el docente realice a los estudiantes para que mejoren su propuesta de indagación?",
+    "alternativas": {
+      "A": "¿Qué sustancia tiene el clavo de olor que podría ahuyentar a las polillas que están en los armarios?",
+      "B": "¿El aroma del clavo de olor podrá llegar a las polillas y ahuyentarlas si las bolsitas están cerradas?",
+      "C": "¿Qué otras plantas parecidas al clavo de olor podrían usar para comparar cuál de ellas logra ahuyentar a las polillas?"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una de las sesiones de aprendizaje, los estudiantes de tercer grado comentan al docente que han notado la presencia de polillas al interior de tres armarios del aula y quieren ahuyentarlas. Estos tres armarios tienen iguales características y están vacíos porque pronto los van a pintar. A partir de esta situación, el docente propone a los estudiantes que, en equipos, planteen propuestas de indagación para identificar qué podría ahuyentar a las polillas de dichos armarios. A continuación, un estudiante, de uno de los equipos, menciona lo siguiente: “Nosotros pondremos clavos de olor en bolsitas de plástico bien cerradas para que los clavos no se salgan de ellas y guarden su aroma por más tiempo. Con el olor, ya no habrá polillas. Luego, pondremos las bolsitas en dos de los tres armarios que hay en el aula. Después de una semana, registraremos lo que pasa en los armarios donde pusimos las bolsitas y en el armario en el que no pusimos nada”. En la propuesta del equipo, ¿por qué es importante registrar lo que sucede en el tercer armario?",
+    "alternativas": {
+      "A": "Porque permite identificar qué otros aspectos, además del clavo de olor, pueden ahuyentar a las polillas de los armarios.",
+      "B": "Porque permite comprobar si los resultados obtenidos en los dos primeros armarios son reproducibles.",
+      "C": "Porque permite asegurarse si el aroma del clavo de olor ahuyenta o no a las polillas de los armarios."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una unidad didáctica sobre los cambios físicos y químicos de la materia, algunos estudiantes de sexto grado comentan a la docente que han notado que la pulpa de algunas frutas, como la manzana, se oscurece al estar expuesta al aire. A partir de estos comentarios, los estudiantes quieren indagar sobre los factores que pueden hacer que dicho oscurecimiento sea más lento. En una de las sesiones de la unidad, uno de los equipos ha planteado la siguiente hipótesis: Si a la pulpa de una manzana se le echa jugo de limón y está expuesta al aire, la pulpa demora más en oscurecerse en comparación con la pulpa de otra manzana a la que se le echa agua. En la hipótesis planteada por los estudiantes, ¿cuál es la variable dependiente?",
+    "alternativas": {
+      "A": "La cantidad de manzanas que se use en el experimento.",
+      "B": "El tipo de líquido que se echará en las manzanas cortadas.",
+      "C": "El tiempo que tardarán las manzanas cortadas en cambiar de color."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una unidad didáctica sobre los cambios físicos y químicos de la materia, algunos estudiantes de sexto grado comentan a la docente que han notado que la pulpa de algunas frutas, como la manzana, se oscurece al estar expuesta al aire. A partir de estos comentarios, los estudiantes quieren indagar sobre los factores que pueden hacer que dicho oscurecimiento sea más lento. En una de las sesiones de la unidad, uno de los equipos ha planteado la siguiente hipótesis: Si a la pulpa de una manzana se le echa jugo de limón y está expuesta al aire, la pulpa demora más en oscurecerse en comparación con la pulpa de otra manzana a la que se le echa agua. A partir de la hipótesis planteada, el equipo elabora propuestas de indagación para comprobarla. ¿Cuál de las siguientes propuestas es adecuada para ello?",
+    "alternativas": {
+      "A": "Usar tres mitades de manzana de iguales características y ubicarlas en lugares con las mismas condiciones. Luego, echar, en volúmenes iguales, jugo de limón en la pulpa de una de las mitades; en otra mitad, agua; y, en la tercera mitad, no echar ningún líquido. Después, observar las tres mitades y registrar el tiempo de la pulpa que se oscurece primero.",
+      "B": "Emplear tres mitades de manzanas de iguales características y ubicarlas en un mismo lugar. Luego, en la pulpa de una mitad, echar jugo de limón; en otra mitad, echar agua en menor volumen que el jugo de limón; y, en la última mitad, no echar ningún líquido. Después, observar las tres mitades y registrar el tiempo de la pulpa que se oscurece primero.",
+      "C": "Conseguir tres mitades de manzanas de iguales características y ubicarlas en diferentes ambientes. Luego, echar, en volúmenes iguales, jugo de limón en la pulpa de una mitad; en la otra mitad, agua; y, en la tercera mitad de la manzana, no echar ningún líquido. Después, observar las tres mitades y registrar el tiempo de la pulpa que se oscurece primero."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Al volver del recreo, los estudiantes, entusiasmados, le cuentan al docente que estuvieron jugando con sus carritos de juguete y que hicieron rampas con diversos objetos para deslizar los carritos y ver cuál llegaba más lejos. Entonces, el docente dialoga con los estudiantes y les pregunta a qué creen que se debe que un carrito recorra más distancia que otro carrito, desde el final de la rampa hasta el lugar donde se detuvieron. Varios estudiantes dicen que la distancia recorrida depende de la altura de la rampa utilizada. A partir de esta hipótesis, los estudiantes, organizados en equipos y con orientación del docente, realizan una propuesta de indagación. A continuación, se presenta esta propuesta. 1. Los estudiantes consiguieron los siguientes materiales: Two wooden boards, pencil, ruler, 2 toy cars, 15 notebooks. 2. En uno de los extremos de cada tabla, trazaron una línea de inicio, teniendo en cuenta la longitud de los carritos. La línea de inicio se encuentra a la misma distancia en ambas tablas. 3. Apilaron los cuadernos sobre el piso y, usando las tablas, armaron dos rampas: una de 10 cuadernos y otra de 5 cuadernos. Se aseguraron de que la marca de la línea de inicio quede en la parte superior de la rampa. 4. Ubicaron cada carrito de juguete antes de la línea de inicio de la marca y los dejaron caer sobre la rampa. 5. Midieron y anotaron la distancia horizontal que recorrieron los carritos sobre el piso desde el final de la rampa hasta el lugar donde se detuvieron. A partir de la propuesta de indagación presentada, ¿cuál es la variable independiente?",
+    "alternativas": {
+      "A": "La distancia que recorren los carritos sobre el piso.",
+      "B": "La altura de las rampas construidas.",
+      "C": "La longitud de las tablas."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En el marco de una unidad didáctica sobre cómo se relacionan los sistemas que conforman la función de nutrición en el ser humano, una docente de cuarto grado ha planteado varias actividades. Durante una de las actividades, ella identifica que la mayoría de los estudiantes tiene la idea errónea de que el sistema respiratorio no guarda relación con la función de nutrición. Ante esto, la docente, usando una maqueta de los órganos del cuerpo humano, busca brindar retroalimentación a los estudiantes sobre dicha idea. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para retroalimentar a los estudiantes?",
+    "alternativas": {
+      "A": "Mencionarles cómo el sistema respiratorio participa en la función de nutrición. Pedirles que identifiquen, en la maqueta, los órganos del sistema respiratorio y sus funciones. A partir de todo esto, solicitarles que expliquen de qué manera el sistema respiratorio participa en la función de nutrición.",
+      "B": "Mencionarles qué sistemas intervienen en la función de nutrición del ser humano. Luego, pedirles que dialoguen en parejas sobre qué ocurriría si uno de esos sistemas no funcionara adecuadamente. A partir de esto, preguntarles por qué el sistema respiratorio forma parte de la función de nutrición.",
+      "C": "Mencionarles que la función de nutrición brinda al ser humano todos los nutrientes necesarios para vivir. Luego, preguntarles qué otros nutrientes, además de los que se encuentran en los alimentos, necesita el ser humano para vivir. A partir de esto, pedirles que identifiquen cómo participa el sistema respiratorio en la función de nutrición."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de un proyecto acerca del cuidado de las plantas de la IE, los estudiantes de cuarto grado comentan lo que conocen sobre estas. En este contexto, la mayoría de estudiantes coincide en que todas las plantas tienen hojas de iguales características. La docente los escucha y, como sabe que las hojas del cactus (espinas) se encuentran modificadas, decide presentarles la imagen de un cactus de su localidad. A partir de ello, pide a los estudiantes que comparen las partes del cactus con las partes de otras plantas que conocen. ¿Qué proceso de aprendizaje busca promover, principalmente, la docente cuando presenta la imagen de un cactus a los estudiantes?",
+    "alternativas": {
+      "A": "La metacognición sobre las estrategias de aprendizaje.",
+      "B": "La generación de conflicto cognitivo.",
+      "C": "La transferencia de aprendizaje."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "indagacion_cientifica",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante el desarrollo de una sesión de aprendizaje, el docente de primer grado realiza una actividad cuyo propósito es favorecer que los estudiantes reconozcan sus emociones. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para promover el logro de dicho propósito?",
+    "alternativas": {
+      "A": "Presentar a los estudiantes imágenes de rostros que expresen diversas emociones. Luego, solicitarles que imiten, frente a sus compañeros y por turnos, cada uno de los rostros presentados.",
+      "B": "Pedir que cada estudiante comparta, en plenaria, una situación personal importante para ellos. Luego, comentarles, a cada uno de ellos, qué emoción suele ser más frecuente en las situaciones que compartieron y cómo deberían actuar al respecto.",
+      "C": "Pedir a los estudiantes que mencionen algunas emociones, las representen frente al espejo y se observen mientras lo hacen. Luego, pedirles que comenten voluntariamente alguna situación personal en la que hayan sentido una de las emociones mencionadas."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Una estudiante cuenta a sus amigas lo siguiente: “¡Estoy muy molesta! Mi mamá es una mandona. Ayer en la noche me peleé con ella porque nunca me escucha, siempre quiere que haga lo que ella quiere”. Luego de escucharla, sus compañeras le hicieron algunos comentarios. ¿Cuál de los siguientes comentarios de las compañeras evidencia empatía?",
+    "alternativas": {
+      "A": "“Nuestras mamás nos quieren mucho y saben lo que es mejor para nosotras. Piensa que lo que te ha dicho es por tu bien. Mejor conversa con ella”.",
+      "B": "“Ahora entiendo por qué estás así. Me imagino que debe ser difícil que no tome en cuenta lo que tú quieres y ella sola decida por ti”.",
+      "C": "“Es que así son todas las mamás, ¿no? Mi mamá y yo, a veces, nos enojamos, pero se nos pasa rápido. Se te va a pasar el enojo, ya verás”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una IE, se está desarrollando un proyecto para promover la convivencia democrática entre los estudiantes. En este contexto, los docentes están proponiendo diferentes actividades en las diversas aulas. Como parte del proyecto, una docente de cuarto grado presenta a los estudiantes la siguiente situación hipotética para que la analicen en plenaria: Durante la realización de una actividad artística, Sofía y Javier, dos estudiantes, están compartiendo los lápices de colores del aula para pintar sus dibujos. Sofía se molesta cuando ve que Javier está usando el color que ella había planeado usar. Ella le dice a Javier que no puede usar ese lápiz de color porque ya lo había seleccionado. Javier, por su parte, le dice que no vio que ella estuviera usándolo y que también lo necesita para completar una parte de su dibujo. Sofía y Javier comienzan a discutir alzando la voz. Luego, Sofía y Javier se dan la espalda. Como parte del intercambio de ideas sobre la situación, la docente pide a los estudiantes que propongan formas de resolver el conflicto entre Sofía y Javier. ¿Cuál de las siguientes intervenciones se centra en el mecanismo de mediación?",
+    "alternativas": {
+      "A": "Amelia dice: “Yo creo que Sofía y Javier deberían conversar calmadamente, acordar turnos para usar el lápiz de color y avisar a la profesora que ya no hay problema”.",
+      "B": "Carlos dice: “Yo creo que Sofía y Javier deberían llamar a la profesora y pedirle que les dé los turnos para que usen el lápiz de color y así ya no hay más discusión”.",
+      "C": "Valeria dice: “Yo creo que Sofía y Javier deberían llamar a la profesora para que los ayude a llegar a un acuerdo sobre el turno en que cada uno pueda usar el lápiz de color”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una IE, se está desarrollando un proyecto para promover la convivencia democrática entre los estudiantes. En este contexto, los docentes están proponiendo diferentes actividades en las diversas aulas. Como parte del proyecto, una docente de quinto grado ha compartido con sus estudiantes algunas situaciones de convivencia para promover la reflexión sobre estas. ¿Cuál de las siguientes situaciones corresponde a un dilema moral?",
+    "alternativas": {
+      "A": "En una escuela, un grupo de estudiantes está constantemente molestando a un niño que suele estar callado. Cada vez que Renzo sale al patio, durante el recreo, observa que estos estudiantes asustan al niño sin ningún motivo. Renzo le cuenta la situación al docente y ahora se siente mal por acusar a sus compañeros.",
+      "B": "Durante el recreo, las compañeras de María le han contado, en secreto, que ellas ponen apodos a otros compañeros. María sabe que poner apodos es incorrecto. Por un lado, María piensa que debería contarle la situación a la profesora para que pueda hablar con sus compañeras; pero, por otro, piensa que no debería traicionar la confianza de ellas.",
+      "C": "Un equipo de estudiantes está diseñando un cómic para publicarlo en el mural de la IE. Liz, quien disfruta dibujar, da una idea que le gusta a la mayoría del equipo, pero Sol, otra integrante, se burla de su idea, diciéndole frases como \"es rara\" o \"no es tan buena\". Liz se molesta porque cree que el comportamiento de Sol es incorrecto, pero no sabe cómo decírselo."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una reunión colegiada, un docente de segundo grado menciona que Diego, uno de los estudiantes, suele realizar comentarios como “no soy bueno para hacerlo” cuando se enfrenta a actividades que le resultan retadoras. Además, el docente comenta que ha planteado varias actividades para favorecer la construcción de la autoeficacia en Diego; sin embargo, no ha logrado que él avance. Por esta razón, el docente pide algunas orientaciones a sus colegas para ayudarlo. ¿Cuál de las siguientes propuestas de los docentes es más adecuada para ayudar a Diego?",
+    "alternativas": {
+      "A": "“Yo creo que podrías elaborar un panel en el que se coloque el desempeño académico alcanzado por Diego y los otros estudiantes. Así, al celebrar a quienes alcanzaron mejores desempeños, puedes motivar a Diego a conseguir los mismos resultados”.",
+      "B": "“Me parece que podrías elaborar una lista de metas en la que Diego proponga, tras dialogar contigo, una meta que considere factible de realizar. Así, al finalizar el mes, puedes conversar con él sobre si alcanzó su logro y qué acciones hizo para ello”.",
+      "C": "“Pienso que podrías hacer un diario de logros en el que, cada día, registres un logro que Diego haya alcanzado en alguna dimensión de su vida y que consideres que ya esté fortalecida. Así, aprovechas esa fortaleza para motivarlo”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "convivencia_tutoria_socioemocional",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado están desarrollando un proyecto cuya finalidad es promover que la comunidad educativa identifique y actúe ante distintas situaciones de discriminación. En este contexto, en una de las sesiones de aprendizaje, el docente propone a los estudiantes que, organizados en equipos, analicen diferentes situaciones hipotéticas de discriminación. A continuación, se presenta una de las situaciones que trata sobre la discriminación lingüística: Corina es una estudiante que iniciará sus clases en el salón de quinto grado. El primer día de clases, en un momento de la sesión, la profesora solicita a los estudiantes que formen equipos de tres para llevar a cabo una actividad. Sandra y Elena, dos de las estudiantes, se sientan juntas. Corina, que no tiene grupo, se acerca a Sandra y le dice: “¿Puedo estar en tu grupo, di?”. En ese momento, Elena le dice al oído a Sandra: “Con ella no, no habla como nosotras. Su forma de hablar es muy distinta a la nuestra. Si tenemos que exponer, nos puede malograr la exposición”. Sandra le contesta a Corina: “Disculpa, pero ya no se puede. Ya le dijimos a otra de las chicas”. El docente busca que los estudiantes reflexionen sobre la discriminación lingüística que se presenta en esta situación. ¿Cuál de los siguientes conjuntos de preguntas es más adecuado para dicho propósito?",
+    "alternativas": {
+      "A": "¿Qué derechos de Corina garantizarían que no se la trate de forma diferente? ¿Cuáles son las entidades encargadas de vigilar que se cumplan estos derechos? ¿Podría recurrir Corina a una de estas entidades?",
+      "B": "¿Qué dijeron las estudiantes para justificar el no considerar a Corina como parte del grupo? ¿En qué creencias se basan para justificar sus acciones? ¿Cómo se ven afectados los derechos de las personas que son tratadas con base en esas creencias?",
+      "C": "¿Qué frase evidencia que las estudiantes no están respetando el derecho de Corina a ser tratada con igualdad? ¿De qué otra manera las estudiantes podrían haberse dirigido a Corina? ¿Qué creen que Corina debió haber contestado a sus compañeras?"
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "El docente ha planificado la siguiente actividad para sus estudiantes de tercer ciclo: cada estudiante traerá a la clase fotos de su familia de diferentes épocas, sin indicación de la fecha en la que fueron tomadas. En una cartulina, cada estudiante ordenará cronológicamente las fotos que ha traído. Por último, cada estudiante presentará su cartulina en clase y explicará oralmente los criterios que utilizó para identificar el orden cronológico de las fotografías. Si el docente tiene como propósito que los estudiantes se ejerciten en el uso de categorías temporales, ¿por qué es pertinente esta actividad?",
+    "alternativas": {
+      "A": "Porque la actividad promueve que los estudiantes utilicen sus experiencias familiares como insumo para ejercitarse en la elaboración de una secuencia, verbalizando los criterios usados para elaborarla.",
+      "B": "Porque la actividad permite que los estudiantes valoren la influencia que ciertos hechos de la historia de sus familias tuvieron en sus propias vidas, identificando relaciones multicausales.",
+      "C": "Porque la actividad promueve que los estudiantes utilicen fotos de su entorno cercano como insumos para interpretar imágenes."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, la docente de segundo grado se percata de que algunos estudiantes empiezan a tajar los lápices de colores hasta obtener mucha viruta para jugar con esta. La docente les pide detenerse. Si la docente busca que los estudiantes reflexionen sobre el cuidado de un recurso como los lápices, ¿cuál de los siguientes conjuntos de preguntas es más pertinente para ello?",
+    "alternativas": {
+      "A": "¿Para qué usamos los lápices de colores en la escuela? ¿Qué sucede si tajamos mucho los lápices para jugar con la viruta? Entonces, ¿qué sucedería si nos quedáramos sin lápices de colores?",
+      "B": "¿Creen que los lápices de colores cuestan dinero? Si cuestan dinero, ¿por qué los tajamos a cada rato para jugar con la viruta? ¿Con qué podríamos jugar en vez de usar las virutas de los lápices de colores?",
+      "C": "¿Por qué está mal tajar los lápices de colores a cada rato para jugar con la viruta? Si está mal, ¿por qué lo siguen haciendo? Entonces, ¿no creen que deberíamos cuidar y usar correctamente los lápices de colores en vez de tajarlos a cada rato?"
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En el marco de un proyecto llamado “Viajando por las ciudades del Perú”, un docente de segundo grado busca recoger los saberes previos de los estudiantes con respecto a la ubicación de las ciudades que se encuentran en el litoral. En este contexto, una de las estudiantes realiza el siguiente comentario: “Profesor, yo tengo un tío que vive en Mollendo y que siempre viene a Piura para visitarnos. Yo pensaba que la ciudad de Mollendo estaba al norte del Perú, y que estaba cerquita a la ciudad de Piura, como la ciudad de Tumbes. El año pasado viajé de Tumbes a Piura y solo demoré 6 horas en el bus; entonces, pensaba que Mollendo y Piura estaban más o menos igual de cerca. Pero mi tío me contó que, cuando él viaja en bus desde Piura a Mollendo, el viaje dura ¡más de un día! Luego, mi tío me mostró un mapa del Perú y ahí me di cuenta de que estaba equivocada porque observé que Mollendo está al sur y Piura al norte, y que entre ellas había varias ciudades más”. ¿Cuáles de las siguientes alternativas se evidencia en este comentario?",
+    "alternativas": {
+      "A": "Describe un recorrido usando los puntos cardinales para situarse en un espacio geográfico.",
+      "B": "Identifica puntos de referencia para desplazarse dentro de un espacio geográfico.",
+      "C": "Reconoce la distancia entre puntos dentro de un espacio geográfico."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una sesión de aprendizaje, los estudiantes de sexto grado, organizados en equipos, están investigando sobre los usos de los recursos del litoral peruano en el marco del desarrollo sostenible. En este contexto, el docente orienta a los equipos en la búsqueda de diversas fuentes y, además, les proporciona algunas otras fuentes para que las revisen. Durante la revisión de las fuentes, la integrante de un equipo lee el título de una noticia: “Distribuyen guano en Cajamarca”, y comenta al docente lo siguiente: “¿Van a distribuir guano? Es decir, ¿aún lo extraen? Yo entendí que se había acabado todo en el siglo XIX, durante la era del guano”. ¿Cuál de los siguientes procesos de aprendizaje se evidencia, principalmente, en el comentario de la estudiante?",
+    "alternativas": {
+      "A": "Conflicto cognitivo.",
+      "B": "Transferencia del aprendizaje.",
+      "C": "Metacognición sobre las estrategias de aprendizaje."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una sesión de aprendizaje, los estudiantes de sexto grado, organizados en equipos, están investigando sobre los usos de los recursos del litoral peruano en el marco del desarrollo sostenible. En este contexto, el docente orienta a los equipos en la búsqueda de diversas fuentes y, además, les proporciona algunas otras fuentes para que las revisen. Otro de los equipos recibió el siguiente texto: El Programa de Desarrollo Productivo Agrario Rural – AGRO RURAL, del Ministerio de Desarrollo Agrario y Riego, busca apoyar a los pequeños agricultores con herramientas y conocimientos para aumentar la productividad, mejorar sus ingresos y contribuir al desarrollo sostenible de sus comunidades. Por ello, una de las actividades en las que trabaja es la extracción, distribución y comercialización del guano. Este guano es considerado uno de los mejores abonos orgánicos del mundo y se encuentra en las islas del litoral peruano. Desde AGRO RURAL se busca asegurar que el guano de las islas llegue a los pequeños agricultores con un precio subsidiado. Esto les permitirá mejorar sus suelos, al conservar los nutrientes por mayor tiempo y aumentar la flora microbiana; abaratar sus costos de producción; incrementar su economía; e impulsar la agricultura ecológica y la seguridad alimentaria. AGRO RURAL reconoce que la demanda de guano es grande y la cantidad que se extrae es insuficiente. Por ello, para los próximos años, se ha propuesto que la extracción del guano crezca a 40 mil toneladas. Por esta razón, considerando que el guano de las islas es un recurso 100% orgánico y producido por las aves, se requiere extraer dicho recurso respetando los estándares ambientales. Al finalizar la lectura del texto, los estudiantes intercambian sus ideas. De acuerdo con el Currículo Nacional, ¿cuál de las siguientes intervenciones ha considerado tres dimensiones del desarrollo sostenible?",
+    "alternativas": {
+      "A": "Lua dice: “Está bien impulsar la extracción del guano porque se puede comercializar un abono con muchas propiedades. Este abono ayuda a cuidar los suelos de cultivo y a obtener productos ecológicos con los que los agricultores pueden generar ingresos. Además, con este abono, se reduce el riesgo de consumir frutas y verduras con residuos dañinos de abonos químicos”.",
+      "B": "Adriana dice: “Me llamó la atención que se subsidie el guano. Si el guano mantiene un precio barato, los pequeños agricultores podrían seguir cultivando y vendiendo sus cosechas por muchos años. Al no gastar tanto en abono, podrían tener un poco más de dinero para gastar en otras cosas que necesiten, como medicinas, por ejemplo”.",
+      "C": "Ulises dice: “Pienso que es importante que se siga extrayendo guano, pero cuidando las islas y las aves marinas. Para mí, esto quiere decir que no se va a explotar el guano en grandes cantidades, porque si no, se agotaría rápidamente, lo que podría ocasionar que se acabe para siempre”."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una reunión colegiada, algunos docentes comparten diversas acciones para favorecer la reflexión ética de los estudiantes. ¿Cuál de los docentes propone una actividad adecuada para ello?",
+    "alternativas": {
+      "A": "Pedro dice: “Considero que para favorecer la reflexión ética podemos planificar una actividad sobre la parábola del buen samaritano. A partir de esto, podemos pedir a los estudiantes que, para que sean mejores personas, utilicen como referente al protagonista de esta parábola”.",
+      "B": "Pablo dice: “Para favorecer la reflexión ética, podemos preguntar a los estudiantes qué harían si su mejor amigo les pide copiarse la tarea, explicando que el día anterior no la hizo por ayudar a sus papás a cuidar a su hermanito enfermo. A partir de sus respuestas, podemos pedirles que señalen razones por las que el pedido de su amigo es adecuado o no”.",
+      "C": "María dice: “Creo que, para favorecer la reflexión ética, podemos presentar a los estudiantes un dilema moral en el que una persona encontró una billetera en el suelo con documentos personales y dinero, y no sabe si quedársela o no. A partir de esto, se puede pedir a los estudiantes que indiquen algunas acciones para que la billetera retorne a su dueño”."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de sexto grado están desarrollando una unidad didáctica en la que van a elaborar interpretaciones históricas acerca de cómo era la vida cotidiana a inicios de la República. En este contexto, los estudiantes están observando un conjunto de imágenes de acuarelas de Pancho Fierro en las que se pueden observar oficios comunes en los inicios de la República, como, por ejemplo, el aguador, el vendedor de carbón, el vendedor de velas, entre otros. Durante el análisis de estas imágenes, se suscita el siguiente diálogo: Aurelio dice: “Miren esta imagen (señala una pintura en acuarela donde se observa un hombre que sostiene varias velas en una vara y, al pie de la representación, dice ‘Vendedor de velas’). ¿Por qué vendería solo velas? Creo que es raro. Actualmente, nadie vende solo velas”. Hugo dice: “Es que en esa época no había electricidad en las casas. Entonces, la gente compraba muchas velas. Por eso, existían vendedores de velas. Creo que, como todo el mundo las necesitaba, seguro vendían un montón”. Aurelio dice: “Ah… tienes razón. Como ahora existe la electricidad, ya no hay necesidad de comprar tantas velas. Por ello, ya no hay vendedores en las calles que solo vendan velas; ahora se pueden comprar en las bodegas, aunque ya no se compran tantas como en esa época. Y mira (señala la imagen de un aguador que lleva agua en su mula): también existía el aguador, un vendedor de agua”. Hugo dice: “Y se sigue vendiendo agua, aunque se compra de un camión cisterna, no de un aguador”. ¿Qué noción histórica se evidencia, principalmente, en el diálogo de los estudiantes?",
+    "alternativas": {
+      "A": "Cambios y permanencias.",
+      "B": "Secuencialidad.",
+      "C": "Simultaneidad."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "ciencias_sociales_ciudadania",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "¿Cuál de las siguientes acciones pedagógicas es pertinente para que los estudiantes se inicien en el proceso de construcción de la noción de doble?",
+    "alternativas": {
+      "A": "Preguntar: “¿Qué entienden por doble? ¿Alguna vez han escuchado esa palabra?”. Luego, entregar un grupo de 5 semillas a cada pareja de estudiantes y comentar que, para encontrar el doble de 5 semillas, se imaginen que las colocan frente a un espejo. Después, preguntar: “¿Cuánto es el doble de 5?”.",
+      "B": "Plantear el siguiente problema: “Ana tiene 6 años y Pedro tiene el doble de años. ¿Cuántos años tiene Pedro?”. Luego, señalar que el doble de un número significa multiplicar por 2, por lo que el doble de 6 es igual a 12. Después, preguntar: “¿Cuánto es el doble de 4? ¿Y el doble de 5? ¿Y el doble de 8?”.",
+      "C": "Preguntar: “En la manga de una camisa hay 3 botones. ¿Cuántos botones habrá en total en las dos mangas de la camisa?”. Luego, pedir que resuelvan la misma situación considerando, esta vez, que cada manga tenga 5 botones. Después, preguntar: “¿Cuántas veces consideras la cantidad de botones de una manga para saber el total de botones en las mangas de la camisa?”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Los estudiantes de primer grado, organizados en equipos y acompañados por la docente, se encuentran contando y organizando materiales del sector de matemática, como semillas, chapas, palitos, entre otros. En este contexto, una estudiante comenta a la docente: “Ya sé contar hasta treinta. Mira (menciona un número mientras señala cada semilla): uno, dos, tres, cuatro, ... veintinueve, treinta semillas. ¿Ves? ¡Ya sé contar!”. Ante ello, la docente se propone recoger mayor evidencia acerca de la habilidad de contar de la estudiante. Para ello, plantea algunas actividades complementarias. ¿Cuál de las siguientes actividades se ajusta al propósito de la docente?",
+    "alternativas": {
+      "A": "Proponerle que identifique el número treinta en el calendario.",
+      "B": "Pedirle que escriba los números del uno al treinta en tarjetas.",
+      "C": "Solicitarle que entregue treinta botones a un compañero."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Un docente busca promover la formulación de problemas matemáticos en los estudiantes de quinto grado. Por ello, luego de una visita al mercado, el docente y los estudiantes comparan los precios de los productos que se venden en este con los precios de los productos de una tienda. A partir de ello, los estudiantes, en equipos, plantean problemas para evaluarlos en plenaria con ayuda del docente. A continuación, se presenta el problema formulado por uno de los equipos: Hugo fue al mercado a comprar 1 kilogramo de pollo que le costó 10 soles y pagó con un billete de 50 soles. Al volver a casa, se dio cuenta de que le faltaba comprar un 1 kilogramo más. Entonces, fue a la tienda y el kilogramo le costó 12 soles. Si luego de realizar ambas compras, todavía le queda dinero, ¿cuánto dinero le queda a Hugo? A partir del propósito del docente, ¿cuál es el principal logro de aprendizaje que se evidencia en el planteamiento de este problema?",
+    "alternativas": {
+      "A": "Propone hallar un valor desconocido a partir de los datos del problema.",
+      "B": "Identifica el precio de un producto en dos contextos diferentes dentro del problema.",
+      "C": "Emplea adecuadamente términos vinculados con las unidades de masa en el problema."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Un docente busca promover la formulación de problemas matemáticos en los estudiantes de quinto grado. Por ello, luego de una visita al mercado, el docente y los estudiantes comparan los precios de los productos que se venden en este con los precios de los productos de una tienda. A partir de ello, los estudiantes, en equipos, plantean problemas para evaluarlos en plenaria con ayuda del docente. Otro equipo presentó el siguiente problema: Podemos decir que una niña fue al mercado. Primero, compró naranjas por un valor de 10 soles. Luego, decidió comprar 8 soles en verduras. Si para hacer sus compras llevó 20 soles, ¿cuánto le faltaría para comprar 2 kilogramos de menestra? El docente identifica que, para resolver el problema, falta incorporar algunos datos. Por ello, busca brindar retroalimentación al equipo sobre la formulación de dicho problema. ¿Qué acción pedagógica es más adecuada para ello?",
+    "alternativas": {
+      "A": "Pedirles que traten de resolver el problema tal como lo han propuesto. Luego, solicitarles que verifiquen si han colocado toda la información necesaria para responder al problema.",
+      "B": "Indicarles que se requieren más datos sobre las naranjas, verduras y menestras para responder la pregunta. Luego, animarlos a que ajusten el problema por sí mismos.",
+      "C": "Solicitarles que indiquen cuánto cuesta el kilogramo de menestra. Luego, pedirles que comprueben si con ese dato se puede responder la pregunta del problema."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, los estudiantes de sexto grado, organizados en equipos, resuelven problemas usando ecuaciones. Uno de los equipos está resolviendo el siguiente problema: José tenía en una bolsa el doble de caramelos de menta que de miel. Luego, compró 7 caramelos de miel y los agregó a la bolsa. Después, sacó 5 caramelos de menta y se los dio a su hermanita. Ahora tiene la misma cantidad de caramelos de menta y de miel. ¿Cuántos caramelos tiene de cada sabor? Luego de leer el problema, una estudiante comparte su propuesta de resolución con los integrantes de su equipo: “Creo que ya sé qué podemos hacer. Miren (anotando en su hoja), en la bolsa había ‘x’ caramelos de miel y, como tenía el doble de caramelos de menta que de miel, entonces ‘2x’ significa la cantidad de los caramelos de menta. Luego, al agregar 7 caramelos de miel y al sacar 5 de menta, ahora la cantidad de ambos sabores es la misma. Entonces, quedaría así: x + 7 = 2x – 5. Y miren, x + 7 sería la cantidad de los caramelos de miel y 2x – 5 sería la cantidad de los de menta”. ¿Cuál de los siguientes aprendizajes se evidencia en el comentario de la estudiante?",
+    "alternativas": {
+      "A": "Argumenta la forma de organización de los datos de una ecuación para encontrar el valor de la incógnita.",
+      "B": "Interpreta los datos y el valor desconocido de una situación para representarlos en una ecuación.",
+      "C": "Explica lo que ocurre al agregar o quitar una misma cantidad a ambos lados de una ecuación."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, los estudiantes de primer grado resuelven el siguiente problema: Dalia puso 8 tapitas en una caja vacía. Luego, Carlos agregó 5 tapitas. ¿Cuántas tapitas hay en la caja en total? Luego, en plenaria comparten las estrategias que usaron para resolverlo. En este contexto, una estudiante comenta lo siguiente: “Yo lo hice así. Miren, me guardé ocho en mi mente y, ahora, (levanta un dedo a la vez y menciona el nombre de cada número; en total levanta cinco dedos), con los dedos cuento lo que sigue: ‘nueve, diez, once, doce, trece’. Entonces, ocho más cinco es trece. Hay trece chapitas en total”. ¿Cuál de las siguientes etapas de la secuencia verbal del conteo es la que más se evidencia en el comentario de la estudiante?",
+    "alternativas": {
+      "A": "Cadena bidireccional.",
+      "B": "Cadena numerable.",
+      "C": "Cadena irrompible."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una de las actividades de una sesión de aprendizaje, los estudiantes, organizados en equipos, reciben imágenes de diferentes cuadriláteros para establecer semejanzas y diferencias entre estos. En este contexto, a uno de los equipos se les pidió identificar las diferencias y similitudes entre las características del triángulo, el cuadrado, el rombo y el romboide. Luego, un integrante muestra al docente un rectángulo cuyos lados miden 5 cm y 8 cm, y dice: “El rectángulo es el único cuadrilátero que tiene dos lados cortos iguales y dos lados largos iguales”. Después de escucharlo, el docente le entrega la figura de un romboide cuyos lados miden 5 cm y 8 cm, y le pide al estudiante que mida los lados de dicha figura. A partir de ello, el docente le pregunta: “¿Cuánto miden los lados del romboide? ¿Tiene lados que son iguales? Entonces, ¿el rectángulo será el único cuadrilátero que tiene dos lados cortos iguales y dos lados largos iguales?”. ¿Qué proceso busca promover, principalmente, el docente al mostrar al estudiante un romboide cuyos lados miden 5 cm y 8 cm?",
+    "alternativas": {
+      "A": "La transferencia del aprendizaje.",
+      "B": "La activación de saberes previos.",
+      "C": "La generación de conflicto cognitivo."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una IE, se viene desarrollando un proyecto de aprendizaje que implica la construcción de un vivero. En este contexto, durante una de las actividades del proyecto, los estudiantes de quinto grado, en pares, se encuentran revisando las anotaciones que realizaron sobre el tamaño del terreno que van a necesitar para el vivero. A partir de dichas anotaciones, se produce el siguiente diálogo: Mabel dice: “Veo que no necesitamos mucho espacio para el vivero. Creo que necesitamos tres quintos de los noventa metros cuadrados del jardín”. Jorge dice: “¿Tú crees? A ver, creo que para saber cuánto es los tres quintos de noventa, deberíamos dividir el noventa en cinco cantidades iguales y tomamos tres de ellas. Entonces, (mostrando sus anotaciones) eso significa que se divide noventa entre cinco y el resultado lo multiplicamos por tres. Así, nuestro vivero medirá cincuenta y cuatro metros cuadrados”. ¿Qué significado de la fracción se evidencia en el comentario de Jorge?",
+    "alternativas": {
+      "A": "La fracción como medida.",
+      "B": "La fracción como cociente.",
+      "C": "La fracción como operador."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una sesión de aprendizaje, varios estudiantes de cuarto grado comparten su interés por los dinosaurios. Ante ello, la docente les propone conocer más sobre los dinosaurios y compartir sus hallazgos con los compañeros de otros grados. Como parte de una de las actividades, un equipo de estudiantes culminó de leer un texto que describe el tamaño de diversos dinosaurios. En este contexto, se suscitó el siguiente diálogo: Luis dice: “(Señalando la sección del libro) Aquí dice que el ‘Eoraptor lunensis’ medía un metro de largo y en la revista dice que el ‘Microceratus gobiensis’ medía alrededor de 60 centímetros de largo”. La docente dice: “De los dos dinosaurios, ¿cuál crees que es el más largo?”. Luis dice: “El ‘Microceratus’ es más largo, porque 60 es mayor que uno”. La docente dice: “Entonces, ¿puedes intentar hacer la equivalencia entre centímetros y metros?”. Luis dice: “Es que no sé cómo hacerlo”. A partir de lo dicho por el estudiante, la docente busca ayudarlo a establecer la equivalencia entre centímetros y metros para resolver el problema. ¿Cuál de las siguientes acciones pedagógicas es la más adecuada para ello?",
+    "alternativas": {
+      "A": "Entregarle una tira de papelote de 100 centímetros de largo, sin indicarle la medida, y un listón de madera de 20 centímetros de largo. Luego, pedirle que averigüe cuántas veces cabe el listón en la tira. Después, preguntarle: “Si el listón mide 20 centímetros, ¿cuánto mide el largo del papelote?, ¿es posible que 60 sea mayor que 100 centímetros?”.",
+      "B": "Entregarle una cinta métrica e indicarle que un metro equivale a 100 centímetros. Luego, pedirle que en la cinta marque hasta dónde hay 60 centímetros y 100 centímetros. Después, preguntarle: “De estos dos números, ¿cuál es el mayor?, ¿es correcto decir que 60 centímetros es mayor que 1 metro?”.",
+      "C": "Entregarle una tira de papel y mencionarle que esta mide 1 metro de largo. Luego, pedirle que con una regla determine cuántos centímetros mide la tira de papel y marque el resultado en la tira. Después, preguntarle: “¿1 metro a cuántos centímetros equivale?, ¿cuál es mayor: 1 metro o 60 centímetros?”."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En una sesión de aprendizaje, varios estudiantes de cuarto grado comparten su interés por los dinosaurios. Ante ello, la docente les propone conocer más sobre los dinosaurios y compartir sus hallazgos con los compañeros de otros grados. En otra actividad, un equipo recopiló información sobre cuál era el dinosaurio favorito de los estudiantes de la IE y los organizó en la siguiente tabla: Diplodocus (24), Velociraptor (48), Tiranosaurio (30), Brontosaurio (42), Otros dinosaurios (18). El equipo decidió compartir la información de la tabla en un pictograma horizontal con escala. Sin embargo, tiene dificultades sobre cómo realizar la representación del número de estudiantes. ¿Cuál de las siguientes acciones pedagógicas es más adecuada para orientar a estos estudiantes?",
+    "alternativas": {
+      "A": "Mostrarles ejemplos de pictogramas horizontales con escala y, junto con ellos, identificar el criterio usado para dar valor a los símbolos. A partir de esto, pedirles que elijan un símbolo y le den un único valor, el cual puede valer uno o más, para representar el número de estudiantes que corresponde a cada dinosaurio. Después, indicarles que ordenen dichos símbolos en su pictograma.",
+      "B": "Solicitarles que escriban los nombres de los dinosaurios a la izquierda de la línea vertical del pictograma. A partir de esto, pedirles que, a la derecha de cada nombre, coloquen la cantidad de símbolos que corresponde a cada dinosaurio, considerando que cada símbolo representa a seis estudiantes. Después, pedirles que escriban el título de su pictograma.",
+      "C": "Entregarles un pictograma horizontal que solo tenga los nombres de los dinosaurios de la tabla. A partir de esto, indicarles que elijan un símbolo y determinen cuántos estudiantes representará dicho símbolo. Después, solicitarles que ordenen los símbolos a la derecha de cada nombre de dinosaurio que corresponda."
+    },
+    "respuestaCorrecta": "A",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje centrada en favorecer la comprensión sobre el área de formas bidimensionales, los estudiantes de tercer grado resuelven la siguiente situación: Isabel va a comprar un cuadro de forma rectangular para decorar la pared de su habitación. Este cuadro mide 15 centímetros de ancho y 20 centímetros de largo. ¿Cuál es el área que ocupará el cuadro? En este contexto, un estudiante comenta lo siguiente: “Como el cuadro tiene la forma de un rectángulo y sus lados miden 15 y 20 centímetros, entonces multiplico esos números, con lo cual el área del rectángulo me da 300 centímetros cuadrados. Es decir, tenemos 300 cuadrados que miden un centímetro en cada lado. Por eso, son 300 centímetros cuadrados”. ¿Qué aprendizaje se evidencia en el comentario del estudiante?",
+    "alternativas": {
+      "A": "Emplea la descomposición numérica para calcular el área de un rectángulo.",
+      "B": "Comprueba el valor del área de un rectángulo mediante el uso de cuadrados.",
+      "C": "Interpreta el área de un rectángulo a partir de la cantidad de unidades de superficie."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Durante una sesión de aprendizaje, los estudiantes de sexto grado se encuentran resolviendo problemas que implican el uso de ecuaciones. A continuación, se presenta uno de estos problemas: Gladys tiene 5 soles más que Héctor. Al sumar el dinero de ambos, se obtiene 35 soles. ¿Cuánto dinero tiene Héctor? Durante el acompañamiento del docente, un estudiante le pide ayuda para resolver el problema y le menciona lo siguiente: “Entiendo que se desconoce la cantidad de dinero que tiene Gladys y la que tiene Héctor. Además, en el problema se dice que ella tiene 5 soles más que Héctor. También, se sabe que, si sumo el dinero de ambos, resulta 35 soles. Pero no sé cómo expresar toda esta información en una ecuación. ¿Podría ayudarme?”. Tomando en cuenta el comentario del estudiante, ¿cuál de las siguientes acciones pedagógicas es la más adecuada para ayudarlo a expresar la información mediante una ecuación?",
+    "alternativas": {
+      "A": "Pedirle que represente el dinero de Héctor con la letra “x” y el dinero de Gladys como “x + 5”. Luego, indicarle que sume “x” con la expresión “x + 5”, e iguale a 35. A partir de esto, preguntarle: “¿Cuál es la ecuación que se obtiene? ¿Esta ecuación cumple con las condiciones del problema?”.",
+      "B": "Mostrarle en una hoja la letra “n” y pedirle que indique la operación necesaria para representar otra cantidad 5 unidades mayor que “n”. Luego, preguntarle: “¿Cuál de las expresiones representa el dinero de Héctor? ¿Y el de Gladys?”, y solicitarle que justifique su respuesta. A partir de esto, indicarle que represente la segunda condición del problema.",
+      "C": "Preguntarle: “¿Qué condiciones se debe tener en cuenta para representar el dinero que tiene Héctor? ¿Y el de Gladys?”. Luego, entregarle 7 monedas de 5 soles y pedirle que forme con ella 2 grupos, donde uno sea 5 soles mayor que el otro. A partir de esto, indicarle que verifique si estos grupos corresponden a las cantidades de dinero que tienen Héctor y Gladys."
+    },
+    "respuestaCorrecta": "B",
+    "competencia": "retroalimentacion_acompanamiento",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "En el marco de los juegos deportivos escolares de la IE, los estudiantes de sexto grado, organizados en equipos, junto con el docente, analizan los resultados de las diferentes disciplinas deportivas para identificar a los deportistas más destacados. En este contexto, uno de los integrantes de un equipo comparte el procedimiento que realizó para identificar a la jugadora que ha anotado más goles en promedio por partido de futbol femenino. “Ofelia jugó 5 partidos y anotó la siguiente cantidad de goles: (muestra su registro) en el primer partido anotó 2, en el segundo no anotó, en el tercero marcó 3, en el cuarto hizo 1 y en el quinto anotó 2. Para calcular el promedio, primero puse los datos de mayor a menor: 3, 2, 2, 1 y 0. Luego, sumé los números: 3 + 2 + 2 + 1; el resultado es 8. El cero no lo sumé porque no tiene valor. Después, dividí el 8 entre 4 y me salió 2. Entonces, su promedio es 2 goles por partido”. ¿En cuál de los siguientes procedimientos realizados por el estudiante se evidencia un error que la docente debe atender en la retroalimentación?",
+    "alternativas": {
+      "A": "El ordenar los datos de mayor a menor.",
+      "B": "El sumar únicamente los datos diferentes de cero.",
+      "C": "El dividir la suma de los datos entre una cantidad distinta al total de datos."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una unidad didáctica, una docente de primer grado ha planificado diferentes actividades para favorecer la construcción de la noción de número en los estudiantes. Una de las actividades consiste en que los estudiantes, por turnos, lanzan pelotas a una caja. Luego, mencionan la cantidad de pelotas que cayeron dentro de la caja y registran dicha cantidad en una hoja. Durante la actividad, Jaime, uno de los estudiantes, se acerca a la caja y cuenta en voz alta las pelotas que logró meter. Mientras señala con su dedo cada pelota, dice: “Uno, dos, tres, cuatro, cinco, seis, siete, ocho”. Luego, la docente se acerca a Jaime y le pide que le entregue cinco pelotas. A partir de esto, Jaime, señalando cada pelota, dice: “Uno, dos, tres, cuatro, cinco”. Toma la última pelota que señaló y se la entrega a la docente. ¿Cuál de los siguientes principios del conteo NO se evidencia en las intervenciones de Jaime?",
+    "alternativas": {
+      "A": "Principio de correspondencia.",
+      "B": "Principio de orden estable.",
+      "C": "Principio de cardinalidad."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  },
+  {
+    "enunciado": "Como parte de una sesión de aprendizaje, la docente de sexto grado propone a los estudiantes usar diversas estrategias para resolver el siguiente problema: Leo tenía 5 soles y recibe 2 soles de propina. Su hermana tenía cierta cantidad de dinero y recibe 3 soles de propina. Ahora, ambos tienen la misma cantidad de dinero. ¿Cuánto dinero tenía la hermana de Leo inicialmente? En este contexto, una estudiante menciona a la docente que una forma de resolver el problema es usando ecuaciones y describe su procedimiento: “(Muestra su registro y dice) Escribí la ecuación: 5 + 2 = x + 3. Para hallar el valor de ‘x’, le quité 1 al 5 y se lo pasé al 2. La ecuación quedó como 4 + 3 = x + 3. En esta ecuación, hay dos términos en cada lado. Además, en ambos lados está el 3. Entonces, para que ambos lados sean iguales, el otro número que también debe estar en los dos lados es el 4. Por eso, x vale 4”. ¿Cuál de los siguientes aprendizajes se evidencia en el procedimiento descrito por la estudiante?",
+    "alternativas": {
+      "A": "Emplea la transposición de términos para resolver la ecuación.",
+      "B": "Emplea la sustitución de diferentes valores en la incógnita para resolver la ecuación.",
+      "C": "Emplea la correspondencia entre los términos de una igualdad para resolver la ecuación."
+    },
+    "respuestaCorrecta": "C",
+    "competencia": "resolucion_problemas_matematicos",
+    "fuente": "A04-EBRP-11-2025",
+    "anio": 2025
+  }
+]
