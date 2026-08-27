@@ -21,7 +21,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: "Revisar respuestas", href: "/dashboard/revisar" },
   { label: "Plan de estudio", href: "/dashboard/plan-estudio" },
   { label: "Mi progreso", href: "/dashboard/progreso" },
-  { label: "Historial", href: "/dashboard/historial", disabled: true },
+  { label: "Historial", href: "/dashboard/historial" },
 ];
 
 /**

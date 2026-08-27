@@ -34,6 +34,14 @@ export interface RespuestaGuardada {
   guardada: boolean;
 }
 
+export interface DiagnosticoHistorial {
+  id: string;
+  fecha: string;
+  estado: "en_progreso" | "completado";
+  /** Puntaje total 0-100 si está completado; null si sigue en progreso. */
+  puntaje: number | null;
+}
+
 export interface SimulacionResultado {
   diagnosticoId: string;
   preguntasSimuladas: number;
@@ -62,6 +70,13 @@ export async function crearDiagnostico(): Promise<
   ServiceResult<DiagnosticoCreado>
 > {
   return callApi(() => api.post<DiagnosticoCreado>("/diagnostico"));
+}
+
+/** Historial de diagnósticos del usuario, del más reciente al más antiguo. */
+export async function listarDiagnosticos(): Promise<
+  ServiceResult<DiagnosticoHistorial[]>
+> {
+  return callApi(() => api.get<DiagnosticoHistorial[]>("/diagnostico"));
 }
 
 export async function responderPregunta(

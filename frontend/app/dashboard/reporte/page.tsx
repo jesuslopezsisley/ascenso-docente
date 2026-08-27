@@ -9,10 +9,21 @@ export const metadata: Metadata = {
   title: "Reporte — Ascenso Docente",
 };
 
-export default async function ReportePage() {
+export default async function ReportePage({
+  searchParams,
+}: PageProps<"/dashboard/reporte">) {
   // El layout de /dashboard ya garantiza que hay sesión.
-  const session = await getSession();
-  const diagnosticoId = session?.diagnostico?.id;
+  const [{ diagnostico }, session] = await Promise.all([
+    searchParams,
+    getSession(),
+  ]);
+
+  // El reporte se puede ver del diagnóstico activo de la sesión (flujo normal
+  // tras finalizar) o de uno concreto vía ?diagnostico=<id> (desde el
+  // historial). El backend valida la pertenencia al usuario (404 si no).
+  const idDesdeUrl = typeof diagnostico === "string" ? diagnostico : undefined;
+  const diagnosticoId = idDesdeUrl ?? session?.diagnostico?.id;
+  const desdeHistorial = idDesdeUrl !== undefined;
 
   if (!diagnosticoId) {
     redirect("/dashboard/diagnostico");
@@ -32,10 +43,10 @@ export default async function ReportePage() {
           {result.message}
         </p>
         <Link
-          href="/dashboard/diagnostico"
+          href={desdeHistorial ? "/dashboard/historial" : "/dashboard/diagnostico"}
           className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
         >
-          Volver al diagnóstico
+          {desdeHistorial ? "Volver al historial" : "Volver al diagnóstico"}
         </Link>
       </main>
     );
@@ -52,6 +63,15 @@ export default async function ReportePage() {
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-8 px-6 py-12">
+      {desdeHistorial ? (
+        <Link
+          href="/dashboard/historial"
+          className="self-start text-sm font-medium text-primary"
+        >
+          ← Volver al historial
+        </Link>
+      ) : null}
+
       <div className="text-center">
         <p className="text-sm font-medium tracking-wide text-accent uppercase">
           Reporte del diagnóstico
@@ -93,18 +113,29 @@ export default async function ReportePage() {
       </ul>
 
       <div className="flex justify-center gap-3">
-        <Link
-          href="/dashboard"
-          className="rounded-md border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
-        >
-          Volver al inicio
-        </Link>
-        <Link
-          href="/dashboard/plan-estudio"
-          className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
-        >
-          Ver mi plan de estudio
-        </Link>
+        {desdeHistorial ? (
+          <Link
+            href="/dashboard/historial"
+            className="rounded-md border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+          >
+            Volver al historial
+          </Link>
+        ) : (
+          <>
+            <Link
+              href="/dashboard"
+              className="rounded-md border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-muted"
+            >
+              Volver al inicio
+            </Link>
+            <Link
+              href="/dashboard/plan-estudio"
+              className="rounded-md bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+            >
+              Ver mi plan de estudio
+            </Link>
+          </>
+        )}
       </div>
     </main>
   );
