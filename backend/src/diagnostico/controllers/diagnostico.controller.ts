@@ -20,6 +20,17 @@ import { DiagnosticoService } from '../services/diagnostico.service';
 export class DiagnosticoController {
   constructor(private readonly diagnosticoService: DiagnosticoService) {}
 
+  @Get()
+  @ApiOperation({
+    summary:
+      'Lista los diagnósticos del usuario autenticado, del más reciente al más antiguo',
+  })
+  @ApiResponse({ status: 200, description: 'Historial de diagnósticos' })
+  async listar(@CurrentUser('id') usuarioId: string) {
+    const data = await this.diagnosticoService.listar(usuarioId);
+    return { message: 'Historial de diagnósticos', data };
+  }
+
   @Post()
   @ApiOperation({
     summary:

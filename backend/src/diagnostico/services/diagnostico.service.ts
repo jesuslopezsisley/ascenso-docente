@@ -85,6 +85,44 @@ export class DiagnosticoService {
     return { diagnostico, preguntas };
   }
 
+  /**
+   * Historial: todos los diagnósticos del usuario, del más reciente al más
+   * antiguo. Para los completados incluye el puntaje total (mismo cálculo
+   * que finalizar(): respuestas correctas / preguntas asignadas). Los que
+   * siguen en progreso van con puntaje null.
+   */
+  async listar(usuarioId: string) {
+    const diagnosticos = await this.prisma.diagnostico.findMany({
+      where: { usuarioId },
+      orderBy: { fecha: 'desc' },
+      select: {
+        id: true,
+        fecha: true,
+        estado: true,
+        _count: {
+          select: {
+            preguntasAsignadas: true,
+            respuestas: { where: { esCorrecta: true } },
+          },
+        },
+      },
+    });
+
+    return diagnosticos.map((d) => {
+      const totalPreguntas = d._count.preguntasAsignadas;
+      const correctas = d._count.respuestas;
+      return {
+        id: d.id,
+        fecha: d.fecha,
+        estado: d.estado,
+        puntaje:
+          d.estado === 'completado' && totalPreguntas > 0
+            ? Math.round((correctas / totalPreguntas) * 100)
+            : null,
+      };
+    });
+  }
+
   /** Verifica que el diagnóstico exista y pertenezca al usuario autenticado. */
   private async obtenerPropio(diagnosticoId: string, usuarioId: string) {
     const diagnostico = await this.prisma.diagnostico.findFirst({
