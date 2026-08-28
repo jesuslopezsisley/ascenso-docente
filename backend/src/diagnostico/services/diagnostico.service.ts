@@ -4,9 +4,10 @@ import {
   NotFoundException,
   ServiceUnavailableException,
 } from '@nestjs/common';
-import { GeminiService } from '../../ia/services/gemini.service';
+import { IaService } from '../../ia/services/ia.service';
 import { PrismaService } from '../../prisma/prisma.service';
 import {
+  COMPETENCIAS_PEDAGOGICAS,
   CompetenciaNombre,
   PATRON_SIMULACION_POR_DEFECTO,
 } from '../constants/competencias';
@@ -21,11 +22,34 @@ import { ExplicacionesService } from './explicaciones.service';
 const ALTERNATIVAS = ['A', 'B', 'C'] as const;
 const CANTIDAD_PREGUNTAS_DIAGNOSTICO = 60;
 
+/** JSON Schema para forzar el shape del plan cuando el proveedor es Ollama. */
+const SCHEMA_PLAN_ESTUDIO: Record<string, unknown> = {
+  type: 'object',
+  properties: {
+    semanas: { type: 'integer' },
+    resumen: { type: 'string' },
+    sesiones: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          semana: { type: 'integer' },
+          competencia: { type: 'string', enum: [...COMPETENCIAS_PEDAGOGICAS] },
+          tema: { type: 'string' },
+          quePracticar: { type: 'string' },
+        },
+        required: ['semana', 'competencia', 'tema', 'quePracticar'],
+      },
+    },
+  },
+  required: ['semanas', 'resumen', 'sesiones'],
+};
+
 @Injectable()
 export class DiagnosticoService {
   constructor(
     private readonly prisma: PrismaService,
-    private readonly gemini: GeminiService,
+    private readonly ia: IaService,
     private readonly explicaciones: ExplicacionesService,
   ) {}
 
@@ -413,7 +437,9 @@ export class DiagnosticoService {
 
     const semanas = this.calcularSemanas(reportePlan);
     const prompt = this.construirPromptPlanEstudio(reportePlan, semanas);
-    const textoCrudo = await this.gemini.generarTexto(prompt);
+    const textoCrudo = await this.ia.generarTexto(prompt, {
+      schema: SCHEMA_PLAN_ESTUDIO,
+    });
     const plan = this.parsearPlanEstudio(textoCrudo);
 
     const sesionesData = plan.sesiones.map((s) => ({

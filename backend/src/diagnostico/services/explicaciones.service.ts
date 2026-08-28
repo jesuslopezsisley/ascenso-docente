@@ -4,8 +4,22 @@ import {
   ServiceUnavailableException,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { GeminiService } from '../../ia/services/gemini.service';
+import { IaService } from '../../ia/services/ia.service';
 import { PrismaService } from '../../prisma/prisma.service';
+
+/** JSON Schema para forzar el shape cuando el proveedor es Ollama. */
+const SCHEMA_EXPLICACIONES = {
+  type: 'array',
+  items: {
+    type: 'object',
+    properties: {
+      preguntaId: { type: 'string' },
+      porQueEstaMal: { type: 'string' },
+      porQueLaCorrectaEsMejor: { type: 'string' },
+    },
+    required: ['preguntaId', 'porQueEstaMal', 'porQueLaCorrectaEsMejor'],
+  },
+} as const;
 
 /**
  * Genera, con IA, la explicación de cada pregunta fallada de un diagnóstico
@@ -24,7 +38,7 @@ export class ExplicacionesService {
 
   constructor(
     private readonly prisma: PrismaService,
-    private readonly gemini: GeminiService,
+    private readonly ia: IaService,
     private readonly config: ConfigService,
   ) {}
 
@@ -65,41 +79,54 @@ export class ExplicacionesService {
       correcta: r.pregunta.respuestaCorrecta,
     }));
 
-    let generadas: ExplicacionGenerada[];
-    try {
-      generadas = this.mockActivo
-        ? items.map((it) => this.explicacionMock(it))
-        : await this.generarConGemini(items);
-    } catch (error) {
-      this.logger.error(
-        `No se pudieron generar explicaciones para el diagnóstico ${diagnosticoId}: ${
-          error instanceof Error ? error.message : String(error)
-        }`,
-      );
-      return;
+    // El modelo (sobre todo un 8B tipo qwen3) a veces omite algunas
+    // preguntas del lote; se reintenta una vez SOLO con las que faltan.
+    let pendientes = items;
+    let persistidasTotal = 0;
+    for (let intento = 1; intento <= 2 && pendientes.length > 0; intento++) {
+      let generadas: ExplicacionGenerada[];
+      try {
+        generadas = this.mockActivo
+          ? pendientes.map((it) => this.explicacionMock(it))
+          : await this.generarConIa(pendientes);
+      } catch (error) {
+        this.logger.error(
+          `No se pudieron generar explicaciones para el diagnóstico ${diagnosticoId} (intento ${intento}): ${
+            error instanceof Error ? error.message : String(error)
+          }`,
+        );
+        break;
+      }
+
+      const porPreguntaId = new Map(generadas.map((e) => [e.preguntaId, e]));
+      const updates = pendientes
+        .filter((it) => porPreguntaId.has(it.preguntaId))
+        .map((it) => {
+          const e = porPreguntaId.get(it.preguntaId)!;
+          return this.prisma.respuesta.update({
+            where: { id: it.respuestaId },
+            data: {
+              explicacion: `${e.porQueEstaMal.trim()} ${e.porQueLaCorrectaEsMejor.trim()}`,
+            },
+          });
+        });
+
+      if (updates.length > 0) {
+        await this.prisma.$transaction(updates);
+        persistidasTotal += updates.length;
+      }
+      pendientes = pendientes.filter((it) => !porPreguntaId.has(it.preguntaId));
     }
 
-    const porPreguntaId = new Map(generadas.map((e) => [e.preguntaId, e]));
-    const updates = items
-      .filter((it) => porPreguntaId.has(it.preguntaId))
-      .map((it) => {
-        const e = porPreguntaId.get(it.preguntaId)!;
-        return this.prisma.respuesta.update({
-          where: { id: it.respuestaId },
-          data: {
-            explicacion: `${e.porQueEstaMal.trim()} ${e.porQueLaCorrectaEsMejor.trim()}`,
-          },
-        });
-      });
-
-    if (updates.length === 0) {
+    if (persistidasTotal === 0) {
       this.logger.warn(
         `La generación de explicaciones para ${diagnosticoId} no devolvió ninguna coincidencia por preguntaId`,
       );
-      return;
+    } else if (pendientes.length > 0) {
+      this.logger.warn(
+        `Diagnóstico ${diagnosticoId}: ${persistidasTotal}/${items.length} explicaciones generadas; ${pendientes.length} quedan en null`,
+      );
     }
-
-    await this.prisma.$transaction(updates);
   }
 
   private normalizarAlternativas(valor: unknown): Record<string, string> {
@@ -150,14 +177,20 @@ export class ExplicacionesService {
   }
 
   // ---------------------------------------------------------------------------
-  // Gemini real
+  // IA real (Gemini u Ollama según PROVEEDOR_IA)
   // ---------------------------------------------------------------------------
 
-  private async generarConGemini(
+  private async generarConIa(
     items: ItemFallada[],
   ): Promise<ExplicacionGenerada[]> {
     const prompt = this.construirPrompt(items);
-    const textoCrudo = await this.gemini.generarTexto(prompt);
+    const textoCrudo = await this.ia.generarTexto(prompt, {
+      schema: SCHEMA_EXPLICACIONES as unknown as Record<string, unknown>,
+      // El lote puede traer hasta ~21 preguntas con enunciados largos: el
+      // prompt ronda los 7k tokens y la salida otros ~2.5k. Con la ventana
+      // por defecto (8192) Ollama trunca y se pierden explicaciones.
+      numCtx: 16384,
+    });
     return this.parsear(textoCrudo, items);
   }
 
