@@ -66,6 +66,24 @@ export interface ReporteFinal {
   };
 }
 
+export type Alternativa = "A" | "B" | "C";
+
+export interface RespuestaRevision {
+  preguntaId: string;
+  enunciado: string;
+  alternativas: { A: string; B: string; C: string };
+  competencia: string;
+  respuestaCorrecta: Alternativa;
+  /** null si el docente no llegó a responder esa pregunta. */
+  alternativaElegida: Alternativa | null;
+  esCorrecta: boolean;
+  /**
+   * Explicación generada por IA. Solo viene en las falladas; null mientras
+   * la generación está pendiente o falló, o si la pregunta se acertó.
+   */
+  explicacion: string | null;
+}
+
 export async function crearDiagnostico(): Promise<
   ServiceResult<DiagnosticoCreado>
 > {
@@ -105,5 +123,14 @@ export async function finalizarDiagnostico(
 ): Promise<ServiceResult<ReporteFinal>> {
   return callApi(() =>
     api.post<ReporteFinal>(`/diagnostico/${diagnosticoId}/finalizar`),
+  );
+}
+
+/** Detalle pregunta por pregunta para la pantalla de revisión. */
+export async function obtenerRespuestasDiagnostico(
+  diagnosticoId: string,
+): Promise<ServiceResult<RespuestaRevision[]>> {
+  return callApi(() =>
+    api.get<RespuestaRevision[]>(`/diagnostico/${diagnosticoId}/respuestas`),
   );
 }
