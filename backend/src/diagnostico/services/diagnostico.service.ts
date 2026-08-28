@@ -16,6 +16,7 @@ import {
   calcularCuposPorCompetencia,
   elegirAlAzar,
 } from '../utils/muestreo-preguntas';
+import { ExplicacionesService } from './explicaciones.service';
 
 const ALTERNATIVAS = ['A', 'B', 'C'] as const;
 const CANTIDAD_PREGUNTAS_DIAGNOSTICO = 60;
@@ -25,6 +26,7 @@ export class DiagnosticoService {
   constructor(
     private readonly prisma: PrismaService,
     private readonly gemini: GeminiService,
+    private readonly explicaciones: ExplicacionesService,
   ) {}
 
   /**
@@ -187,6 +189,10 @@ export class DiagnosticoService {
         where: { id: diagnosticoId },
         data: { estado: 'completado' },
       });
+      // Al pasar a completado (una sola vez) se generan las explicaciones de
+      // las preguntas falladas. Best-effort: el propio servicio traga sus
+      // errores, así que esto nunca tumba el reporte.
+      await this.explicaciones.generarParaDiagnostico(diagnosticoId);
     }
 
     const [asignaciones, respuestas, competencias] = await Promise.all([
@@ -252,6 +258,61 @@ export class DiagnosticoService {
             : 0,
       },
     };
+  }
+
+  /**
+   * Detalle pregunta por pregunta para la pantalla de revisión: las 60
+   * preguntas asignadas con el enunciado, sus alternativas, la competencia,
+   * la alternativa correcta, la que eligió el docente (null si no la
+   * respondió), si acertó, y —solo en las falladas— la explicación generada
+   * por IA (null si todavía se está generando o falló).
+   */
+  async obtenerRespuestas(diagnosticoId: string, usuarioId: string) {
+    await this.obtenerPropio(diagnosticoId, usuarioId);
+
+    const [asignaciones, respuestas] = await Promise.all([
+      this.prisma.diagnosticoPregunta.findMany({
+        where: { diagnosticoId },
+        select: {
+          pregunta: {
+            select: {
+              id: true,
+              enunciado: true,
+              alternativas: true,
+              respuestaCorrecta: true,
+              competencia: { select: { nombre: true } },
+            },
+          },
+        },
+      }),
+      this.prisma.respuesta.findMany({
+        where: { diagnosticoId },
+        select: {
+          preguntaId: true,
+          alternativaElegida: true,
+          esCorrecta: true,
+          explicacion: true,
+        },
+      }),
+    ]);
+
+    const respuestaPorPregunta = new Map(
+      respuestas.map((r) => [r.preguntaId, r]),
+    );
+
+    return asignaciones.map(({ pregunta: p }) => {
+      const r = respuestaPorPregunta.get(p.id);
+      return {
+        preguntaId: p.id,
+        enunciado: p.enunciado,
+        alternativas: p.alternativas,
+        competencia: p.competencia.nombre,
+        respuestaCorrecta: p.respuestaCorrecta,
+        alternativaElegida: r?.alternativaElegida ?? null,
+        esCorrecta: r?.esCorrecta ?? false,
+        explicacion: r && !r.esCorrecta ? r.explicacion : null,
+      };
+    });
   }
 
   /** Solo para demo (ver DemoModeGuard). Reusa responder() para cada pregunta. */

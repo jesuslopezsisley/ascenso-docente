@@ -72,6 +72,20 @@ export class DiagnosticoController {
     return { message: 'Diagnóstico finalizado', data };
   }
 
+  @Get(':id/respuestas')
+  @ApiOperation({
+    summary:
+      'Detalle pregunta por pregunta del diagnóstico (elegida, correcta y explicación de las falladas)',
+  })
+  @ApiResponse({ status: 200, description: 'Respuestas del diagnóstico' })
+  async respuestas(
+    @Param('id') id: string,
+    @CurrentUser('id') usuarioId: string,
+  ) {
+    const data = await this.diagnosticoService.obtenerRespuestas(id, usuarioId);
+    return { message: 'Respuestas del diagnóstico', data };
+  }
+
   @Post(':id/plan-estudio')
   @ApiOperation({
     summary:

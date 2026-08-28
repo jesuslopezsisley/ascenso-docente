@@ -118,6 +118,11 @@ model Respuesta {
   id                 String   @id @default(cuid())
   alternativaElegida String
   esCorrecta         Boolean
+  /// Explicación generada por IA de por qué la respuesta fue incorrecta y por
+  /// qué la alternativa correcta es mejor. Solo se llena cuando esCorrecta =
+  /// false; queda null en las correctas y mientras la generación está
+  /// pendiente o falló (la pantalla de revisión maneja ese null).
+  explicacion        String?
   createdAt          DateTime @default(now())
 
   diagnostico   Diagnostico @relation(fields: [diagnosticoId], references: [id])
