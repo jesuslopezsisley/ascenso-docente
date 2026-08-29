@@ -1,6 +1,7 @@
 import {
   BadRequestException,
   Injectable,
+  Logger,
   NotFoundException,
   ServiceUnavailableException,
 } from '@nestjs/common';
@@ -47,6 +48,8 @@ const SCHEMA_PLAN_ESTUDIO: Record<string, unknown> = {
 
 @Injectable()
 export class DiagnosticoService {
+  private readonly logger = new Logger(DiagnosticoService.name);
+
   constructor(
     private readonly prisma: PrismaService,
     private readonly ia: IaService,
@@ -213,10 +216,21 @@ export class DiagnosticoService {
         where: { id: diagnosticoId },
         data: { estado: 'completado' },
       });
-      // Al pasar a completado (una sola vez) se generan las explicaciones de
-      // las preguntas falladas. Best-effort: el propio servicio traga sus
-      // errores, así que esto nunca tumba el reporte.
-      await this.explicaciones.generarParaDiagnostico(diagnosticoId);
+      // Al pasar a completado (una sola vez) se disparan las explicaciones de
+      // las preguntas falladas. Fire-and-forget: la generación con IA tarda
+      // ~30-40s y no debe bloquear el reporte. El docente ve su reporte al
+      // instante; la pantalla de revisión maneja el estado `explicacion: null`
+      // mientras se generan. El propio servicio traga sus errores; el .catch
+      // extra es solo por si rechaza de forma inesperada.
+      void this.explicaciones
+        .generarParaDiagnostico(diagnosticoId)
+        .catch((error) => {
+          this.logger.error(
+            `Fallo no controlado generando explicaciones para ${diagnosticoId}: ${
+              error instanceof Error ? error.message : String(error)
+            }`,
+          );
+        });
     }
 
     const [asignaciones, respuestas, competencias] = await Promise.all([
